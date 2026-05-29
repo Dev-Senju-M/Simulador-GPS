@@ -54,6 +54,17 @@
         <version>0.0.8</version>
         <configuration>
           <mainClass>edu.uvg.gps.Main</mainClass>
+          <options>
+            <option>--add-opens=javafx.graphics/com.sun.javafx.application=ALL-UNNAMED</option>
+          </options>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+        <configuration>
+          <release>21</release>
         </configuration>
       </plugin>
     </plugins>
