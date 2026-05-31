@@ -47,6 +47,11 @@
                                 <ComboBox fx:id="cbAlgoritmo" prefWidth="238"/>
                             </VBox>
 
+                            <VBox spacing="4">
+                                <Label text="VER CORREDOR" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                <ComboBox fx:id="cbVerRuta" prefWidth="238" onAction="#onVerRuta"/>
+                            </VBox>
+
                             <Button text="🔍  Buscar Ruta Óptima" onAction="#onBuscarRuta" prefWidth="238"
                                     style="-fx-background-color: #1565c0; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10; -fx-background-radius: 8; -fx-font-size: 13; -fx-cursor: hand;"/>
 

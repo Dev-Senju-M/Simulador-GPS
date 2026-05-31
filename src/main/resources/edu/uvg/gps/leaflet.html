@@ -33,6 +33,7 @@
     var marcadores = {};
     var rutasLineas = [];
     var rutaOptima = null;
+    var corredorLayers = {};
 
     function crearIcono(color, size, texto) {
         size = size || 12; texto = texto || '';
@@ -108,14 +109,50 @@
         rutasLineas.push(linea);
     }
 
+    function dibujarCorredor(indice, coordsJson, color) {
+        if (corredorLayers[indice] && map.hasLayer(corredorLayers[indice])) {
+            map.removeLayer(corredorLayers[indice]);
+        }
+        var poly = L.polyline(JSON.parse(coordsJson), {color: color, weight: 5, opacity: 0.80});
+        corredorLayers[indice] = poly;
+        if (!rutaOptima) poly.addTo(map);
+    }
+
+    function ocultarCorredores() {
+        for (var idx in corredorLayers) {
+            if (map.hasLayer(corredorLayers[idx])) map.removeLayer(corredorLayers[idx]);
+        }
+    }
+
+    function mostrarCorredores() {
+        for (var idx in corredorLayers) {
+            if (!map.hasLayer(corredorLayers[idx])) corredorLayers[idx].addTo(map);
+        }
+    }
+
+    function mostrarSoloCorredor(indice) {
+        if (rutaOptima) { map.removeLayer(rutaOptima); rutaOptima = null; }
+        ocultarCorredores();
+        if (indice < 0) {
+            mostrarCorredores();
+        } else if (corredorLayers[indice]) {
+            corredorLayers[indice].addTo(map);
+            map.fitBounds(corredorLayers[indice].getBounds(), {padding: [40, 40]});
+        }
+    }
+
     function dibujarRutaOptima(coordsJson) {
         if (rutaOptima) { map.removeLayer(rutaOptima); rutaOptima = null; }
-        rutaOptima = L.polyline(JSON.parse(coordsJson), {color: '#00e676', weight: 5, opacity: 0.9}).addTo(map);
+        ocultarCorredores();
+        rutaOptima = L.polyline(JSON.parse(coordsJson), {color: '#00e676', weight: 7, opacity: 0.95}).addTo(map);
         map.fitBounds(rutaOptima.getBounds(), {padding: [40, 40]});
     }
 
     function dibujarPolyline(coordsJson) { dibujarRutaOptima(coordsJson); }
-    function limpiarRuta() { if (rutaOptima) { map.removeLayer(rutaOptima); rutaOptima = null; } }
+    function limpiarRuta() {
+        if (rutaOptima) { map.removeLayer(rutaOptima); rutaOptima = null; }
+        mostrarCorredores();
+    }
     function limpiarTodo() { rutasLineas.forEach(function(l) { map.removeLayer(l); }); rutasLineas = []; limpiarRuta(); }
     function ajustarVista() {
         var puntos = [];

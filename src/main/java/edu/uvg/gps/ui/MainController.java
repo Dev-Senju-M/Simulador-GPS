@@ -24,11 +24,11 @@ public class MainController {
     private static final String ORIGEN_FIJO = "Plaza Tigo Torre 3";
     private static final String DESTINO_FIJO = "UMG Antigua Jocotenango";
     private static final String[] NOMBRES_RUTAS = {
-            "Ruta 1 — Roosevelt",
-            "Ruta 2 — Periférico",
-            "Ruta 3 — Petapa",
-            "Ruta 4 — Aguilar Batres",
-            "Ruta 5 — Centro Histórico"
+            "Ruta 1 — Carretera Panamericana",
+            "Ruta 2 — RD-GUA-16 / RN-10 (Bárcenas)",
+            "Ruta 3 — Calzada Atanasio Tzul",
+            "Ruta 4 — Calzada Aguilar Batres",
+            "Ruta 5 — Calzada Roosevelt / Chimaltenango"
     };
     private static final String[] RUTAS_ARCHIVOS = {
             "/edu/uvg/gps/data/ruta1.txt",
@@ -40,6 +40,7 @@ public class MainController {
 
     @FXML private TextField txtHora;
     @FXML private ComboBox<String> cbAlgoritmo;
+    @FXML private ComboBox<String> cbVerRuta;
     @FXML private Label lblResultado;
     @FXML private WebView webView;
     @FXML private ListView<String> listPasos;
@@ -70,8 +71,8 @@ public class MainController {
         mapaController = new MapaController(webView);
 
         mapaController.setGrafoService(grafoService);
-        mapaController.setOnProblemaReportado(this::recalcularRutaOptima);
-        mapaController.setOnMapaCargado(this::recalcularRutaOptima);
+        mapaController.setOnProblemaReportado(this::vistaInicial);
+        mapaController.setOnMapaCargado(this::vistaInicial);
         mapaController.inicializarMapa("/edu/uvg/gps/leaflet.html");
 
         grafoService.cargarMultiplesDatasets(RUTAS_ARCHIVOS);
@@ -80,9 +81,24 @@ public class MainController {
         cbAlgoritmo.getItems().addAll("Dijkstra", "Floyd-Warshall");
         cbAlgoritmo.setValue("Dijkstra");
 
+        cbVerRuta.getItems().add("Todas las rutas");
+        cbVerRuta.getItems().addAll(NOMBRES_RUTAS);
+        cbVerRuta.setValue("Todas las rutas");
+
         configurarTablas();
         mapaController.mostrarNodos(grafoService.getGrafo());
         llenarTablaCiudades();
+    }
+
+    // Vista por defecto: dibuja todos los corredores coloreados (sin ruta optima verde).
+    // El combobox "VER CORREDOR" controla cual se muestra.
+    private void vistaInicial() {
+        LocalTime hora = parsearHora(txtHora.getText());
+        if (hora == null) hora = LocalTime.now();
+        actualizarTablaComparacion(hora);
+        // Respetar la seleccion actual del combobox (por defecto "Todas las rutas" = -1)
+        int indice = cbVerRuta.getSelectionModel().getSelectedIndex() - 1;
+        mapaController.mostrarSoloCorredor(indice);
     }
 
     private void recalcularRutaOptima() {
@@ -126,11 +142,14 @@ public class MainController {
         double[] distancias = new double[grafosPorRuta.length];
         double[] tiemposBase = new double[grafosPorRuta.length];
 
+        ResultadoDijkstra[] resultados = new ResultadoDijkstra[grafosPorRuta.length];
+
         for (int i = 0; i < grafosPorRuta.length; i++) {
             if (grafosPorRuta[i] == null) { tiemposActuales[i] = -1; continue; }
             Dijkstra d = new Dijkstra(grafosPorRuta[i]);
-            ResultadoDijkstra r = d.calcularConTiempo(ORIGEN_FIJO, DESTINO_FIJO, hora);
-            ResultadoDijkstra rBase = d.calcularConTiempo(ORIGEN_FIJO, DESTINO_FIJO, LocalTime.of(10, 0));
+            ResultadoDijkstra r    = d.calcularConTiempo(ORIGEN_FIJO, DESTINO_FIJO, hora);
+            ResultadoDijkstra rBase = d.calcularConTiempo(ORIGEN_FIJO, DESTINO_FIJO, LocalTime.of(4, 0));
+            resultados[i] = r;
             if (r != null) {
                 tiemposActuales[i] = r.getCostoTotal();
                 distancias[i] = calcularDistanciaTotal(grafosPorRuta[i], r.getCamino(), r.getTotalPasos());
@@ -139,6 +158,15 @@ public class MainController {
                 tiemposActuales[i] = -1;
             }
             tiemposBase[i] = rBase != null ? rBase.getCostoTotal() : -1;
+        }
+
+        // Dibujar corredores con color segun saturacion
+        for (int i = 0; i < grafosPorRuta.length; i++) {
+            if (resultados[i] == null) continue;
+            String coords = obtenerCoordsRuta(grafosPorRuta[i],
+                    resultados[i].getCamino(), resultados[i].getTotalPasos());
+            String color = calcularColorSaturacion(tiemposActuales[i], tiemposBase[i]);
+            mapaController.dibujarCorredor(i, coords, color);
         }
 
         ObservableList<ComparacionFila> filas = FXCollections.observableArrayList();
@@ -191,6 +219,12 @@ public class MainController {
     }
 
     @FXML public void onBuscarRuta() { recalcularRutaOptima(); }
+
+    @FXML
+    public void onVerRuta() {
+        int indice = cbVerRuta.getSelectionModel().getSelectedIndex() - 1; // -1 = todas
+        mapaController.mostrarSoloCorredor(indice);
+    }
 
     @FXML
     public void onActualizarTiempos() {
@@ -283,6 +317,31 @@ public class MainController {
             nodo = nodo.getSiguiente();
         }
         tablaCiudades.setItems(ciudades);
+    }
+
+    private String obtenerCoordsRuta(Grafo grafo, String[] camino, int pasos) {
+        StringBuilder sb = new StringBuilder("[");
+        boolean primero = true;
+        for (int p = 0; p < pasos; p++) {
+            edu.uvg.gps.model.Ciudad c = grafo.obtenerCiudad(camino[p]);
+            if (c != null) {
+                if (!primero) sb.append(",");
+                sb.append(String.format(java.util.Locale.US, "[%f,%f]", c.getLatitud(), c.getLongitud()));
+                primero = false;
+            }
+        }
+        sb.append("]");
+        return sb.toString();
+    }
+
+    private String calcularColorSaturacion(double actual, double base) {
+        if (base <= 0) return "#4fc3f7";
+        double ratio = actual / base;
+        if (ratio <= 1.05) return "#00e676"; // verde — sin congestion
+        if (ratio <= 1.2)  return "#c6ff00"; // verde-amarillo — leve
+        if (ratio <= 1.4)  return "#ffeb3b"; // amarillo — moderado
+        if (ratio <= 1.7)  return "#ff9800"; // naranja — pesado
+        return "#f44336";                     // rojo — severo
     }
 
     private LocalTime parsearHora(String texto) {

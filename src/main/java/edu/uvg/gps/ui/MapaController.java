@@ -62,11 +62,14 @@ public class MapaController {
         NodoGrafo nodo = grafo.getHead();
         while (nodo != null) {
             Ciudad c = nodo.getCiudad();
-            String script = String.format(java.util.Locale.US,
-                    "agregarMarcador(%f, %f, '%s', '%s')",
-                    c.getLatitud(), c.getLongitud(),
-                    c.getNombre().replace("'", "\\'"), c.getTipo());
-            engine.executeScript(script);
+            // Solo mostrar marcadores de origen y destino
+            if ("inicio".equals(c.getTipo()) || "destino".equals(c.getTipo())) {
+                String script = String.format(java.util.Locale.US,
+                        "agregarMarcador(%f, %f, '%s', '%s')",
+                        c.getLatitud(), c.getLongitud(),
+                        c.getNombre().replace("'", "\\'"), c.getTipo());
+                engine.executeScript(script);
+            }
             nodo = nodo.getSiguiente();
         }
     }
@@ -111,6 +114,16 @@ public class MapaController {
 
     public void dibujarRuta(String[] camino, int totalPasos, Grafo grafo) {
         dibujarRutaOptima(camino, totalPasos, grafo);
+    }
+
+    public void dibujarCorredor(int indice, String coordsJson, String color) {
+        engine.executeScript(String.format("dibujarCorredor(%d, '%s', '%s')", indice, coordsJson, color));
+    }
+
+    public void mostrarCorredores() { engine.executeScript("mostrarCorredores()"); }
+
+    public void mostrarSoloCorredor(int indice) {
+        engine.executeScript("mostrarSoloCorredor(" + indice + ")");
     }
 
     public void limpiarRuta() { engine.executeScript("limpiarRuta()"); }
