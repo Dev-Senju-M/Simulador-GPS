@@ -1,0 +1,20 @@
+# RUTA 5 — Via Centro Historico y Carretera Interamericana
+# CIUDAD|id|nombre|lat|lon|alt|tipo|d0,d1,d2,d3,d4
+# RUTA|idOrigen|idDestino|distancia|tiempoBase|velocidadMaxima|m0,m1,m2,m3,m4
+
+CIUDAD|1|Plaza Tigo Torre 3|14.5895|-90.5157|1200.0|inicio|0.0,2.0,1.0,3.0,1.5
+CIUDAD|23|Centro Historico Z1|14.6412|-90.5134|1500.0|intermedio|0.0,4.0,2.0,3.5,3.0
+CIUDAD|24|Terminal Z4|14.6289|-90.5198|1490.0|intermedio|0.0,3.5,1.8,3.0,2.5
+CIUDAD|25|Calzada San Juan Z7|14.6123|-90.5412|1420.0|intermedio|0.0,3.0,1.5,2.8,2.2
+CIUDAD|26|Km 30 Interamericana|14.6312|-90.6834|2050.0|intermedio|0.0,1.5,0.8,1.4,1.2
+CIUDAD|27|Chimaltenango Ciudad|14.6612|-90.8198|1790.0|intermedio|0.0,1.0,0.5,1.0,0.8
+CIUDAD|8|Jocotenango|14.5623|-90.7298|1540.0|intermedio|0.0,1.0,0.5,1.0,0.8
+CIUDAD|9|UMG Antigua Jocotenango|14.5579|-90.7352|1530.0|destino|0.0,0.0,0.0,0.0,0.0
+
+RUTA|1|23|4.5|12.0|40|1.0,4.0,2.0,3.5,3.0
+RUTA|23|24|1.2|3.0|30|1.0,3.5,1.8,3.0,2.5
+RUTA|24|25|3.8|6.0|60|1.0,3.0,1.5,2.8,2.2
+RUTA|25|26|18.5|20.0|100|1.0,1.5,1.0,1.3,1.1
+RUTA|26|27|22.3|25.0|100|1.0,1.2,1.0,1.1,1.0
+RUTA|27|8|28.4|30.0|100|1.0,1.0,1.0,1.0,1.0
+RUTA|8|9|1.2|2.0|40|1.0,1.2,1.1,1.2,1.0

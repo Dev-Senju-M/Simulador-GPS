@@ -1,0 +1,18 @@
+# RUTA 2 — Via Periferico y Carretera Interamericana
+# CIUDAD|id|nombre|lat|lon|alt|tipo|d0,d1,d2,d3,d4
+# RUTA|idOrigen|idDestino|distancia|tiempoBase|velocidadMaxima|m0,m1,m2,m3,m4
+
+CIUDAD|1|Plaza Tigo Torre 3|14.5895|-90.5157|1200.0|inicio|0.0,2.0,1.0,3.0,1.5
+CIUDAD|10|Periferico Z7|14.6012|-90.5289|1210.0|intermedio|0.0,3.5,1.8,3.0,2.5
+CIUDAD|11|Mixco Variedades|14.6312|-90.5712|1380.0|intermedio|0.0,2.5,1.2,2.2,2.0
+CIUDAD|12|San Lucas Km 29|14.6089|-90.6534|2080.0|intermedio|0.0,1.0,0.5,1.0,0.8
+CIUDAD|13|El Tejar Chimaltenango|14.6423|-90.7812|1790.0|intermedio|0.0,0.8,0.4,0.8,0.6
+CIUDAD|8|Jocotenango|14.5623|-90.7298|1540.0|intermedio|0.0,1.0,0.5,1.0,0.8
+CIUDAD|9|UMG Antigua Jocotenango|14.5579|-90.7352|1530.0|destino|0.0,0.0,0.0,0.0,0.0
+
+RUTA|1|10|2.1|4.0|40|1.0,3.0,1.6,2.8,2.2
+RUTA|10|11|5.3|7.0|60|1.0,2.5,1.3,2.2,1.8
+RUTA|11|12|9.8|10.0|100|1.0,1.5,1.1,1.3,1.2
+RUTA|12|13|14.2|15.0|100|1.0,1.2,1.0,1.1,1.0
+RUTA|13|8|18.5|20.0|100|1.0,1.0,1.0,1.0,1.0
+RUTA|8|9|1.2|2.0|40|1.0,1.2,1.1,1.2,1.0

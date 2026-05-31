@@ -1,0 +1,18 @@
+# RUTA 3 — Via Avenida Petapa y Carretera a El Salvador
+# CIUDAD|id|nombre|lat|lon|alt|tipo|d0,d1,d2,d3,d4
+# RUTA|idOrigen|idDestino|distancia|tiempoBase|velocidadMaxima|m0,m1,m2,m3,m4
+
+CIUDAD|1|Plaza Tigo Torre 3|14.5895|-90.5157|1200.0|inicio|0.0,2.0,1.0,3.0,1.5
+CIUDAD|14|Avenida Petapa Z12|14.5712|-90.5234|1195.0|intermedio|0.0,2.8,1.4,2.5,2.0
+CIUDAD|15|Villa Nueva Centro|14.5234|-90.5891|1220.0|intermedio|0.0,2.0,1.0,1.8,1.5
+CIUDAD|16|San Miguel Petapa|14.4989|-90.5712|1230.0|intermedio|0.0,1.5,0.8,1.4,1.2
+CIUDAD|17|Palin Escuintla|14.4023|-90.6989|1100.0|intermedio|0.0,1.0,0.5,1.0,0.8
+CIUDAD|18|Escuintla Ciudad|14.3054|-90.7854|347.0|intermedio|0.0,1.0,0.5,1.0,0.8
+CIUDAD|9|UMG Antigua Jocotenango|14.5579|-90.7352|1530.0|destino|0.0,0.0,0.0,0.0,0.0
+
+RUTA|1|14|1.5|3.0|40|1.0,2.8,1.5,2.5,2.0
+RUTA|14|15|7.2|9.0|80|1.0,2.0,1.2,1.8,1.5
+RUTA|15|16|3.8|5.0|80|1.0,1.8,1.1,1.5,1.3
+RUTA|16|17|12.5|13.0|100|1.0,1.2,1.0,1.1,1.0
+RUTA|17|18|18.3|20.0|100|1.0,1.0,1.0,1.0,1.0
+RUTA|18|9|35.2|40.0|100|1.0,1.0,1.0,1.0,1.0
