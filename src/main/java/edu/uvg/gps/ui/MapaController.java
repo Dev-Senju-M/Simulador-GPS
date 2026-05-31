@@ -72,8 +72,7 @@ public class MapaController {
     }
 
     public void dibujarTodasLasRutas(Grafo grafo) {
-        String[] trazados = new String[500];
-        int total = 0;
+        java.util.Set<String> trazados = new java.util.HashSet<>();
         NodoGrafo nodo = grafo.getHead();
         while (nodo != null) {
             Ciudad origen = nodo.getCiudad();
@@ -82,17 +81,12 @@ public class MapaController {
                 Ciudad destino = grafo.obtenerCiudad(ady.getCiudadDestino());
                 if (destino != null) {
                     String clave = Math.min(origen.getId(), destino.getId()) + "-" + Math.max(origen.getId(), destino.getId());
-                    boolean yaDibujado = false;
-                    for (int i = 0; i < total; i++) {
-                        if (trazados[i].equals(clave)) { yaDibujado = true; break; }
-                    }
-                    if (!yaDibujado) {
+                    if (trazados.add(clave)) {
                         String coords = String.format(java.util.Locale.US,
                                 "[[%f,%f],[%f,%f]]",
                                 origen.getLatitud(), origen.getLongitud(),
                                 destino.getLatitud(), destino.getLongitud());
                         engine.executeScript("dibujarRutaAzul('" + coords + "')");
-                        trazados[total++] = clave;
                     }
                 }
                 ady = ady.getSiguiente();
@@ -137,8 +131,7 @@ public class MapaController {
 
         public void limpiarProblema(String nombreCiudad) {
             if (grafoService == null) return;
-            Ciudad c = grafoService.getGrafo().obtenerCiudad(nombreCiudad);
-            if (c != null) c.limpiarProblema();
+            grafoService.limpiarProblemaNodo(nombreCiudad);
             if (onProblemaReportado != null) Platform.runLater(onProblemaReportado);
         }
 

@@ -6,6 +6,7 @@ import edu.uvg.gps.estructuras.Pila;
 import edu.uvg.gps.grafo.Grafo;
 import edu.uvg.gps.model.Ciudad;
 import edu.uvg.gps.model.NodoAdyacencia;
+import edu.uvg.gps.model.TipoProblema;
 import java.time.LocalTime;
 
 public class Dijkstra {
@@ -57,6 +58,11 @@ public class Dijkstra {
 
                     double pesoArista = ady.getTiempoEfectivo(indicePeriodo);
 
+                    // Si el nodo destino tiene un problema, afecta la arista que llega a él
+                    if (ciudadVecino != null && ciudadVecino.getProblemaActual() != TipoProblema.NINGUNO) {
+                        pesoArista *= ciudadVecino.getProblemaActual().getMultiplicadorExtra();
+                    }
+
                     // Demora del nodo destino segun periodo + problema activo en el nodo
                     double demora = (ciudadVecino != null)
                             ? ciudadVecino.getDemoraCongestión(indicePeriodo)
@@ -74,23 +80,36 @@ public class Dijkstra {
             }
         }
 
-        int indiceDestino = buscarIndice(nodos, destino);
-        if (indiceDestino == -1 || distancias[indiceDestino] == Double.MAX_VALUE) {
+        // Buscar el minimo entre todos los nodos que coincidan con el nombre destino
+        int indiceDestino = -1;
+        double minDist = Double.MAX_VALUE;
+        for (int j = 0; j < total; j++) {
+            if (nodos[j] != null && nodos[j].equalsIgnoreCase(destino) && distancias[j] < minDist) {
+                minDist = distancias[j];
+                indiceDestino = j;
+            }
+        }
+        if (indiceDestino == -1 || minDist == Double.MAX_VALUE) {
             System.out.println("No existe camino entre " + origen + " y " + destino);
             return null;
         }
 
         Pila pila = new Pila();
-        String cur = destino;
+        String cur = nodos[indiceDestino];
+        int curIdx = indiceDestino;
         while (cur != null) {
             pila.push(cur);
-            cur = anteriores[buscarIndice(nodos, cur)];
+            String ant = anteriores[curIdx];
+            if (ant == null) break;
+            curIdx = buscarIndice(nodos, ant);
+            if (curIdx == -1) break;
+            cur = ant;
         }
         String[] camino = new String[total];
         int i = 0;
         while (!pila.estaVacia()) camino[i++] = pila.pop();
 
-        return new ResultadoDijkstra(camino, i, distancias[indiceDestino], periodo);
+        return new ResultadoDijkstra(camino, i, minDist, periodo);
     }
 
     public ResultadoDijkstra calcular(String origen, String destino, boolean usarTiempo) {

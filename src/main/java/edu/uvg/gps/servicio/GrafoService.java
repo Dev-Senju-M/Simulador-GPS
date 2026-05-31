@@ -96,20 +96,76 @@ public class GrafoService {
     }
 
     public boolean reportarProblemaNodo(String nombreCiudad, TipoProblema problema) {
-        // Aplicar en grafo principal
         Ciudad ciudad = grafo.obtenerCiudad(nombreCiudad);
         if (ciudad == null) return false;
-        ciudad.reportarProblema(problema);
+        aplicarProblemaNodoEnGrafo(grafo, nombreCiudad, problema);
 
-        // Aplicar solo en grafos separados que tengan ese nodo
         if (grafosPorRuta != null) {
             for (Grafo g : grafosPorRuta) {
-                if (g == null) continue;
-                Ciudad c = g.obtenerCiudad(nombreCiudad);
-                if (c != null) c.reportarProblema(problema);
+                if (g != null) aplicarProblemaNodoEnGrafo(g, nombreCiudad, problema);
             }
         }
         return true;
+    }
+
+    private static final int RANGO_PROBLEMA = 10;
+
+    private void aplicarProblemaNodoEnGrafo(Grafo g, String nombreCiudad, TipoProblema problema) {
+        if (g.obtenerCiudad(nombreCiudad) == null) return;
+        recorrerRango(g, nombreCiudad, nodo -> nodo.getCiudad().reportarProblema(problema),
+                ady -> ady.reportarProblema(problema));
+    }
+
+    public void limpiarProblemaNodo(String nombreCiudad) {
+        limpiarRangoEnGrafo(grafo, nombreCiudad);
+        if (grafosPorRuta != null) {
+            for (Grafo g : grafosPorRuta) {
+                if (g != null) limpiarRangoEnGrafo(g, nombreCiudad);
+            }
+        }
+    }
+
+    private void limpiarRangoEnGrafo(Grafo g, String nombreCiudad) {
+        recorrerRango(g, nombreCiudad, nodo -> nodo.getCiudad().limpiarProblema(),
+                NodoAdyacencia::limpiarProblema);
+    }
+
+    private void recorrerRango(Grafo g, String nombreCiudad,
+                                java.util.function.Consumer<NodoGrafo> accionNodo,
+                                java.util.function.Consumer<NodoAdyacencia> accionArista) {
+        java.util.Map<String, Integer> distancia = new java.util.HashMap<>();
+        java.util.Queue<String> cola = new java.util.LinkedList<>();
+        distancia.put(nombreCiudad, 0);
+        cola.add(nombreCiudad);
+
+        while (!cola.isEmpty()) {
+            String actual = cola.poll();
+            int d = distancia.get(actual);
+
+            NodoGrafo nodoActual = buscarNodoEnGrafo(g, actual);
+            if (nodoActual == null) continue;
+
+            accionNodo.accept(nodoActual);
+
+            NodoAdyacencia ady = nodoActual.getListaAdyacencia();
+            while (ady != null) {
+                accionArista.accept(ady);
+                if (d < RANGO_PROBLEMA && !distancia.containsKey(ady.getCiudadDestino())) {
+                    distancia.put(ady.getCiudadDestino(), d + 1);
+                    cola.add(ady.getCiudadDestino());
+                }
+                ady = ady.getSiguiente();
+            }
+        }
+    }
+
+    private NodoGrafo buscarNodoEnGrafo(Grafo g, String nombre) {
+        NodoGrafo nodo = g.getHead();
+        while (nodo != null) {
+            if (nodo.getCiudad().getNombre().equalsIgnoreCase(nombre)) return nodo;
+            nodo = nodo.getSiguiente();
+        }
+        return null;
     }
 
     public void limpiarTodosLosProblemas() {

@@ -36,10 +36,6 @@ public class Grafo {
             System.out.println("Ya existe una ciudad con ID " + ciudad.getId());
             return false;
         }
-        if (buscarNodo(ciudad.getNombre()) != null) {
-            System.out.println("Ya existe la ciudad: " + ciudad.getNombre());
-            return false;
-        }
         NodoGrafo nuevo = new NodoGrafo(ciudad);
         if (head == null) {
             head = nuevo;

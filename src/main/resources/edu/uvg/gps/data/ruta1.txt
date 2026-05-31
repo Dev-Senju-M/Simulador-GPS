@@ -3,204 +3,204 @@
 # RUTA|idOrigen|idDestino|distancia|tiempoBase|velocidadMaxima|m0,m1,m2,m3,m4
 
 CIUDAD|1|Plaza Tigo Torre 3|14.573448|-90.481757|1500.0|inicio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|2|Carretera a El Salvador, Santa Catarina Pinula #2|14.574924|-90.480777|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|3|Carretera a El Salvador, Santa Catarina Pinula #3|14.575178|-90.480703|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|4|Carretera a El Salvador, Santa Catarina Pinula #4|14.572598|-90.482323|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|5|Carretera a El Salvador, Santa Catarina Pinula #5|14.571533|-90.482591|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|6|Carretera a El Salvador, Santa Catarina Pinula #6|14.571099|-90.483182|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|7|Carretera a El Salvador, Santa Catarina Pinula #7|14.571801|-90.485950|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|8|Carretera a El Salvador, Santa Catarina Pinula #8|14.572129|-90.486370|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|9|Carretera a El Salvador, Santa Catarina Pinula #9|14.573201|-90.486150|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|10|Carretera a El Salvador, Santa Catarina Pinula #10|14.573654|-90.484342|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|11|Carretera a El Salvador, Santa Catarina Pinula #11|14.574294|-90.483472|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|12|Carretera a El Salvador, Santa Catarina Pinula #12|14.574955|-90.483188|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|13|Carretera a El Salvador, Santa Catarina Pinula #13|14.579115|-90.482227|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|14|Carretera a El Salvador, Santa Catarina Pinula #14|14.579617|-90.482285|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|15|Carretera a El Salvador, Santa Catarina Pinula #15|14.580110|-90.482685|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|16|Carretera a El Salvador, Ciudad de Guatemala #16|14.580263|-90.483323|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|17|Boulevard Los Próceres, Ciudad de Guatemala #17|14.579627|-90.484146|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|18|Boulevard Los Próceres, Ciudad de Guatemala #18|14.578380|-90.484332|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|19|Boulevard Los Próceres, Ciudad de Guatemala #19|14.577796|-90.484979|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|20|Boulevard Los Próceres, Ciudad de Guatemala #20|14.577734|-90.485706|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|21|Boulevard Los Próceres, Ciudad de Guatemala #21|14.577947|-90.486169|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|22|Boulevard Los Próceres, Ciudad de Guatemala #22|14.578858|-90.486839|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|23|Boulevard Los Próceres, Ciudad de Guatemala #23|14.579142|-90.487153|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|24|Boulevard Los Próceres, Ciudad de Guatemala #24|14.579297|-90.487858|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|25|Boulevard Los Próceres, Ciudad de Guatemala #25|14.578504|-90.488864|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|26|Boulevard Los Próceres, Ciudad de Guatemala #26|14.577306|-90.489245|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|27|Boulevard Los Próceres, Ciudad de Guatemala #27|14.577040|-90.489641|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|28|Boulevard Los Próceres, Ciudad de Guatemala #28|14.577025|-90.490288|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|29|Boulevard Los Próceres, Ciudad de Guatemala #29|14.578612|-90.492396|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|30|Boulevard Los Próceres, Ciudad de Guatemala #30|14.587478|-90.500528|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|31|Boulevard Los Próceres, Ciudad de Guatemala #31|14.588457|-90.501896|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|32|Boulevard Los Próceres, Ciudad de Guatemala #32|14.593990|-90.515211|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|33|Boulevard Liberación, Ciudad de Guatemala #33|14.594901|-90.518742|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|34|Boulevard Liberación, Ciudad de Guatemala #34|14.596438|-90.521927|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|35|Boulevard Liberación, Ciudad de Guatemala #35|14.597091|-90.522728|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|36|Boulevard Liberación, Ciudad de Guatemala #36|14.607788|-90.531496|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|37|Boulevard Liberación, Ciudad de Guatemala #37|14.610166|-90.532303|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|38|Boulevard Liberación, Ciudad de Guatemala #38|14.611381|-90.533209|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|39|Boulevard Liberación, Ciudad de Guatemala #39|14.612837|-90.534763|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|40|Calzada Roosevelt, Ciudad de Guatemala #40|14.614978|-90.536220|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|41|Calzada Roosevelt, Ciudad de Guatemala #41|14.615936|-90.538494|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|42|Calzada Roosevelt, Ciudad de Guatemala #42|14.616866|-90.540183|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|43|Calzada Roosevelt, Ciudad de Guatemala #43|14.617686|-90.541653|1500.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|44|Calzada Roosevelt, Ciudad de Guatemala #44|14.632558|-90.569190|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|45|Calzada Roosevelt, Mixco #45|14.633510|-90.571349|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|46|Calzada Roosevelt, Mixco #46|14.633891|-90.573292|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|47|Carretera Panamericana, Mixco #47|14.635238|-90.598015|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|48|Carretera Panamericana, Mixco #48|14.634837|-90.598930|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|49|Carretera Panamericana, Mixco #49|14.633848|-90.599349|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|50|Carretera Panamericana, Mixco #50|14.633504|-90.599613|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|51|Carretera Panamericana, Mixco #51|14.633096|-90.601080|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|52|Carretera Panamericana, Mixco #52|14.632757|-90.601458|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|53|Carretera Panamericana, Mixco #53|14.632221|-90.601634|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|54|Carretera Panamericana, Mixco #54|14.631766|-90.601508|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|55|Carretera Panamericana, Mixco #55|14.631017|-90.599846|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|56|Carretera Panamericana, Mixco #56|14.630567|-90.599305|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|57|Carretera Panamericana, Mixco #57|14.629757|-90.599066|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|58|Carretera Panamericana, Mixco #58|14.628835|-90.599481|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|59|Carretera Panamericana, Mixco #59|14.628454|-90.600118|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|60|Carretera Panamericana, Mixco #60|14.626431|-90.606858|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|61|Carretera Panamericana, Mixco #61|14.626040|-90.607131|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|62|Carretera Panamericana, Mixco #62|14.625599|-90.607123|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|63|Carretera Panamericana, Mixco #63|14.624616|-90.605756|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|64|Carretera Panamericana, Mixco #64|14.623914|-90.605041|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|65|Carretera Panamericana, Mixco #65|14.622998|-90.604672|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|66|Carretera Panamericana, Mixco #66|14.622142|-90.604646|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|67|Carretera Panamericana, Mixco #67|14.619309|-90.605203|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|68|22 Calle, Mixco #68|14.616910|-90.607495|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|69|Carretera Panamericana, Mixco #69|14.616347|-90.608581|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|70|Carretera Panamericana, Mixco #70|14.616417|-90.609317|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|71|Carretera Panamericana, Mixco #71|14.617072|-90.610196|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|72|Carretera Panamericana, Mixco #72|14.621033|-90.612748|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|73|Carretera Panamericana, Mixco #73|14.621462|-90.613602|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|74|Carretera Panamericana, Mixco #74|14.621443|-90.614634|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|75|Carretera Panamericana, Mixco #75|14.620886|-90.615570|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|76|Carretera Panamericana, Ciudad de Guatemala #76|14.618488|-90.617033|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|77|Carretera Panamericana, Mixco #77|14.617912|-90.617225|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|78|Carretera Panamericana, Mixco #78|14.615563|-90.617006|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|79|Carretera Panamericana, Mixco #79|14.615262|-90.617225|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|80|Carretera Panamericana, Mixco #80|14.615087|-90.617943|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|81|Carretera Panamericana, Mixco #81|14.616036|-90.619576|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|82|Carretera Panamericana, Mixco #82|14.616131|-90.620890|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|83|Carretera Panamericana, Mixco #83|14.615541|-90.621900|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|84|Carretera Panamericana, Mixco #84|14.614961|-90.622262|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|85|Carretera Panamericana, Mixco #85|14.614057|-90.622411|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|86|Carretera Panamericana, Mixco #86|14.612601|-90.621941|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|87|Carretera Panamericana, Mixco #87|14.611860|-90.622181|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|88|Carretera Panamericana, Mixco #88|14.610578|-90.623239|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|89|Carretera Panamericana, Mixco #89|14.610317|-90.625131|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|90|Carretera Panamericana, Mixco #90|14.609963|-90.625586|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|91|Carretera Panamericana, Mixco #91|14.609318|-90.625645|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|92|Carretera Panamericana, Mixco #92|14.608920|-90.625178|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|93|Carretera Panamericana, Mixco #93|14.608199|-90.623699|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|94|Carretera Panamericana, Mixco #94|14.605401|-90.624668|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|95|Carretera Panamericana, Mixco #95|14.604259|-90.625515|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|96|Carretera Panamericana, Mixco #96|14.604285|-90.626081|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|97|Carretera Panamericana, Mixco #97|14.604896|-90.626447|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|98|Carretera Panamericana, Mixco #98|14.606709|-90.626467|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|99|Carretera Panamericana, Mixco #99|14.607331|-90.626797|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|100|Carretera Panamericana, Mixco #100|14.607812|-90.627501|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|101|Carretera Panamericana, Mixco #101|14.607605|-90.629620|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|102|Carretera Panamericana, Mixco #102|14.607841|-90.631327|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|103|Carretera Panamericana, Mixco #103|14.608230|-90.632485|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|104|Carretera Panamericana, Mixco #104|14.608094|-90.633087|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|105|Carretera Panamericana, Mixco #105|14.606651|-90.633949|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|106|Carretera Panamericana, Mixco #106|14.604330|-90.635191|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|107|Carretera Panamericana, Mixco #107|14.603846|-90.635134|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|108|Carretera Panamericana, Mixco #108|14.602170|-90.633660|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|109|Carretera Panamericana, Mixco #109|14.601135|-90.633851|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|110|Carretera Panamericana, San Lucas Sacatepéquez #110|14.599703|-90.637181|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|111|Carretera Panamericana, San Lucas Sacatepéquez #111|14.599434|-90.638517|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|112|Carretera Panamericana, San Lucas Sacatepéquez #112|14.599550|-90.640124|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|113|Carretera Panamericana, San Lucas Sacatepéquez #113|14.600294|-90.641918|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|114|Carretera Panamericana, San Lucas Sacatepéquez #114|14.604754|-90.649701|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|115|Carretera Panamericana, San Lucas Sacatepéquez #115|14.605702|-90.650090|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|116|Carretera Panamericana, San Lucas Sacatepéquez #116|14.611833|-90.649996|1700.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|117|Carretera Panamericana, San Lucas Sacatepéquez #117|14.612595|-90.650657|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|118|Carretera Panamericana, San Lucas Sacatepéquez #118|14.612490|-90.651425|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|119|Carretera Panamericana, San Lucas Sacatepéquez #119|14.610328|-90.652648|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|120|Carretera Panamericana, San Lucas Sacatepéquez #120|14.609132|-90.653824|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|121|Carretera Panamericana, San Lucas Sacatepéquez #121|14.608720|-90.655315|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|122|Carretera Panamericana, San Lucas Sacatepéquez #122|14.608189|-90.668949|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|123|Carretera Panamericana, San Bartolomé Milpas Altas #123|14.608066|-90.670176|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|124|San Bartolomé Milpas Altas #124|14.605362|-90.674896|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|125|5a Calle, San Bartolomé Milpas Altas #125|14.603325|-90.676893|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|126|5a Calle, San Bartolomé Milpas Altas #126|14.601841|-90.677480|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|127|RD SAC-10, San Bartolomé Milpas Altas #127|14.600302|-90.678725|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|128|RD SAC-10, San Bartolomé Milpas Altas #128|14.600057|-90.679062|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|129|RD SAC-10, San Bartolomé Milpas Altas #129|14.599324|-90.680129|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|130|RD SAC-10, San Bartolomé Milpas Altas #130|14.598711|-90.680506|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|131|RD SAC-10, San Bartolomé Milpas Altas #131|14.598868|-90.681159|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|132|RD SAC-10, San Bartolomé Milpas Altas #132|14.598010|-90.682530|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|133|RD SAC-10, San Bartolomé Milpas Altas #133|14.597437|-90.683427|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|134|RD SAC-10, San Bartolomé Milpas Altas #134|14.597155|-90.683928|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|135|RD SAC-10, San Bartolomé Milpas Altas #135|14.597184|-90.684476|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|136|RD SAC-10, San Bartolomé Milpas Altas #136|14.596185|-90.684883|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|137|RD SAC-10, San Bartolomé Milpas Altas #137|14.596023|-90.685923|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|138|RD SAC-10, San Bartolomé Milpas Altas #138|14.595863|-90.687295|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|139|RD SAC-10, Antigua Guatemala #139|14.595926|-90.687814|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|140|RD SAC-10, Antigua Guatemala #140|14.595889|-90.689441|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|141|RD SAC-10, Antigua Guatemala #141|14.594689|-90.691186|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|142|RD SAC-10, Antigua Guatemala #142|14.594464|-90.692046|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|143|San Mateo Milpas Altas, Antigua Guatemala #143|14.594595|-90.692856|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|144|San Mateo Milpas Altas, Antigua Guatemala #144|14.594151|-90.692561|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|145|San Mateo Milpas Altas, Antigua Guatemala #145|14.593773|-90.691438|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|146|San Mateo Milpas Altas, Antigua Guatemala #146|14.593444|-90.691958|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|147|San Mateo Milpas Altas, Antigua Guatemala #147|14.593182|-90.693326|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|148|San Mateo Milpas Altas, Antigua Guatemala #148|14.593184|-90.693557|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|149|San Mateo Milpas Altas, Antigua Guatemala #149|14.591299|-90.692714|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|150|San Mateo Milpas Altas, Antigua Guatemala #150|14.589913|-90.692543|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|151|San Mateo Milpas Altas, Antigua Guatemala #151|14.587703|-90.693421|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|152|San Mateo Milpas Altas, Antigua Guatemala #152|14.586345|-90.694169|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|153|San Mateo Milpas Altas, Antigua Guatemala #153|14.582401|-90.695100|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|154|San Mateo Milpas Altas, Antigua Guatemala #154|14.580077|-90.695385|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|155|San Mateo Milpas Altas, Antigua Guatemala #155|14.579894|-90.696281|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|156|San Mateo Milpas Altas, Antigua Guatemala #156|14.579367|-90.696430|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|157|San Mateo Milpas Altas, Antigua Guatemala #157|14.578448|-90.696384|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|158|San Mateo Milpas Altas, Antigua Guatemala #158|14.578444|-90.696538|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|159|San Mateo Milpas Altas, Antigua Guatemala #159|14.579209|-90.697105|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|160|San Mateo Milpas Altas, Antigua Guatemala #160|14.576726|-90.696845|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|161|San Mateo Milpas Altas, Antigua Guatemala #161|14.574961|-90.696475|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|162|San Mateo Milpas Altas, Antigua Guatemala #162|14.573814|-90.696787|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|163|San Mateo Milpas Altas, Antigua Guatemala #163|14.572023|-90.696341|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|164|San Mateo Milpas Altas, Antigua Guatemala #164|14.570386|-90.696586|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|165|San Mateo Milpas Altas, Antigua Guatemala #165|14.569709|-90.696622|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|166|San Mateo Milpas Altas, Antigua Guatemala #166|14.568626|-90.697217|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|167|San Mateo Milpas Altas, Antigua Guatemala #167|14.567728|-90.698148|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|168|San Mateo Milpas Altas, Antigua Guatemala #168|14.567247|-90.697883|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|169|San Mateo Milpas Altas, Antigua Guatemala #169|14.566715|-90.697973|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|170|San Mateo Milpas Altas, Antigua Guatemala #170|14.566339|-90.697554|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|171|San Mateo Milpas Altas, Antigua Guatemala #171|14.565907|-90.696844|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|172|RD SAC-18, Antigua Guatemala #172|14.566235|-90.698023|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|173|RD SAC-18, Antigua Guatemala #173|14.567018|-90.698576|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|174|RD SAC-18, Antigua Guatemala #174|14.567275|-90.699019|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|175|Callejón 5, Antigua Guatemala #175|14.566944|-90.699682|2000.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|176|RD SAC-18, Antigua Guatemala #176|14.566085|-90.700611|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|177|RD SAC-18, Antigua Guatemala #177|14.564182|-90.701749|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|178|RD SAC-18, Antigua Guatemala #178|14.561310|-90.703804|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|179|RD SAC-18, Antigua Guatemala #179|14.560193|-90.705387|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|180|RD SAC-18, Antigua Guatemala #180|14.559996|-90.708646|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|181|Carretera a Antigua Guatemala #181|14.559838|-90.708918|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|182|Carretera a Antigua Guatemala #182|14.559763|-90.709782|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|183|Carretera a Antigua Guatemala #183|14.558827|-90.711936|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|184|Carretera a Antigua Guatemala #184|14.558667|-90.713678|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|185|Carretera a Antigua Guatemala #185|14.558463|-90.715259|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|186|RN-10;RN-10A;RN-10B, Antigua Guatemala #186|14.558533|-90.715620|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|187|Carretera a Antigua Guatemala #187|14.558355|-90.715791|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|188|Carretera a Antigua Guatemala #188|14.558237|-90.717903|1550.0|intermedio|0.0,1.0,0.5,1.2,0.3
-CIUDAD|189|Carretera a Antigua Guatemala #189|14.558733|-90.720953|1550.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|190|Carretera a Antigua Guatemala #190|14.558907|-90.724674|1550.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|191|Calle de los Duelos, Antigua Guatemala #191|14.558305|-90.725915|1550.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|192|Calle de los Duelos, Antigua Guatemala #192|14.560343|-90.726707|1550.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|193|1a Avenida Norte, Antigua Guatemala #193|14.562934|-90.729521|1550.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|194|Candelaria, Antigua Guatemala #194|14.562550|-90.733070|1550.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|195|Calle del Manchén, Antigua Guatemala #195|14.562667|-90.733796|1550.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|196|Calle Ancha de los Herreros, Antigua Guatemala #196|14.564759|-90.736204|1550.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|197|Calle Ancha de los Herreros, Antigua Guatemala #197|14.565534|-90.737470|1550.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|198|El Manchén, Antigua Guatemala #198|14.566803|-90.737686|1550.0|intermedio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|199|El Manchén, Antigua Guatemala #199|14.568263|-90.737646|1550.0|intermedio|0.0,3.0,1.5,3.5,1.0
+CIUDAD|2|Carretera a El Salvador, Santa Catarina Pinula #2|14.574924|-90.480777|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|3|Carretera a El Salvador, Santa Catarina Pinula #3|14.575178|-90.480703|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|4|Carretera a El Salvador, Santa Catarina Pinula #4|14.572598|-90.482323|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|5|Carretera a El Salvador, Santa Catarina Pinula #5|14.571533|-90.482591|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|6|Carretera a El Salvador, Santa Catarina Pinula #6|14.571099|-90.483182|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|7|Carretera a El Salvador, Santa Catarina Pinula #7|14.571801|-90.485950|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|8|Carretera a El Salvador, Santa Catarina Pinula #8|14.572129|-90.486370|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|9|Carretera a El Salvador, Santa Catarina Pinula #9|14.573201|-90.486150|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|10|Carretera a El Salvador, Santa Catarina Pinula #10|14.573654|-90.484342|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|11|Carretera a El Salvador, Santa Catarina Pinula #11|14.574294|-90.483472|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|12|Carretera a El Salvador, Santa Catarina Pinula #12|14.574955|-90.483188|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|13|Carretera a El Salvador, Santa Catarina Pinula #13|14.579115|-90.482227|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|14|Carretera a El Salvador, Santa Catarina Pinula #14|14.579617|-90.482285|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|15|Carretera a El Salvador, Santa Catarina Pinula #15|14.580110|-90.482685|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|16|Carretera a El Salvador, Ciudad de Guatemala #16|14.580263|-90.483323|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|17|Boulevard Los Próceres, Ciudad de Guatemala #17|14.579627|-90.484146|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|18|Boulevard Los Próceres, Ciudad de Guatemala #18|14.578380|-90.484332|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|19|Boulevard Los Próceres, Ciudad de Guatemala #19|14.577796|-90.484979|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|20|Boulevard Los Próceres, Ciudad de Guatemala #20|14.577734|-90.485706|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|21|Boulevard Los Próceres, Ciudad de Guatemala #21|14.577947|-90.486169|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|22|Boulevard Los Próceres, Ciudad de Guatemala #22|14.578858|-90.486839|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|23|Boulevard Los Próceres, Ciudad de Guatemala #23|14.579142|-90.487153|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|24|Boulevard Los Próceres, Ciudad de Guatemala #24|14.579297|-90.487858|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|25|Boulevard Los Próceres, Ciudad de Guatemala #25|14.578504|-90.488864|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|26|Boulevard Los Próceres, Ciudad de Guatemala #26|14.577306|-90.489245|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|27|Boulevard Los Próceres, Ciudad de Guatemala #27|14.577040|-90.489641|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|28|Boulevard Los Próceres, Ciudad de Guatemala #28|14.577025|-90.490288|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|29|Boulevard Los Próceres, Ciudad de Guatemala #29|14.578612|-90.492396|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|30|Boulevard Los Próceres, Ciudad de Guatemala #30|14.587478|-90.500528|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|31|Boulevard Los Próceres, Ciudad de Guatemala #31|14.588457|-90.501896|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|32|Boulevard Los Próceres, Ciudad de Guatemala #32|14.593990|-90.515211|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|33|Boulevard Liberación, Ciudad de Guatemala #33|14.594901|-90.518742|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|34|Boulevard Liberación, Ciudad de Guatemala #34|14.596438|-90.521927|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|35|Boulevard Liberación, Ciudad de Guatemala #35|14.597091|-90.522728|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|36|Boulevard Liberación, Ciudad de Guatemala #36|14.607788|-90.531496|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|37|Boulevard Liberación, Ciudad de Guatemala #37|14.610166|-90.532303|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|38|Boulevard Liberación, Ciudad de Guatemala #38|14.611381|-90.533209|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|39|Boulevard Liberación, Ciudad de Guatemala #39|14.612837|-90.534763|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|40|Calzada Roosevelt, Ciudad de Guatemala #40|14.614978|-90.536220|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|41|Calzada Roosevelt, Ciudad de Guatemala #41|14.615936|-90.538494|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|42|Calzada Roosevelt, Ciudad de Guatemala #42|14.616866|-90.540183|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|43|Calzada Roosevelt, Ciudad de Guatemala #43|14.617686|-90.541653|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|44|Calzada Roosevelt, Ciudad de Guatemala #44|14.632558|-90.569190|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|45|Calzada Roosevelt, Mixco #45|14.633510|-90.571349|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|46|Calzada Roosevelt, Mixco #46|14.633891|-90.573292|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|47|Carretera Panamericana, Mixco #47|14.635238|-90.598015|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|48|Carretera Panamericana, Mixco #48|14.634837|-90.598930|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|49|Carretera Panamericana, Mixco #49|14.633848|-90.599349|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|50|Carretera Panamericana, Mixco #50|14.633504|-90.599613|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|51|Carretera Panamericana, Mixco #51|14.633096|-90.601080|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|52|Carretera Panamericana, Mixco #52|14.632757|-90.601458|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|53|Carretera Panamericana, Mixco #53|14.632221|-90.601634|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|54|Carretera Panamericana, Mixco #54|14.631766|-90.601508|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|55|Carretera Panamericana, Mixco #55|14.631017|-90.599846|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|56|Carretera Panamericana, Mixco #56|14.630567|-90.599305|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|57|Carretera Panamericana, Mixco #57|14.629757|-90.599066|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|58|Carretera Panamericana, Mixco #58|14.628835|-90.599481|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|59|Carretera Panamericana, Mixco #59|14.628454|-90.600118|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|60|Carretera Panamericana, Mixco #60|14.626431|-90.606858|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|61|Carretera Panamericana, Mixco #61|14.626040|-90.607131|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|62|Carretera Panamericana, Mixco #62|14.625599|-90.607123|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|63|Carretera Panamericana, Mixco #63|14.624616|-90.605756|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|64|Carretera Panamericana, Mixco #64|14.623914|-90.605041|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|65|Carretera Panamericana, Mixco #65|14.622998|-90.604672|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|66|Carretera Panamericana, Mixco #66|14.622142|-90.604646|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|67|Carretera Panamericana, Mixco #67|14.619309|-90.605203|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|68|22 Calle, Mixco #68|14.616910|-90.607495|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|69|Carretera Panamericana, Mixco #69|14.616347|-90.608581|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|70|Carretera Panamericana, Mixco #70|14.616417|-90.609317|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|71|Carretera Panamericana, Mixco #71|14.617072|-90.610196|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|72|Carretera Panamericana, Mixco #72|14.621033|-90.612748|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|73|Carretera Panamericana, Mixco #73|14.621462|-90.613602|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|74|Carretera Panamericana, Mixco #74|14.621443|-90.614634|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|75|Carretera Panamericana, Mixco #75|14.620886|-90.615570|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|76|Carretera Panamericana, Ciudad de Guatemala #76|14.618488|-90.617033|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|77|Carretera Panamericana, Mixco #77|14.617912|-90.617225|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|78|Carretera Panamericana, Mixco #78|14.615563|-90.617006|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|79|Carretera Panamericana, Mixco #79|14.615262|-90.617225|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|80|Carretera Panamericana, Mixco #80|14.615087|-90.617943|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|81|Carretera Panamericana, Mixco #81|14.616036|-90.619576|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|82|Carretera Panamericana, Mixco #82|14.616131|-90.620890|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|83|Carretera Panamericana, Mixco #83|14.615541|-90.621900|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|84|Carretera Panamericana, Mixco #84|14.614961|-90.622262|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|85|Carretera Panamericana, Mixco #85|14.614057|-90.622411|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|86|Carretera Panamericana, Mixco #86|14.612601|-90.621941|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|87|Carretera Panamericana, Mixco #87|14.611860|-90.622181|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|88|Carretera Panamericana, Mixco #88|14.610578|-90.623239|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|89|Carretera Panamericana, Mixco #89|14.610317|-90.625131|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|90|Carretera Panamericana, Mixco #90|14.609963|-90.625586|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|91|Carretera Panamericana, Mixco #91|14.609318|-90.625645|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|92|Carretera Panamericana, Mixco #92|14.608920|-90.625178|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|93|Carretera Panamericana, Mixco #93|14.608199|-90.623699|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|94|Carretera Panamericana, Mixco #94|14.605401|-90.624668|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|95|Carretera Panamericana, Mixco #95|14.604259|-90.625515|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|96|Carretera Panamericana, Mixco #96|14.604285|-90.626081|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|97|Carretera Panamericana, Mixco #97|14.604896|-90.626447|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|98|Carretera Panamericana, Mixco #98|14.606709|-90.626467|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|99|Carretera Panamericana, Mixco #99|14.607331|-90.626797|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|100|Carretera Panamericana, Mixco #100|14.607812|-90.627501|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|101|Carretera Panamericana, Mixco #101|14.607605|-90.629620|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|102|Carretera Panamericana, Mixco #102|14.607841|-90.631327|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|103|Carretera Panamericana, Mixco #103|14.608230|-90.632485|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|104|Carretera Panamericana, Mixco #104|14.608094|-90.633087|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|105|Carretera Panamericana, Mixco #105|14.606651|-90.633949|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|106|Carretera Panamericana, Mixco #106|14.604330|-90.635191|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|107|Carretera Panamericana, Mixco #107|14.603846|-90.635134|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|108|Carretera Panamericana, Mixco #108|14.602170|-90.633660|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|109|Carretera Panamericana, Mixco #109|14.601135|-90.633851|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|110|Carretera Panamericana, San Lucas Sacatepéquez #110|14.599703|-90.637181|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|111|Carretera Panamericana, San Lucas Sacatepéquez #111|14.599434|-90.638517|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|112|Carretera Panamericana, San Lucas Sacatepéquez #112|14.599550|-90.640124|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|113|Carretera Panamericana, San Lucas Sacatepéquez #113|14.600294|-90.641918|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|114|Carretera Panamericana, San Lucas Sacatepéquez #114|14.604754|-90.649701|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|115|Carretera Panamericana, San Lucas Sacatepéquez #115|14.605702|-90.650090|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|116|Carretera Panamericana, San Lucas Sacatepéquez #116|14.611833|-90.649996|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|117|Carretera Panamericana, San Lucas Sacatepéquez #117|14.612595|-90.650657|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|118|Carretera Panamericana, San Lucas Sacatepéquez #118|14.612490|-90.651425|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|119|Carretera Panamericana, San Lucas Sacatepéquez #119|14.610328|-90.652648|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|120|Carretera Panamericana, San Lucas Sacatepéquez #120|14.609132|-90.653824|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|121|Carretera Panamericana, San Lucas Sacatepéquez #121|14.608720|-90.655315|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|122|Carretera Panamericana, San Lucas Sacatepéquez #122|14.608189|-90.668949|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|123|Carretera Panamericana, San Bartolomé Milpas Altas #123|14.608066|-90.670176|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|124|San Bartolomé Milpas Altas #124|14.605362|-90.674896|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|125|5a Calle, San Bartolomé Milpas Altas #125|14.603325|-90.676893|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|126|5a Calle, San Bartolomé Milpas Altas #126|14.601841|-90.677480|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|127|RD SAC-10, San Bartolomé Milpas Altas #127|14.600302|-90.678725|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|128|RD SAC-10, San Bartolomé Milpas Altas #128|14.600057|-90.679062|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|129|RD SAC-10, San Bartolomé Milpas Altas #129|14.599324|-90.680129|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|130|RD SAC-10, San Bartolomé Milpas Altas #130|14.598711|-90.680506|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|131|RD SAC-10, San Bartolomé Milpas Altas #131|14.598868|-90.681159|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|132|RD SAC-10, San Bartolomé Milpas Altas #132|14.598010|-90.682530|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|133|RD SAC-10, San Bartolomé Milpas Altas #133|14.597437|-90.683427|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|134|RD SAC-10, San Bartolomé Milpas Altas #134|14.597155|-90.683928|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|135|RD SAC-10, San Bartolomé Milpas Altas #135|14.597184|-90.684476|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|136|RD SAC-10, San Bartolomé Milpas Altas #136|14.596185|-90.684883|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|137|RD SAC-10, San Bartolomé Milpas Altas #137|14.596023|-90.685923|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|138|RD SAC-10, San Bartolomé Milpas Altas #138|14.595863|-90.687295|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|139|RD SAC-10, Antigua Guatemala #139|14.595926|-90.687814|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|140|RD SAC-10, Antigua Guatemala #140|14.595889|-90.689441|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|141|RD SAC-10, Antigua Guatemala #141|14.594689|-90.691186|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|142|RD SAC-10, Antigua Guatemala #142|14.594464|-90.692046|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|143|San Mateo Milpas Altas, Antigua Guatemala #143|14.594595|-90.692856|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|144|San Mateo Milpas Altas, Antigua Guatemala #144|14.594151|-90.692561|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|145|San Mateo Milpas Altas, Antigua Guatemala #145|14.593773|-90.691438|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|146|San Mateo Milpas Altas, Antigua Guatemala #146|14.593444|-90.691958|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|147|San Mateo Milpas Altas, Antigua Guatemala #147|14.593182|-90.693326|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|148|San Mateo Milpas Altas, Antigua Guatemala #148|14.593184|-90.693557|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|149|San Mateo Milpas Altas, Antigua Guatemala #149|14.591299|-90.692714|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|150|San Mateo Milpas Altas, Antigua Guatemala #150|14.589913|-90.692543|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|151|San Mateo Milpas Altas, Antigua Guatemala #151|14.587703|-90.693421|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|152|San Mateo Milpas Altas, Antigua Guatemala #152|14.586345|-90.694169|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|153|San Mateo Milpas Altas, Antigua Guatemala #153|14.582401|-90.695100|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|154|San Mateo Milpas Altas, Antigua Guatemala #154|14.580077|-90.695385|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|155|San Mateo Milpas Altas, Antigua Guatemala #155|14.579894|-90.696281|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|156|San Mateo Milpas Altas, Antigua Guatemala #156|14.579367|-90.696430|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|157|San Mateo Milpas Altas, Antigua Guatemala #157|14.578448|-90.696384|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|158|San Mateo Milpas Altas, Antigua Guatemala #158|14.578444|-90.696538|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|159|San Mateo Milpas Altas, Antigua Guatemala #159|14.579209|-90.697105|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|160|San Mateo Milpas Altas, Antigua Guatemala #160|14.576726|-90.696845|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|161|San Mateo Milpas Altas, Antigua Guatemala #161|14.574961|-90.696475|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|162|San Mateo Milpas Altas, Antigua Guatemala #162|14.573814|-90.696787|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|163|San Mateo Milpas Altas, Antigua Guatemala #163|14.572023|-90.696341|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|164|San Mateo Milpas Altas, Antigua Guatemala #164|14.570386|-90.696586|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|165|San Mateo Milpas Altas, Antigua Guatemala #165|14.569709|-90.696622|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|166|San Mateo Milpas Altas, Antigua Guatemala #166|14.568626|-90.697217|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|167|San Mateo Milpas Altas, Antigua Guatemala #167|14.567728|-90.698148|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|168|San Mateo Milpas Altas, Antigua Guatemala #168|14.567247|-90.697883|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|169|San Mateo Milpas Altas, Antigua Guatemala #169|14.566715|-90.697973|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|170|San Mateo Milpas Altas, Antigua Guatemala #170|14.566339|-90.697554|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|171|San Mateo Milpas Altas, Antigua Guatemala #171|14.565907|-90.696844|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|172|RD SAC-18, Antigua Guatemala #172|14.566235|-90.698023|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|173|RD SAC-18, Antigua Guatemala #173|14.567018|-90.698576|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|174|RD SAC-18, Antigua Guatemala #174|14.567275|-90.699019|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|175|Callejón 5, Antigua Guatemala #175|14.566944|-90.699682|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|176|RD SAC-18, Antigua Guatemala #176|14.566085|-90.700611|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|177|RD SAC-18, Antigua Guatemala #177|14.564182|-90.701749|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|178|RD SAC-18, Antigua Guatemala #178|14.561310|-90.703804|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|179|RD SAC-18, Antigua Guatemala #179|14.560193|-90.705387|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|180|RD SAC-18, Antigua Guatemala #180|14.559996|-90.708646|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|181|Carretera a Antigua Guatemala #181|14.559838|-90.708918|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|182|Carretera a Antigua Guatemala #182|14.559763|-90.709782|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|183|Carretera a Antigua Guatemala #183|14.558827|-90.711936|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|184|Carretera a Antigua Guatemala #184|14.558667|-90.713678|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|185|Carretera a Antigua Guatemala #185|14.558463|-90.715259|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|186|RN-10;RN-10A;RN-10B, Antigua Guatemala #186|14.558533|-90.715620|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|187|Carretera a Antigua Guatemala #187|14.558355|-90.715791|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|188|Carretera a Antigua Guatemala #188|14.558237|-90.717903|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|189|Carretera a Antigua Guatemala #189|14.558733|-90.720953|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|190|Carretera a Antigua Guatemala #190|14.558907|-90.724674|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|191|Calle de los Duelos, Antigua Guatemala #191|14.558305|-90.725915|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|192|Calle de los Duelos, Antigua Guatemala #192|14.560343|-90.726707|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|193|1a Avenida Norte, Antigua Guatemala #193|14.562934|-90.729521|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|194|Candelaria, Antigua Guatemala #194|14.562550|-90.733070|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|195|Calle del Manchén, Antigua Guatemala #195|14.562667|-90.733796|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|196|Calle Ancha de los Herreros, Antigua Guatemala #196|14.564759|-90.736204|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|197|Calle Ancha de los Herreros, Antigua Guatemala #197|14.565534|-90.737470|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|198|El Manchén, Antigua Guatemala #198|14.566803|-90.737686|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
+CIUDAD|199|El Manchén, Antigua Guatemala #199|14.568263|-90.737646|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
 CIUDAD|200|UMG Antigua Jocotenango|14.574884|-90.736153|1550.0|destino|0.0,3.0,1.5,3.5,1.0
 
 RUTA|1|2|0.1951|0.2926|40|1.0,2.5,1.4,2.3,1.1
