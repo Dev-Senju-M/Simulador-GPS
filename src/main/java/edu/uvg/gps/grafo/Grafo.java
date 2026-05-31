@@ -146,15 +146,28 @@ public class Grafo {
         return true;
     }
 
-    public boolean agregarRutaDirecta(String origen, String destino, double distancia, double tiempoBase, double[] multiplicadores) {
-        NodoGrafo nodoOrigen  = buscarNodo(origen);
-        NodoGrafo nodoDestino = buscarNodo(destino);
+    public boolean agregarRutaDirecta(int idOrigen, int idDestino, double distancia,
+                                      double tiempoBase, int velocidadMaxima,
+                                      double[] multiplicadores) {
+        NodoGrafo nodoOrigen  = buscarNodoPorId(idOrigen);
+        NodoGrafo nodoDestino = buscarNodoPorId(idDestino);
         if (nodoOrigen == null || nodoDestino == null) {
-            System.out.println("Una o ambas ciudades no encontradas para ruta directa."); return false;
+            System.out.println("Una o ambas ciudades no encontradas."); return false;
         }
-        agregarAdyacenciaConMultiplicadores(nodoOrigen, destino, distancia, tiempoBase, multiplicadores);
-        agregarAdyacenciaConMultiplicadores(nodoDestino, origen, distancia, tiempoBase, multiplicadores);
+        agregarAdyacenciaCompleta(nodoOrigen, nodoDestino.getCiudad().getNombre(), distancia, tiempoBase, velocidadMaxima, multiplicadores);
+        agregarAdyacenciaCompleta(nodoDestino, nodoOrigen.getCiudad().getNombre(), distancia, tiempoBase, velocidadMaxima, multiplicadores);
+        System.out.println("Ruta directa: [" + idOrigen + "] <-> [" + idDestino + "] | " +
+                String.format("%.2f", distancia) + " km | " +
+                velocidadMaxima + " km/h max");
         return true;
+    }
+
+    private void agregarAdyacenciaCompleta(NodoGrafo nodo, String destino, double distancia,
+                                           double tiempoBase, int velocidadMaxima,
+                                           double[] multiplicadores) {
+        NodoAdyacencia nueva = new NodoAdyacencia(destino, distancia, tiempoBase,
+                velocidadMaxima, multiplicadores);
+        insertarAdyacencia(nodo, nueva);
     }
 
     private void agregarAdyacencia(NodoGrafo nodo, String destino, double distancia, double tiempo) {

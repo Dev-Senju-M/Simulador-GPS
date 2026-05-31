@@ -19,34 +19,26 @@ public class EscritorArchivo {
     public boolean guardarArchivo(String rutaArchivo) {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(rutaArchivo))) {
 
-            // ── Seccion NODOS ──
-            bw.write("# NODOS");
-            bw.newLine();
-            bw.write("id,nombre,latitud,longitud,altitud,tipo");
-            bw.newLine();
-
+            // ── Seccion CIUDADES ──
             NodoGrafo recorrer = grafo.getHead();
             while (recorrer != null) {
-                bw.write(
-                        recorrer.getCiudad().getId()       + "," +
-                                recorrer.getCiudad().getNombre()   + "," +
-                                recorrer.getCiudad().getLatitud()  + "," +
-                                recorrer.getCiudad().getLongitud() + "," +
-                                recorrer.getCiudad().getAltitud()  + "," +
-                                recorrer.getCiudad().getTipo()
+                // CIUDAD|id|nombre|lat|lon|alt|tipo|d0,d1,d2,d3,d4
+                double[] demoras = recorrer.getCiudad().getDemorasCongestión();
+                bw.write("CIUDAD|" +
+                        recorrer.getCiudad().getId()       + "|" +
+                        recorrer.getCiudad().getNombre()   + "|" +
+                        recorrer.getCiudad().getLatitud()  + "|" +
+                        recorrer.getCiudad().getLongitud() + "|" +
+                        recorrer.getCiudad().getAltitud()  + "|" +
+                        recorrer.getCiudad().getTipo()     + "|" +
+                        demoras[0] + "," + demoras[1] + "," +
+                        demoras[2] + "," + demoras[3] + "," + demoras[4]
                 );
                 bw.newLine();
                 recorrer = recorrer.getSiguiente();
             }
 
-            // ── Seccion ARISTAS ──
-            bw.newLine();
-            bw.write("# ARISTAS");
-            bw.newLine();
-            bw.write("idOrigen,idDestino");
-            bw.newLine();
-
-            // Para no duplicar aristas (grafo no dirigido)
+            // ── Seccion RUTAS ──
             int[][] escritos = new int[grafo.getTotalNodos() * grafo.getTotalNodos()][2];
             int totalEscritos = 0;
 
@@ -69,24 +61,32 @@ public class EscritorArchivo {
                     }
 
                     if (!yaEscrito) {
-                        bw.write(idOrigen + "," + idDestino);
+                        // RUTA|idOrigen|idDestino|distancia|tiempoBase|m0,m1,m2,m3,m4
+                        double[] mult = ady.getMultiplicadores();
+                        bw.write("RUTA|" +
+                                idOrigen + "|" +
+                                idDestino + "|" +
+                                String.format("%.4f", ady.getDistancia()) + "|" +
+                                String.format("%.4f", ady.getTiempoBase()) + "|" +
+                                ady.getVelocidadMaxima() + "|" +
+                                mult[0] + "," + mult[1] + "," +
+                                mult[2] + "," + mult[3] + "," + mult[4]
+                        );
                         bw.newLine();
                         escritos[totalEscritos][0] = idOrigen;
                         escritos[totalEscritos][1] = idDestino;
                         totalEscritos++;
                     }
-
                     ady = ady.getSiguiente();
                 }
                 recorrer = recorrer.getSiguiente();
             }
 
-            System.out.println("Grafo guardado exitosamente en: " + rutaArchivo);
+            System.out.println("Grafo guardado en: " + rutaArchivo);
             return true;
 
         } catch (IOException e) {
-            System.out.println("Error al guardar el archivo: " + rutaArchivo);
-            System.out.println("Detalle: " + e.getMessage());
+            System.out.println("Error al guardar: " + e.getMessage());
             return false;
         }
     }

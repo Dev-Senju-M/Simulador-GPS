@@ -33,7 +33,10 @@ public class Dijkstra {
         }
 
         int indiceOrigen = buscarIndice(nodos, origen);
-        if (indiceOrigen == -1) { System.out.println("Ciudad origen no encontrada: " + origen); return null; }
+        if (indiceOrigen == -1) {
+            System.out.println("Ciudad origen no encontrada: " + origen);
+            return null;
+        }
         distancias[indiceOrigen] = 0;
 
         ColaPrioridad cola = new ColaPrioridad(total * total);
@@ -51,9 +54,16 @@ public class Dijkstra {
                 int indiceVecino = buscarIndice(nodos, ady.getCiudadDestino());
                 if (indiceVecino != -1 && !visitados[indiceVecino]) {
                     Ciudad ciudadVecino = grafo.obtenerCiudad(ady.getCiudadDestino());
+
                     double pesoArista = ady.getTiempoEfectivo(indicePeriodo);
-                    double demora = (ciudadVecino != null) ? ciudadVecino.getDemoraCongestión(indicePeriodo) : 0;
+
+                    // Demora del nodo destino segun periodo + problema activo en el nodo
+                    double demora = (ciudadVecino != null)
+                            ? ciudadVecino.getDemoraCongestión(indicePeriodo)
+                            : 0;
+
                     double nuevaDist = distancias[indiceActual] + pesoArista + demora;
+
                     if (nuevaDist < distancias[indiceVecino]) {
                         distancias[indiceVecino] = nuevaDist;
                         anteriores[indiceVecino] = ciudadActual;
@@ -97,13 +107,16 @@ public class Dijkstra {
         }
 
         int indiceOrigen = buscarIndice(nodos, origen);
-        if (indiceOrigen == -1) { System.out.println("Ciudad origen no encontrada: " + origen); return null; }
+        if (indiceOrigen == -1) {
+            System.out.println("Ciudad origen no encontrada: " + origen);
+            return null;
+        }
         distancias[indiceOrigen] = 0;
 
         ColaPrioridad cola = new ColaPrioridad(total * total);
         cola.insertar(origen, 0);
 
-        while (!cola.estaVacia()) {
+        while(!cola.estaVacia()){
             NodoHeap actual = cola.extraerMinimo();
             String ciudadActual = actual.getCiudad();
             int indiceActual = buscarIndice(nodos, ciudadActual);
@@ -128,14 +141,20 @@ public class Dijkstra {
 
         int indiceDestino = buscarIndice(nodos, destino);
         if (indiceDestino == -1 || distancias[indiceDestino] == Double.MAX_VALUE) {
-            System.out.println("No existe camino entre " + origen + " y " + destino); return null;
+            System.out.println("No existe camino entre " + origen + " y " + destino);
+            return null;
         }
+
         Pila pila = new Pila();
         String cur = destino;
-        while (cur != null) { pila.push(cur); cur = anteriores[buscarIndice(nodos, cur)]; }
+        while (cur != null) {
+            pila.push(cur);
+            cur = anteriores[buscarIndice(nodos, cur)];
+        }
         String[] camino = new String[total];
         int i = 0;
         while (!pila.estaVacia()) camino[i++] = pila.pop();
+
         return new ResultadoDijkstra(camino, i, distancias[indiceDestino], usarTiempo);
     }
 

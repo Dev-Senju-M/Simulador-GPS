@@ -8,18 +8,10 @@ public class Ciudad {
     private double altitud;
     private String tipo;
     private double[] demorasCongestión;
+    private TipoProblema problemaActual;
 
-    public Ciudad(int id, String nombre, double latitud, double longitud, double altitud, double[] demorasCongestión) {
-        this.id = id;
-        this.nombre = nombre;
-        this.latitud = latitud;
-        this.longitud = longitud;
-        this.altitud = altitud;
-        this.tipo = "waypoint";
-        this.demorasCongestión = demorasCongestión;
-    }
-
-    public Ciudad(int id, String nombre, double latitud, double longitud, double altitud, String tipo) {
+    public Ciudad(int id, String nombre, double latitud, double longitud,
+                  double altitud, String tipo) {
         this.id = id;
         this.nombre = nombre;
         this.latitud = latitud;
@@ -27,11 +19,39 @@ public class Ciudad {
         this.altitud = altitud;
         this.tipo = tipo;
         this.demorasCongestión = new double[]{0, 0, 0, 0, 0};
+        this.problemaActual = TipoProblema.NINGUNO;
     }
 
-    public double getDemoraCongestión(int indicePeriodo) {
-        return demorasCongestión[indicePeriodo];
+    public Ciudad(int id, String nombre, double latitud, double longitud,
+                  double altitud, double[] demorasCongestión) {
+        this.id = id;
+        this.nombre = nombre;
+        this.latitud = latitud;
+        this.longitud = longitud;
+        this.altitud = altitud;
+        this.tipo = "waypoint";
+        this.demorasCongestión = demorasCongestión;
+        this.problemaActual = TipoProblema.NINGUNO;
     }
+
+    // Demora efectiva segun periodo + problema activo en el nodo
+    public double getDemoraCongestión(int indicePeriodo) {
+        double demoraBase = demorasCongestión[indicePeriodo];
+        return demoraBase * problemaActual.getMultiplicadorExtra();
+    }
+
+    // Reportar problema temporal en el nodo
+    public void reportarProblema(TipoProblema problema) {
+        this.problemaActual = problema;
+        System.out.println("Problema reportado en " + nombre +
+                ": " + problema.getEtiqueta());
+    }
+
+    public void limpiarProblema() {
+        this.problemaActual = TipoProblema.NINGUNO;
+    }
+
+    public void setDemorasCongestión(double[] demoras) { this.demorasCongestión = demoras; }
 
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
@@ -46,9 +66,14 @@ public class Ciudad {
     public String getTipo() { return tipo; }
     public void setTipo(String tipo) { this.tipo = tipo; }
     public double[] getDemorasCongestión() { return demorasCongestión; }
+    public TipoProblema getProblemaActual() { return problemaActual; }
 
     @Override
     public String toString() {
-        return "[" + id + "] " + nombre + " [" + latitud + ", " + longitud + ", alt: " + altitud + "m] (" + tipo + ")";
+        String problema = problemaActual != TipoProblema.NINGUNO ?
+                " ⚠ " + problemaActual.getEtiqueta() : "";
+        return "[" + id + "] " + nombre +
+                " [" + latitud + ", " + longitud + ", alt: " + altitud + "m]" +
+                " (" + tipo + ")" + problema;
     }
 }

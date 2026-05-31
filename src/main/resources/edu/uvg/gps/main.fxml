@@ -1,45 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.web.WebView?>
 
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="edu.uvg.gps.ui.MainController"
-            prefWidth="1100" prefHeight="700">
-
-    <left>
-        <VBox spacing="12" style="-fx-padding: 20; -fx-background-color: #F5F5F5; -fx-min-width: 240;">
-
-            <Label text="GPS Navigator" style="-fx-font-size: 18; -fx-font-weight: bold; -fx-text-fill: #1565C0;"/>
-            <Label text="Plaza Tigo → UMG Jocotenango" style="-fx-font-size: 11; -fx-text-fill: #555;" wrapText="true"/>
-
-            <Label text="Origen:" style="-fx-font-weight: bold;"/>
-            <ComboBox fx:id="cbOrigen" prefWidth="200"/>
-
-            <Label text="Destino:" style="-fx-font-weight: bold;"/>
-            <ComboBox fx:id="cbDestino" prefWidth="200"/>
-
-            <Label text="Hora de salida (HH:mm):" style="-fx-font-weight: bold;"/>
-            <TextField fx:id="txtHora" prefWidth="200" promptText="04:00"/>
-
-            <Button fx:id="btnBuscar" text="Buscar Ruta"
-                    onAction="#onBuscarRuta"
-                    prefWidth="200"
-                    style="-fx-background-color: #1565C0; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 8;"/>
-
-            <Label fx:id="lblResultado" wrapText="true" prefWidth="200"
-                   style="-fx-font-size: 12; -fx-padding: 8; -fx-background-color: #E3F2FD;"/>
-
+            prefWidth="1280" prefHeight="780"
+            stylesheets="@style.css"
+            style="-fx-background-color: #0f1923;">
+    <top>
+        <VBox style="-fx-background-color: #0d2137; -fx-padding: 12 24 12 24; -fx-border-color: #1a3a5c; -fx-border-width: 0 0 1 0;">
+            <HBox spacing="12" style="-fx-alignment: center-left;">
+                <Label text="🗺" style="-fx-font-size: 20;"/>
+                <VBox spacing="2">
+                    <Label text="GPS Navigator" style="-fx-font-size: 18; -fx-font-weight: bold; -fx-text-fill: #e8f4fd;"/>
+                    <Label text="Plaza Tigo Torre 3  →  UMG Antigua Jocotenango" style="-fx-font-size: 11; -fx-text-fill: #64b5f6;"/>
+                </VBox>
+            </HBox>
         </VBox>
-    </left>
+    </top>
 
     <center>
-        <WebView fx:id="webView"/>
-    </center>
+        <TabPane fx:id="tabPane" tabClosingPolicy="UNAVAILABLE">
+            <Tab text="  🗺  Mapa  ">
+                <BorderPane style="-fx-background-color: #0f1923;">
+                    <left>
+                        <VBox spacing="12" style="-fx-padding: 16; -fx-background-color: #0d2137; -fx-min-width: 270; -fx-border-color: #1a3a5c; -fx-border-width: 0 1 0 0;">
 
+                            <VBox spacing="3" style="-fx-padding: 10; -fx-background-color: #0a1929; -fx-background-radius: 8;">
+                                <Label text="ORIGEN" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                <Label text="Plaza Tigo Torre 3" style="-fx-font-size: 13; -fx-text-fill: #ef5350; -fx-font-weight: bold;"/>
+                                <Label text="DESTINO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                <Label text="UMG Antigua Jocotenango" style="-fx-font-size: 13; -fx-text-fill: #66bb6a; -fx-font-weight: bold;"/>
+                            </VBox>
+
+                            <VBox spacing="4">
+                                <Label text="HORA DE SALIDA" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                <TextField fx:id="txtHora" prefWidth="238" promptText="07:30"/>
+                            </VBox>
+
+                            <VBox spacing="4">
+                                <Label text="ALGORITMO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                <ComboBox fx:id="cbAlgoritmo" prefWidth="238"/>
+                            </VBox>
+
+                            <Button text="🔍  Buscar Ruta Óptima" onAction="#onBuscarRuta" prefWidth="238"
+                                    style="-fx-background-color: #1565c0; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10; -fx-background-radius: 8; -fx-font-size: 13; -fx-cursor: hand;"/>
+
+                            <Button text="🧹  Limpiar Problemas" onAction="#onLimpiarProblemas" prefWidth="238"
+                                    style="-fx-background-color: #b71c1c; -fx-text-fill: white; -fx-padding: 8; -fx-background-radius: 8; -fx-font-size: 12; -fx-cursor: hand;"/>
+
+                            <Separator/>
+
+                            <VBox spacing="4">
+                                <Label text="RESULTADO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                <Label fx:id="lblResultado" wrapText="true" prefWidth="238"
+                                       style="-fx-font-size: 12; -fx-padding: 10; -fx-background-color: #0a1929; -fx-text-fill: #b3e5fc; -fx-background-radius: 8;"/>
+                            </VBox>
+
+                            <Separator/>
+
+                            <VBox spacing="6">
+                                <Label text="SIMULACIÓN PASO A PASO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                <Button text="▶  Simular" onAction="#onSimular" prefWidth="238"
+                                        style="-fx-background-color: #1b5e20; -fx-text-fill: white; -fx-padding: 8; -fx-background-radius: 8; -fx-font-size: 12; -fx-cursor: hand;"/>
+                                <ListView fx:id="listPasos" prefHeight="120"/>
+                                <Label fx:id="lblSimResultado" wrapText="true" prefWidth="238"
+                                       style="-fx-font-size: 11; -fx-padding: 8; -fx-background-color: #0a1929; -fx-text-fill: #a5d6a7; -fx-background-radius: 6;"/>
+                            </VBox>
+
+                        </VBox>
+                    </left>
+                    <center>
+                        <WebView fx:id="webView"/>
+                    </center>
+                </BorderPane>
+            </Tab>
+
+            <Tab text="  📊  Rutas y Tiempos  ">
+                <VBox spacing="14" style="-fx-padding: 20; -fx-background-color: #0f1923;">
+
+                    <HBox spacing="10" style="-fx-alignment: center-left;">
+                        <Label text="Comparación de rutas"
+                               style="-fx-font-size: 16; -fx-font-weight: bold; -fx-text-fill: #e8f4fd;"/>
+                        <Button text="↻ Actualizar" onAction="#onActualizarTiempos"
+                                style="-fx-background-color: #1565c0; -fx-text-fill: white; -fx-padding: 5 14; -fx-background-radius: 6; -fx-font-size: 12; -fx-cursor: hand;"/>
+                        <Button text="💾 Guardar grafo" onAction="#onGuardarGrafo"
+                                style="-fx-background-color: #1b5e20; -fx-text-fill: white; -fx-padding: 5 14; -fx-background-radius: 6; -fx-font-size: 12; -fx-cursor: hand;"/>
+                    </HBox>
+
+                    <TableView fx:id="tablaComparacion" prefHeight="190" fixedCellSize="34">
+                        <columns>
+                            <TableColumn fx:id="colCompRuta"       text="Ruta"           prefWidth="190"/>
+                            <TableColumn fx:id="colCompKm"         text="Distancia"      prefWidth="100"/>
+                            <TableColumn fx:id="colCompTiempoBase" text="Tiempo base"    prefWidth="120"/>
+                            <TableColumn fx:id="colCompTiempoAct"  text="Tiempo actual"  prefWidth="130"/>
+                            <TableColumn fx:id="colCompEstado"     text="Estado"         prefWidth="150"/>
+                        </columns>
+                        <placeholder>
+                            <Label text="Cargando rutas..." style="-fx-text-fill: #546e7a;"/>
+                        </placeholder>
+                    </TableView>
+
+                    <Separator/>
+
+                    <Label text="Ciudades cargadas"
+                           style="-fx-font-size: 16; -fx-font-weight: bold; -fx-text-fill: #e8f4fd;"/>
+
+                    <TableView fx:id="tablaCiudades" prefHeight="320" fixedCellSize="34">
+                        <columns>
+                            <TableColumn fx:id="colCiudadId"     text="ID"       prefWidth="55"/>
+                            <TableColumn fx:id="colCiudadNombre" text="Nombre"   prefWidth="230"/>
+                            <TableColumn fx:id="colCiudadLat"    text="Latitud"  prefWidth="110"/>
+                            <TableColumn fx:id="colCiudadLon"    text="Longitud" prefWidth="110"/>
+                            <TableColumn fx:id="colCiudadAlt"    text="Altitud"  prefWidth="90"/>
+                            <TableColumn fx:id="colCiudadTipo"   text="Tipo"     prefWidth="110"/>
+                        </columns>
+                        <placeholder>
+                            <Label text="Sin ciudades cargadas." style="-fx-text-fill: #546e7a;"/>
+                        </placeholder>
+                    </TableView>
+
+                </VBox>
+            </Tab>
+        </TabPane>
+    </center>
 </BorderPane>

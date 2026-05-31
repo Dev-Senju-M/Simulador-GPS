@@ -5,40 +5,122 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
-        body { margin: 0; padding: 0; }
-        #map { width: 100%; height: 100vh; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #0f1923; font-family: 'Segoe UI', sans-serif; }
+        #map { width: 100%; height: 100vh; background: #0f1923; }
+        .leaflet-container { background: #0f1923; }
+        .popup-problema { font-family: 'Segoe UI', sans-serif; font-size: 13px; min-width: 200px; }
+        .popup-problema h4 { margin: 0 0 10px; color: #1a73e8; font-size: 13px; font-weight: 600; border-bottom: 1px solid #e8f0fe; padding-bottom: 6px; }
+        .popup-problema label { font-size: 11px; color: #666; display: block; margin-bottom: 4px; }
+        .popup-problema select { width: 100%; padding: 5px 8px; margin-bottom: 8px; border: 1px solid #dadce0; border-radius: 6px; font-size: 12px; background: #fff; }
+        .popup-btn { width: 100%; padding: 7px; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 600; margin-top: 4px; transition: opacity 0.15s; }
+        .popup-btn:hover { opacity: 0.85; }
+        .btn-reportar { background: #e53935; }
+        .btn-limpiar { background: #2e7d32; }
+        .leaflet-popup-content-wrapper { border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
+        .leaflet-popup-tip { display: none; }
     </style>
 </head>
 <body>
 <div id="map"></div>
 <script>
-    var map = L.map('map').setView([14.58, -90.58], 11);
+    var map = L.map('map', { center: [14.58, -90.62], zoom: 11 });
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '© OpenStreetMap contributors'
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
+        maxZoom: 19, attribution: '© OpenStreetMap © CARTO'
     }).addTo(map);
 
-    var marcadores = [];
-    var rutaActual = null;
+    var marcadores = {};
+    var rutasLineas = [];
+    var rutaOptima = null;
 
-    function agregarMarcador(lat, lon, nombre) {
-        var m = L.marker([lat, lon]).addTo(map).bindPopup(nombre);
-        marcadores.push(m);
+    function crearIcono(color, size, texto) {
+        size = size || 12; texto = texto || '';
+        return L.divIcon({
+            className: '',
+            html: '<div style="width:' + size + 'px;height:' + size + 'px;background:' + color + ';border:2px solid rgba(255,255,255,0.8);border-radius:50%;box-shadow:0 0 8px ' + color + '60;display:flex;align-items:center;justify-content:center;font-size:8px;">' + texto + '</div>',
+            iconSize: [size, size], iconAnchor: [size/2, size/2]
+        });
     }
 
-    function dibujarPolyline(coordsJson) {
-        limpiarRuta();
-        var coords = JSON.parse(coordsJson);
-        rutaActual = L.polyline(coords, {color: '#1565C0', weight: 5, opacity: 0.8}).addTo(map);
-        map.fitBounds(rutaActual.getBounds(), {padding: [30, 30]});
+    var iconos = {
+        normal:   crearIcono('#4fc3f7', 12),
+        inicio:   crearIcono('#ef5350', 16),
+        destino:  crearIcono('#66bb6a', 16),
+        intermedio: crearIcono('#4fc3f7', 12),
+        waypoint: crearIcono('#4fc3f7', 12),
+        problema: crearIcono('#ff9800', 16, '!')
+    };
+
+    function agregarMarcador(lat, lon, nombre, tipo) {
+        var icono = iconos[tipo] || iconos.normal;
+        var safeId = nombre.replace(/[^a-zA-Z0-9]/g, '_');
+        var popup =
+            '<div class="popup-problema">' +
+            '<h4>📍 ' + nombre + '</h4>' +
+            '<label>Tipo de problema:</label>' +
+            '<select id="sel_' + safeId + '">' +
+            '<option value="Accidente">🚗 Accidente</option>' +
+            '<option value="Tormenta">🌧 Tormenta</option>' +
+            '<option value="Construccion">🚧 Construccion</option>' +
+            '<option value="Parada policial">👮 Parada policial</option>' +
+            '<option value="Manifestacion">✊ Manifestacion</option>' +
+            '</select>' +
+            '<button class="popup-btn btn-reportar" onclick="reportarDesdePopup(\'' + safeId + '\',\'' + nombre.replace(/'/g,"\\'") + '\')">⚠ Reportar problema</button>' +
+            '<button class="popup-btn btn-limpiar" onclick="limpiarDesdePopup(\'' + nombre.replace(/'/g,"\\'") + '\')">✅ Limpiar problema</button>' +
+            '</div>';
+        var marker = L.marker([lat, lon], {icon: icono}).addTo(map);
+        marker.bindPopup(popup, {maxWidth: 240, closeButton: true});
+        marcadores[nombre] = {marker: marker, tipo: tipo, tieneProblema: false};
     }
 
-    function limpiarRuta() {
-        if (rutaActual !== null) {
-            map.removeLayer(rutaActual);
-            rutaActual = null;
+    function reportarDesdePopup(safeId, nombreCiudad) {
+        var sel = document.getElementById('sel_' + safeId);
+        var tipo = sel ? sel.value : 'Accidente';
+        if (marcadores[nombreCiudad]) {
+            marcadores[nombreCiudad].marker.setIcon(iconos.problema);
+            marcadores[nombreCiudad].tieneProblema = true;
         }
+        if (window.javaConnector) window.javaConnector.reportarProblema(nombreCiudad, tipo);
+    }
+
+    function limpiarDesdePopup(nombreCiudad) {
+        if (marcadores[nombreCiudad]) {
+            var tipo = marcadores[nombreCiudad].tipo;
+            marcadores[nombreCiudad].marker.setIcon(iconos[tipo] || iconos.normal);
+            marcadores[nombreCiudad].tieneProblema = false;
+        }
+        if (window.javaConnector) window.javaConnector.limpiarProblema(nombreCiudad);
+    }
+
+    function limpiarIconosProblemas() {
+        for (var nombre in marcadores) {
+            if (marcadores[nombre].tieneProblema) {
+                var tipo = marcadores[nombre].tipo;
+                marcadores[nombre].marker.setIcon(iconos[tipo] || iconos.normal);
+                marcadores[nombre].tieneProblema = false;
+            }
+        }
+    }
+
+    function dibujarRutaAzul(coordsJson) {
+        var linea = L.polyline(JSON.parse(coordsJson), {color: '#4fc3f7', weight: 2, opacity: 0.35, dashArray: '4 4'}).addTo(map);
+        rutasLineas.push(linea);
+    }
+
+    function dibujarRutaOptima(coordsJson) {
+        if (rutaOptima) { map.removeLayer(rutaOptima); rutaOptima = null; }
+        rutaOptima = L.polyline(JSON.parse(coordsJson), {color: '#00e676', weight: 5, opacity: 0.9}).addTo(map);
+        map.fitBounds(rutaOptima.getBounds(), {padding: [40, 40]});
+    }
+
+    function dibujarPolyline(coordsJson) { dibujarRutaOptima(coordsJson); }
+    function limpiarRuta() { if (rutaOptima) { map.removeLayer(rutaOptima); rutaOptima = null; } }
+    function limpiarTodo() { rutasLineas.forEach(function(l) { map.removeLayer(l); }); rutasLineas = []; limpiarRuta(); }
+    function ajustarVista() {
+        var puntos = [];
+        for (var n in marcadores) puntos.push(marcadores[n].marker.getLatLng());
+        if (puntos.length > 0) map.fitBounds(L.latLngBounds(puntos), {padding: [40, 40]});
     }
 </script>
 </body>
