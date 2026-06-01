@@ -34,13 +34,11 @@ public class Ciudad {
         this.problemaActual = TipoProblema.NINGUNO;
     }
 
-    // Demora efectiva segun periodo + problema activo en el nodo
     public double getDemoraCongestión(int indicePeriodo) {
         double demoraBase = demorasCongestión[indicePeriodo];
         return demoraBase * problemaActual.getMultiplicadorExtra();
     }
 
-    // Reportar problema temporal en el nodo
     public void reportarProblema(TipoProblema problema) {
         this.problemaActual = problema;
         System.out.println("Problema reportado en " + nombre +

@@ -21,8 +21,8 @@ public enum PeriodoHorario {
 
     public static double factorPorDia(DayOfWeek dia) {
         switch (dia) {
-            case SATURDAY: return 0.80;  // 20% menos trafico
-            case SUNDAY:   return 0.65;  // 35% menos trafico
+            case SATURDAY: return 0.80;
+            case SUNDAY:   return 0.65;
             default:       return 1.0;
         }
     }

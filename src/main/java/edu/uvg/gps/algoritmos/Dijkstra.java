@@ -17,12 +17,10 @@ public class Dijkstra {
         this.grafo = grafo;
     }
 
-    // Compatibilidad — asume lunes por defecto
     public ResultadoDijkstra calcularConTiempo(String origen, String destino, LocalTime horaSalida) {
         return calcularConTiempo(origen, destino, horaSalida, DayOfWeek.MONDAY);
     }
 
-    // Con dia de semana
     public ResultadoDijkstra calcularConTiempo(String origen, String destino,
                                                LocalTime horaSalida, DayOfWeek dia) {
         PeriodoHorario periodo = PeriodoHorario.desdeHora(horaSalida);

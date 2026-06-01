@@ -19,12 +19,10 @@ public class FloydWarshall {
         this.grafo = grafo;
     }
 
-    // Calcular sin trafico — usa tiempoBase
     public void calcular() {
         calcularConTiempo(LocalTime.of(10, 0)); // DIA — sin pico
     }
 
-    // Calcular con trafico segun hora
     public void calcularConTiempo(LocalTime horaSalida) {
         ultimoPeriodo = PeriodoHorario.desdeHora(horaSalida);
         int indicePeriodo = ultimoPeriodo.ordinal();
@@ -36,7 +34,6 @@ public class FloydWarshall {
         matrizTiempos    = new double[total][total];
         siguiente        = new int[total][total];
 
-        // Inicializar matrices
         for (int i = 0; i < total; i++) {
             for (int j = 0; j < total; j++) {
                 if (i == j) {
@@ -50,7 +47,6 @@ public class FloydWarshall {
             }
         }
 
-        // Llenar con aristas existentes
         for (int i = 0; i < total; i++) {
             NodoAdyacencia ady = grafo.obtenerAdyacencias(nodos[i]);
             while (ady != null) {
@@ -69,7 +65,6 @@ public class FloydWarshall {
             }
         }
 
-        // Algoritmo Floyd-Warshall
         for (int k = 0; k < total; k++) {
             for (int i = 0; i < total; i++) {
                 for (int j = 0; j < total; j++) {
@@ -85,7 +80,6 @@ public class FloydWarshall {
         System.out.println("Floyd-Warshall calculado para " + total + " nodos | Periodo: " + ultimoPeriodo.etiqueta());
     }
 
-    // Obtiene camino entre dos ciudades
     public String[] obtenerCamino(String origen, String destino) {
         int i = buscarIndice(origen);
         int j = buscarIndice(destino);
@@ -101,7 +95,6 @@ public class FloydWarshall {
         return camino;
     }
 
-    // Retorna ResultadoDijkstra para compatibilidad con la UI
     public ResultadoDijkstra obtenerResultado(String origen, String destino) {
         String[] camino = obtenerCamino(origen, destino);
         if (camino == null) return null;

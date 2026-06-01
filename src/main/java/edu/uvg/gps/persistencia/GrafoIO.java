@@ -6,14 +6,12 @@ import java.util.List;
 
 public class GrafoIO {
 
-    // Construye un grafo nuevo desde cero
     public static Grafo construirGrafo(List<String> lineas) {
         Grafo grafo = new Grafo();
         agregarAlGrafo(lineas, grafo);
         return grafo;
     }
 
-    // Agrega nodos y rutas a un grafo existente (para cargar multiples archivos)
     public static void agregarAlGrafo(List<String> lineas, Grafo grafo) {
         for (String linea : lineas) {
             if (linea.startsWith("CIUDAD|")) {
@@ -27,7 +25,6 @@ public class GrafoIO {
     private static void parsearCiudad(String linea, Grafo grafo) {
         try {
             String[] p = linea.split("\\|");
-            // CIUDAD|id|nombre|lat|lon|alt|tipo|d0,d1,d2,d3,d4
             int id           = Integer.parseInt(p[1].trim());
             String nombre    = p[2].trim();
             double lat       = Double.parseDouble(p[3].trim());
@@ -48,7 +45,6 @@ public class GrafoIO {
     private static void parsearRuta(String linea, Grafo grafo) {
         try {
             String[] p = linea.split("\\|");
-            // RUTA|idOrigen|idDestino|distancia|tiempoBase|velocidadMaxima|m0,m1,m2,m3,m4
             int idOrigen            = Integer.parseInt(p[1].trim());
             int idDestino           = Integer.parseInt(p[2].trim());
             double distancia        = Double.parseDouble(p[3].trim());
