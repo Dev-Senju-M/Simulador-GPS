@@ -28,56 +28,94 @@
             <Tab text="  🗺  Mapa  ">
                 <BorderPane style="-fx-background-color: #0f1923;">
                     <left>
-                        <VBox spacing="12" style="-fx-padding: 16; -fx-background-color: #0d2137; -fx-min-width: 270; -fx-border-color: #1a3a5c; -fx-border-width: 0 1 0 0;">
+                        <ScrollPane fitToWidth="true"
+                                    style="-fx-background-color: #0d2137; -fx-border-color: #1a3a5c; -fx-border-width: 0 1 0 0;"
+                                    prefWidth="278" hbarPolicy="NEVER">
+                            <VBox spacing="10" style="-fx-padding: 14; -fx-background-color: #0d2137; -fx-min-width: 252;">
 
-                            <VBox spacing="3" style="-fx-padding: 10; -fx-background-color: #0a1929; -fx-background-radius: 8;">
-                                <Label text="ORIGEN" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
-                                <Label text="Plaza Tigo Torre 3" style="-fx-font-size: 13; -fx-text-fill: #ef5350; -fx-font-weight: bold;"/>
-                                <Label text="DESTINO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
-                                <Label text="UMG Antigua Jocotenango" style="-fx-font-size: 13; -fx-text-fill: #66bb6a; -fx-font-weight: bold;"/>
+                                <!-- Origen / Destino -->
+                                <VBox spacing="3" style="-fx-padding: 10; -fx-background-color: #0a1929; -fx-background-radius: 8;">
+                                    <Label text="ORIGEN" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                    <Label text="Plaza Tigo Torre 3" style="-fx-font-size: 13; -fx-text-fill: #ef5350; -fx-font-weight: bold;"/>
+                                    <Label text="DESTINO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                    <Label text="UMG Antigua Jocotenango" style="-fx-font-size: 13; -fx-text-fill: #66bb6a; -fx-font-weight: bold;"/>
+                                </VBox>
+
+                                <!-- Dia -->
+                                <VBox spacing="4">
+                                    <Label text="DÍA DE LA SEMANA" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                    <ComboBox fx:id="cbDia" prefWidth="252" onAction="#onCambiarFiltro"/>
+                                </VBox>
+
+                                <!-- Hora -->
+                                <VBox spacing="4">
+                                    <Label text="HORA DE SALIDA" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                    <ComboBox fx:id="cbHora" prefWidth="252" onAction="#onCambiarFiltro"/>
+                                </VBox>
+
+                                <!-- Algoritmo -->
+                                <VBox spacing="4">
+                                    <Label text="ALGORITMO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                    <ComboBox fx:id="cbAlgoritmo" prefWidth="252"/>
+                                </VBox>
+
+                                <!-- Ver corredor -->
+                                <VBox spacing="4">
+                                    <Label text="VER CORREDOR" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                    <ComboBox fx:id="cbVerRuta" prefWidth="252" onAction="#onVerRuta"/>
+                                </VBox>
+
+                                <!-- Ver nodos -->
+                                <VBox spacing="4">
+                                    <Label text="VER NODOS" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                    <ComboBox fx:id="cbVerNodos" prefWidth="252" onAction="#onVerNodos"/>
+                                </VBox>
+
+                                <!-- Botones -->
+                                <Button text="🔍  Buscar Ruta Óptima" onAction="#onBuscarRuta" prefWidth="252"
+                                        style="-fx-background-color: #1565c0; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10; -fx-background-radius: 8; -fx-font-size: 13; -fx-cursor: hand;"/>
+
+                                <Button text="🧹  Limpiar Problemas" onAction="#onLimpiarProblemas" prefWidth="252"
+                                        style="-fx-background-color: #b71c1c; -fx-text-fill: white; -fx-padding: 8; -fx-background-radius: 8; -fx-font-size: 12; -fx-cursor: hand;"/>
+
+                                <Separator/>
+
+                                <!-- Resultado -->
+                                <VBox spacing="4">
+                                    <Label text="RESULTADO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                    <Label fx:id="lblResultado" wrapText="true" prefWidth="252" minHeight="120"
+                                           style="-fx-font-size: 12; -fx-padding: 10; -fx-background-color: #0a1929; -fx-text-fill: #b3e5fc; -fx-background-radius: 8;"/>
+                                </VBox>
+
+                                <Separator/>
+
+                                <!-- Buscar camino -->
+                                <VBox spacing="6" style="-fx-padding: 10; -fx-background-color: #0a1929; -fx-background-radius: 8;">
+                                    <Label text="VERIFICAR CAMINO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                    <TextField fx:id="txtBuscarOrigen" prefWidth="232" promptText="Ciudad origen..."
+                                               style="-fx-font-size: 11;"/>
+                                    <TextField fx:id="txtBuscarDestino" prefWidth="232" promptText="Ciudad destino..."
+                                               style="-fx-font-size: 11;"/>
+                                    <Button text="🔎  Verificar camino" onAction="#onVerificarCamino" prefWidth="232"
+                                            style="-fx-background-color: #4527a0; -fx-text-fill: white; -fx-padding: 7; -fx-background-radius: 6; -fx-font-size: 11; -fx-cursor: hand;"/>
+                                    <Label fx:id="lblCamino" wrapText="true" prefWidth="232"
+                                           style="-fx-font-size: 11; -fx-padding: 6; -fx-background-color: #0d1b2e; -fx-text-fill: #b3e5fc; -fx-background-radius: 6;"/>
+                                </VBox>
+
+                                <Separator/>
+
+                                <!-- Simulacion -->
+                                <VBox spacing="6">
+                                    <Label text="SIMULACIÓN PASO A PASO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
+                                    <Button text="▶  Simular" onAction="#onSimular" prefWidth="252"
+                                            style="-fx-background-color: #1b5e20; -fx-text-fill: white; -fx-padding: 8; -fx-background-radius: 8; -fx-font-size: 12; -fx-cursor: hand;"/>
+                                    <ListView fx:id="listPasos" prefHeight="120" fixedCellSize="24"/>
+                                    <Label fx:id="lblSimResultado" wrapText="true" prefWidth="252"
+                                           style="-fx-font-size: 11; -fx-padding: 8; -fx-background-color: #0a1929; -fx-text-fill: #a5d6a7; -fx-background-radius: 6;"/>
+                                </VBox>
+
                             </VBox>
-
-                            <VBox spacing="4">
-                                <Label text="HORA DE SALIDA" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
-                                <TextField fx:id="txtHora" prefWidth="238" promptText="07:30"/>
-                            </VBox>
-
-                            <VBox spacing="4">
-                                <Label text="ALGORITMO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
-                                <ComboBox fx:id="cbAlgoritmo" prefWidth="238"/>
-                            </VBox>
-
-                            <VBox spacing="4">
-                                <Label text="VER CORREDOR" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
-                                <ComboBox fx:id="cbVerRuta" prefWidth="238" onAction="#onVerRuta"/>
-                            </VBox>
-
-                            <Button text="🔍  Buscar Ruta Óptima" onAction="#onBuscarRuta" prefWidth="238"
-                                    style="-fx-background-color: #1565c0; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10; -fx-background-radius: 8; -fx-font-size: 13; -fx-cursor: hand;"/>
-
-                            <Button text="🧹  Limpiar Problemas" onAction="#onLimpiarProblemas" prefWidth="238"
-                                    style="-fx-background-color: #b71c1c; -fx-text-fill: white; -fx-padding: 8; -fx-background-radius: 8; -fx-font-size: 12; -fx-cursor: hand;"/>
-
-                            <Separator/>
-
-                            <VBox spacing="4">
-                                <Label text="RESULTADO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
-                                <Label fx:id="lblResultado" wrapText="true" prefWidth="238"
-                                       style="-fx-font-size: 12; -fx-padding: 10; -fx-background-color: #0a1929; -fx-text-fill: #b3e5fc; -fx-background-radius: 8;"/>
-                            </VBox>
-
-                            <Separator/>
-
-                            <VBox spacing="6">
-                                <Label text="SIMULACIÓN PASO A PASO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
-                                <Button text="▶  Simular" onAction="#onSimular" prefWidth="238"
-                                        style="-fx-background-color: #1b5e20; -fx-text-fill: white; -fx-padding: 8; -fx-background-radius: 8; -fx-font-size: 12; -fx-cursor: hand;"/>
-                                <ListView fx:id="listPasos" prefHeight="120"/>
-                                <Label fx:id="lblSimResultado" wrapText="true" prefWidth="238"
-                                       style="-fx-font-size: 11; -fx-padding: 8; -fx-background-color: #0a1929; -fx-text-fill: #a5d6a7; -fx-background-radius: 6;"/>
-                            </VBox>
-
-                        </VBox>
+                        </ScrollPane>
                     </left>
                     <center>
                         <WebView fx:id="webView"/>

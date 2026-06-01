@@ -2,435 +2,435 @@
 # CIUDAD|id|nombre|lat|lon|alt|tipo|d0,d1,d2,d3,d4
 # RUTA|idOrigen|idDestino|distancia|tiempoBase|velocidadMaxima|m0,m1,m2,m3,m4
 
-CIUDAD|427|Plaza Tigo Torre 3|14.573448|-90.481757|1500.0|inicio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|428|Carretera a El Salvador, Santa Catarina Pinula #428|14.575179|-90.480654|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|429|Carretera a El Salvador, Santa Catarina Pinula #429|14.572722|-90.482285|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|430|Carretera a El Salvador, Santa Catarina Pinula #430|14.571201|-90.482935|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|431|Carretera a El Salvador, Santa Catarina Pinula #431|14.571574|-90.485227|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|432|Carretera a El Salvador, Santa Catarina Pinula #432|14.572572|-90.486517|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|433|Carretera a El Salvador, Santa Catarina Pinula #433|14.573431|-90.485357|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|434|Carretera a El Salvador, Santa Catarina Pinula #434|14.574089|-90.483651|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|435|Carretera a El Salvador, Santa Catarina Pinula #435|14.575534|-90.483067|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|436|Carretera a El Salvador, Santa Catarina Pinula #436|14.578651|-90.482319|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|437|Carretera a El Salvador, Santa Catarina Pinula #437|14.579727|-90.482337|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|438|Carretera a El Salvador, Ciudad de Guatemala #438|14.580260|-90.483077|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|439|Carretera a El Salvador, Ciudad de Guatemala #439|14.580116|-90.483751|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|440|Boulevard Los Próceres, Ciudad de Guatemala #440|14.579558|-90.484161|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|441|Boulevard Los Próceres, Ciudad de Guatemala #441|14.578474|-90.484290|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|442|Boulevard Los Próceres, Ciudad de Guatemala #442|14.577896|-90.484782|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|443|Boulevard Los Próceres, Ciudad de Guatemala #443|14.577777|-90.485845|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|444|Boulevard Los Próceres, Ciudad de Guatemala #444|14.578325|-90.486504|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|445|Boulevard Los Próceres, Ciudad de Guatemala #445|14.579302|-90.487691|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|446|Boulevard Los Próceres, Ciudad de Guatemala #446|14.578921|-90.488623|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|447|Boulevard Los Próceres, Ciudad de Guatemala #447|14.577559|-90.489075|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|448|Boulevard Los Próceres, Ciudad de Guatemala #448|14.576982|-90.490017|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|449|Boulevard Los Próceres, Ciudad de Guatemala #449|14.578612|-90.492396|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|450|Boulevard Los Próceres, Ciudad de Guatemala #450|14.579839|-90.493881|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|451|Boulevard Los Próceres, Ciudad de Guatemala #451|14.581053|-90.495291|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|452|Boulevard Los Próceres, Ciudad de Guatemala #452|14.584524|-90.498128|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|453|Boulevard Los Próceres, Ciudad de Guatemala #453|14.587572|-90.500633|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|454|Boulevard Los Próceres, Ciudad de Guatemala #454|14.589067|-90.503250|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|455|Boulevard Los Próceres, Ciudad de Guatemala #455|14.590806|-90.507387|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|456|Boulevard Los Próceres, Ciudad de Guatemala #456|14.592462|-90.511405|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|457|Boulevard Los Próceres, Ciudad de Guatemala #457|14.594139|-90.515704|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|458|Boulevard Liberación, Ciudad de Guatemala #458|14.594901|-90.518742|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|459|Boulevard Liberación, Ciudad de Guatemala #459|14.596288|-90.521596|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|460|Boulevard Liberación, Ciudad de Guatemala #460|14.596747|-90.522389|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|461|Boulevard Liberación, Ciudad de Guatemala #461|14.598653|-90.524040|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|462|Boulevard Liberación, Ciudad de Guatemala #462|14.601341|-90.526299|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|463|Boulevard Liberación, Ciudad de Guatemala #463|14.602881|-90.527922|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|464|7a Avenida, Ciudad de Guatemala #464|14.602227|-90.528581|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|465|7a Avenida, Ciudad de Guatemala #465|14.599805|-90.529664|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|466|5a Calle, Ciudad de Guatemala #466|14.598966|-90.530286|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|467|5a Calle, Ciudad de Guatemala #467|14.601281|-90.532454|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|468|5a Calle, Ciudad de Guatemala #468|14.603776|-90.534509|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|469|Calzada Atanasio Tzul, Ciudad de Guatemala #469|14.604949|-90.536096|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|470|Calzada Atanasio Tzul, Ciudad de Guatemala #470|14.604297|-90.537492|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|471|Calzada Atanasio Tzul, Ciudad de Guatemala #471|14.602678|-90.538902|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|472|Calzada Atanasio Tzul, Ciudad de Guatemala #472|14.601705|-90.539349|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|473|Calzada Atanasio Tzul, Ciudad de Guatemala #473|14.598556|-90.540036|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|474|Calzada Atanasio Tzul, Ciudad de Guatemala #474|14.595382|-90.540685|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|475|Calzada Atanasio Tzul, Ciudad de Guatemala #475|14.589655|-90.541794|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|476|Calzada Atanasio Tzul, Ciudad de Guatemala #476|14.583842|-90.542946|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|477|Calzada Atanasio Tzul, Ciudad de Guatemala #477|14.581561|-90.542957|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|478|Calzada Atanasio Tzul, Ciudad de Guatemala #478|14.576941|-90.542568|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|479|Calzada Atanasio Tzul, Ciudad de Guatemala #479|14.575750|-90.542558|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|480|42 Calle, Ciudad de Guatemala #480|14.574802|-90.542414|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|481|Vía Alterna del Sur, Ciudad de Guatemala #481|14.574566|-90.539960|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|482|Vía Alterna del Sur, Ciudad de Guatemala #482|14.573183|-90.537815|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|483|Vía Alterna del Sur, Ciudad de Guatemala #483|14.572201|-90.537340|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|484|Vía Alterna del Sur, Ciudad de Guatemala #484|14.570685|-90.537433|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|485|Calzada Atanasio Tzul, Ciudad de Guatemala #485|14.570951|-90.541584|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|486|Calzada Atanasio Tzul, Ciudad de Guatemala #486|14.573067|-90.542097|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|487|Calzada Atanasio Tzul, Ciudad de Guatemala #487|14.577547|-90.542448|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|488|Calzada Atanasio Tzul, Ciudad de Guatemala #488|14.581987|-90.542819|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|489|Calzada Atanasio Tzul, Ciudad de Guatemala #489|14.585694|-90.542411|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|490|Calzada Atanasio Tzul, Ciudad de Guatemala #490|14.593829|-90.540750|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|491|Calzada Atanasio Tzul, Ciudad de Guatemala #491|14.598356|-90.539814|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|492|Calzada Atanasio Tzul, Ciudad de Guatemala #492|14.601499|-90.539221|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|493|Calzada Atanasio Tzul, Ciudad de Guatemala #493|14.603702|-90.537231|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|494|Calzada Atanasio Tzul, Ciudad de Guatemala #494|14.605454|-90.533998|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|495|Calzada Atanasio Tzul, Ciudad de Guatemala #495|14.606551|-90.530586|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|496|42 Calle, Ciudad de Guatemala #496|14.606220|-90.529293|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|497|Boulevard Liberación, Ciudad de Guatemala #497|14.607125|-90.531145|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|498|Boulevard Liberación, Ciudad de Guatemala #498|14.609518|-90.531978|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|499|Boulevard Liberación, Ciudad de Guatemala #499|14.611007|-90.532896|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|500|Boulevard Liberación, Ciudad de Guatemala #500|14.612837|-90.534763|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|501|Calzada Roosevelt, Ciudad de Guatemala #501|14.614654|-90.535906|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|502|Calzada Roosevelt, Ciudad de Guatemala #502|14.615802|-90.538152|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|503|Calzada Roosevelt, Ciudad de Guatemala #503|14.616865|-90.540183|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|504|Calzada Roosevelt, Ciudad de Guatemala #504|14.617618|-90.541477|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|505|Calzada Roosevelt, Ciudad de Guatemala #505|14.618971|-90.544008|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|506|Calzada Roosevelt, Ciudad de Guatemala #506|14.620605|-90.547013|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|507|Calzada Roosevelt, Ciudad de Guatemala #507|14.621782|-90.549205|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|508|Calzada Roosevelt, Ciudad de Guatemala #508|14.622739|-90.550986|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|509|Calzada Roosevelt, Ciudad de Guatemala #509|14.623824|-90.553004|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|510|Calzada Roosevelt, Ciudad de Guatemala #510|14.624776|-90.554777|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|511|Calzada Roosevelt, Ciudad de Guatemala #511|14.625638|-90.556383|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|512|Calzada Roosevelt, Ciudad de Guatemala #512|14.627877|-90.560552|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|513|Calzada Roosevelt, Ciudad de Guatemala #513|14.628709|-90.562075|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|514|Calzada Roosevelt, Ciudad de Guatemala #514|14.629660|-90.563820|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|515|Calzada Roosevelt, Ciudad de Guatemala #515|14.630398|-90.565197|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|516|Calzada Roosevelt, Ciudad de Guatemala #516|14.631415|-90.567077|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|517|Calzada Roosevelt, Mixco #517|14.633259|-90.570647|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|518|Calzada Roosevelt, Mixco #518|14.633891|-90.573292|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|519|Calzada Roosevelt, Mixco #519|14.633990|-90.575306|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|520|Calzada Roosevelt, Mixco #520|14.634174|-90.579097|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|521|Calzada Roosevelt, Mixco #521|14.634307|-90.581445|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|522|Calzada Roosevelt, Mixco #522|14.634480|-90.584235|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|523|Calzada Roosevelt, Mixco #523|14.634621|-90.587239|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|524|Calzada Doroteo Guamuch Flores, Mixco #524|14.634767|-90.590090|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|525|Calzada Roosevelt, Mixco #525|14.634973|-90.593594|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|526|Carretera Panamericana, Mixco #526|14.635238|-90.598015|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|527|Carretera Panamericana, Mixco #527|14.634719|-90.599011|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|528|Carretera Panamericana, Mixco #528|14.633380|-90.599860|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|529|Carretera Panamericana, Mixco #529|14.633021|-90.601196|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|530|Carretera Panamericana, Mixco #530|14.632221|-90.601634|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|531|Carretera Panamericana, Mixco #531|14.631490|-90.601268|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|532|Carretera Panamericana, Mixco #532|14.630825|-90.599545|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|533|Carretera Panamericana, Mixco #533|14.629470|-90.599118|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|534|Carretera Panamericana, Mixco #534|14.628346|-90.600486|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|535|Carretera Panamericana, Mixco #535|14.627169|-90.604480|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|536|Carretera Panamericana, Mixco #536|14.626040|-90.607131|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|537|Carretera Panamericana, Mixco #537|14.625074|-90.606661|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|538|Carretera Panamericana, Mixco #538|14.623556|-90.604840|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|539|Carretera Panamericana, Mixco #539|14.622142|-90.604646|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|540|Carretera Panamericana, Mixco #540|14.618804|-90.605546|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|541|Carretera Panamericana, Mixco #541|14.616721|-90.607704|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|542|Carretera Panamericana, Mixco #542|14.616417|-90.609317|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|543|Carretera Panamericana, Mixco #543|14.617758|-90.610627|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|544|Carretera Panamericana, Mixco #544|14.621187|-90.612955|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|545|Carretera Panamericana, Mixco #545|14.621490|-90.614416|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|546|Carretera Panamericana, Ciudad de Guatemala #546|14.618897|-90.616789|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|547|Carretera Panamericana, Mixco #547|14.615400|-90.617097|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|548|Carretera Panamericana, Mixco #548|14.615701|-90.619033|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|549|Carretera Panamericana, Mixco #549|14.616068|-90.621090|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|550|Carretera Panamericana, Mixco #550|14.614729|-90.622344|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|551|Carretera Panamericana, Mixco #551|14.612601|-90.621941|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|552|Carretera Panamericana, Mixco #552|14.610578|-90.623239|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|553|Carretera Panamericana, Mixco #553|14.609636|-90.625705|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|554|Carretera Panamericana, Mixco #554|14.608022|-90.623615|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|555|Carretera Panamericana, Mixco #555|14.604344|-90.625369|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|556|Carretera Panamericana, Mixco #556|14.605830|-90.626451|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|557|Carretera Panamericana, Mixco #557|14.607855|-90.628019|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|558|Carretera Panamericana, Mixco #558|14.608230|-90.632485|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|559|Carretera Panamericana, Mixco #559|14.605635|-90.634642|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|560|Carretera Panamericana, Mixco #560|14.603223|-90.634554|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|561|Carretera Panamericana, Mixco #561|14.601256|-90.633750|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|562|Carretera Panamericana, San Lucas Sacatepéquez #562|14.599422|-90.639099|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|563|Carretera Panamericana, San Lucas Sacatepéquez #563|14.601364|-90.643832|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|564|Carretera Panamericana, San Lucas Sacatepéquez #564|14.605702|-90.650090|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|565|Carretera Panamericana, San Lucas Sacatepéquez #565|14.612370|-90.650268|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|566|Carretera Panamericana, San Lucas Sacatepéquez #566|14.611902|-90.651921|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|567|Carretera Panamericana, San Lucas Sacatepéquez #567|14.609279|-90.653579|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|568|Carretera Panamericana, San Lucas Sacatepéquez #568|14.608693|-90.656190|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|569|Carretera Panamericana, San Lucas Sacatepéquez #569|14.608569|-90.660444|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|570|Carretera Panamericana, San Lucas Sacatepéquez #570|14.608439|-90.663413|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|571|Carretera Panamericana, San Lucas Sacatepéquez #571|14.608368|-90.664965|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|572|Carretera Panamericana, San Lucas Sacatepéquez #572|14.608147|-90.668988|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|573|4a Avenida, San Bartolomé Milpas Altas #573|14.607889|-90.670530|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|574|4a Avenida, San Bartolomé Milpas Altas #574|14.605967|-90.673870|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|575|4a Avenida, San Bartolomé Milpas Altas #575|14.603997|-90.677024|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|576|5a Calle, San Bartolomé Milpas Altas #576|14.601841|-90.677480|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|577|RD SAC-10, San Bartolomé Milpas Altas #577|14.599811|-90.679204|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|578|RD SAC-10, San Bartolomé Milpas Altas #578|14.598698|-90.680673|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|579|RD SAC-10, San Bartolomé Milpas Altas #579|14.598062|-90.682438|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|580|RD SAC-10, San Bartolomé Milpas Altas #580|14.597437|-90.683427|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|581|RD SAC-10, San Bartolomé Milpas Altas #581|14.596515|-90.684627|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|582|RD SAC-10, San Bartolomé Milpas Altas #582|14.596008|-90.686106|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|583|RD SAC-10, Antigua Guatemala #583|14.595926|-90.687814|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|584|RD SAC-10, Antigua Guatemala #584|14.595889|-90.689441|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|585|RD SAC-10, Antigua Guatemala #585|14.594464|-90.692046|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|586|RD SAC-10, Antigua Guatemala #586|14.595492|-90.693201|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|587|RD SAC-10, Antigua Guatemala #587|14.596497|-90.693737|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|588|RD SAC-10, Antigua Guatemala #588|14.598363|-90.695312|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|589|RD SAC-10, Antigua Guatemala #589|14.600597|-90.697748|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|590|RD SAC-10, Antigua Guatemala #590|14.600017|-90.698928|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|591|RD SAC-10, Antigua Guatemala #591|14.597188|-90.698147|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|592|RD SAC-10, Antigua Guatemala #592|14.598092|-90.700273|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|593|RD SAC-10, Antigua Guatemala #593|14.598070|-90.702755|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|594|RD SAC-10, Antigua Guatemala #594|14.596662|-90.704203|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|595|RD SAC-10, Antigua Guatemala #595|14.594037|-90.703974|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|596|RD SAC-10, Antigua Guatemala #596|14.592339|-90.704454|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|597|RD SAC-10, Antigua Guatemala #597|14.591826|-90.706349|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|598|RD SAC-10, Antigua Guatemala #598|14.589519|-90.708224|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|599|RD SAC-10, Antigua Guatemala #599|14.586957|-90.710307|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|600|RD SAC-10, Antigua Guatemala #600|14.583703|-90.710769|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|601|RD SAC-10, Antigua Guatemala #601|14.583279|-90.711411|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|602|5a Calle, Antigua Guatemala #602|14.582158|-90.712114|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|603|5a Calle, Antigua Guatemala #603|14.581426|-90.713048|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|604|5a Calle, Antigua Guatemala #604|14.581345|-90.714958|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|605|RD SAC-10, Antigua Guatemala #605|14.580136|-90.716296|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|606|RD SAC-10, Antigua Guatemala #606|14.578587|-90.716954|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|607|RD SAC-10, Antigua Guatemala #607|14.577307|-90.717543|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|608|RD SAC-10, Antigua Guatemala #608|14.576204|-90.718325|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|609|RD SAC-10, Antigua Guatemala #609|14.574127|-90.719510|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|610|RD SAC-10, Antigua Guatemala #610|14.572363|-90.719376|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|611|RD SAC-10, Antigua Guatemala #611|14.570616|-90.719266|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|612|RD SAC-10, Antigua Guatemala #612|14.569471|-90.720231|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|613|RD SAC-10, Antigua Guatemala #613|14.569597|-90.720334|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|614|RD SAC-10, Antigua Guatemala #614|14.570955|-90.719512|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|615|RD SAC-10, Antigua Guatemala #615|14.572324|-90.720524|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|616|RD SAC-10, Antigua Guatemala #616|14.573530|-90.720958|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|617|RD SAC-10, Antigua Guatemala #617|14.573174|-90.722468|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|618|RD SAC-10, Antigua Guatemala #618|14.573960|-90.723822|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|619|RD SAC-10, Antigua Guatemala #619|14.573456|-90.725576|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|620|RD SAC-10, Antigua Guatemala #620|14.571713|-90.727023|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|621|RD SAC-10, Antigua Guatemala #621|14.569946|-90.728209|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|622|RD SAC-10, Antigua Guatemala #622|14.568622|-90.728279|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|623|RD SAC-10, Antigua Guatemala #623|14.567532|-90.728585|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|624|RD SAC-10, Antigua Guatemala #624|14.566995|-90.729788|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|625|RD SAC-10, Antigua Guatemala #625|14.566800|-90.729640|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|626|RD SAC-10, Antigua Guatemala #626|14.566970|-90.728278|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|627|RD SAC-10, Antigua Guatemala #627|14.567836|-90.727421|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|628|RD SAC-10, Antigua Guatemala #628|14.567252|-90.727260|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|629|RD SAC-10, Antigua Guatemala #629|14.565719|-90.728481|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|630|RD SAC-10, Antigua Guatemala #630|14.565146|-90.729431|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|631|1a Avenida Norte, Antigua Guatemala #631|14.563412|-90.729517|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|632|Calle Cuesta del Chucho, Antigua Guatemala #632|14.562701|-90.732474|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|633|Calle del Desengaño, Antigua Guatemala #633|14.563697|-90.735047|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|634|Calle del Manchén, Antigua Guatemala #634|14.565513|-90.735384|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|635|Calle del Manchén, Antigua Guatemala #635|14.566441|-90.736794|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|636|El Manchén, Antigua Guatemala #636|14.567193|-90.737418|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|637|Calle del Manchén, Antigua Guatemala #637|14.567865|-90.736237|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|638|Calle del Manchén, Antigua Guatemala #638|14.569459|-90.735640|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|639|Calle del Manchén, Antigua Guatemala #639|14.571187|-90.735747|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|640|Calle del Manchén, Antigua Guatemala #640|14.572041|-90.735121|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|641|Calle del Manchén, Antigua Guatemala #641|14.574734|-90.735755|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|642|UMG Antigua Jocotenango|14.574895|-90.736116|1550.0|destino|0.0,3.0,1.5,3.5,1.0
+CIUDAD|427|Plaza Tigo Torre 3|14.573448|-90.481757|1500.0|inicio|0.0,0.8,0.3,1.0,0.2
+CIUDAD|428|Carretera a El Salvador, Santa Catarina Pinula #428|14.575179|-90.480654|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|429|Carretera a El Salvador, Santa Catarina Pinula #429|14.572722|-90.482285|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|430|Carretera a El Salvador, Santa Catarina Pinula #430|14.571201|-90.482935|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|431|Carretera a El Salvador, Santa Catarina Pinula #431|14.571574|-90.485227|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|432|Carretera a El Salvador, Santa Catarina Pinula #432|14.572572|-90.486517|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|433|Carretera a El Salvador, Santa Catarina Pinula #433|14.573431|-90.485357|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|434|Carretera a El Salvador, Santa Catarina Pinula #434|14.574089|-90.483651|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|435|Carretera a El Salvador, Santa Catarina Pinula #435|14.575534|-90.483067|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|436|Carretera a El Salvador, Santa Catarina Pinula #436|14.578651|-90.482319|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|437|Carretera a El Salvador, Santa Catarina Pinula #437|14.579727|-90.482337|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|438|Carretera a El Salvador, Ciudad de Guatemala #438|14.580260|-90.483077|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|439|Carretera a El Salvador, Ciudad de Guatemala #439|14.580116|-90.483751|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|440|Boulevard Los Próceres, Ciudad de Guatemala #440|14.579558|-90.484161|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|441|Boulevard Los Próceres, Ciudad de Guatemala #441|14.578474|-90.484290|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|442|Boulevard Los Próceres, Ciudad de Guatemala #442|14.577896|-90.484782|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|443|Boulevard Los Próceres, Ciudad de Guatemala #443|14.577777|-90.485845|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|444|Boulevard Los Próceres, Ciudad de Guatemala #444|14.578325|-90.486504|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|445|Boulevard Los Próceres, Ciudad de Guatemala #445|14.579302|-90.487691|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|446|Boulevard Los Próceres, Ciudad de Guatemala #446|14.578921|-90.488623|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|447|Boulevard Los Próceres, Ciudad de Guatemala #447|14.577559|-90.489075|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|448|Boulevard Los Próceres, Ciudad de Guatemala #448|14.576982|-90.490017|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|449|Boulevard Los Próceres, Ciudad de Guatemala #449|14.578612|-90.492396|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|450|Boulevard Los Próceres, Ciudad de Guatemala #450|14.579839|-90.493881|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|451|Boulevard Los Próceres, Ciudad de Guatemala #451|14.581053|-90.495291|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|452|Boulevard Los Próceres, Ciudad de Guatemala #452|14.584524|-90.498128|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|453|Boulevard Los Próceres, Ciudad de Guatemala #453|14.587572|-90.500633|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|454|Boulevard Los Próceres, Ciudad de Guatemala #454|14.589067|-90.503250|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|455|Boulevard Los Próceres, Ciudad de Guatemala #455|14.590806|-90.507387|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|456|Boulevard Los Próceres, Ciudad de Guatemala #456|14.592462|-90.511405|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|457|Boulevard Los Próceres, Ciudad de Guatemala #457|14.594139|-90.515704|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|458|Boulevard Liberación, Ciudad de Guatemala #458|14.594901|-90.518742|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|459|Boulevard Liberación, Ciudad de Guatemala #459|14.596288|-90.521596|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|460|Boulevard Liberación, Ciudad de Guatemala #460|14.596747|-90.522389|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|461|Boulevard Liberación, Ciudad de Guatemala #461|14.598653|-90.524040|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|462|Boulevard Liberación, Ciudad de Guatemala #462|14.601341|-90.526299|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|463|Boulevard Liberación, Ciudad de Guatemala #463|14.602881|-90.527922|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|464|7a Avenida, Ciudad de Guatemala #464|14.602227|-90.528581|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|465|7a Avenida, Ciudad de Guatemala #465|14.599805|-90.529664|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|466|5a Calle, Ciudad de Guatemala #466|14.598966|-90.530286|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|467|5a Calle, Ciudad de Guatemala #467|14.601281|-90.532454|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|468|5a Calle, Ciudad de Guatemala #468|14.603776|-90.534509|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|469|Calzada Atanasio Tzul, Ciudad de Guatemala #469|14.604949|-90.536096|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|470|Calzada Atanasio Tzul, Ciudad de Guatemala #470|14.604297|-90.537492|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|471|Calzada Atanasio Tzul, Ciudad de Guatemala #471|14.602678|-90.538902|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|472|Calzada Atanasio Tzul, Ciudad de Guatemala #472|14.601705|-90.539349|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|473|Calzada Atanasio Tzul, Ciudad de Guatemala #473|14.598556|-90.540036|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|474|Calzada Atanasio Tzul, Ciudad de Guatemala #474|14.595382|-90.540685|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|475|Calzada Atanasio Tzul, Ciudad de Guatemala #475|14.589655|-90.541794|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|476|Calzada Atanasio Tzul, Ciudad de Guatemala #476|14.583842|-90.542946|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|477|Calzada Atanasio Tzul, Ciudad de Guatemala #477|14.581561|-90.542957|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|478|Calzada Atanasio Tzul, Ciudad de Guatemala #478|14.576941|-90.542568|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|479|Calzada Atanasio Tzul, Ciudad de Guatemala #479|14.575750|-90.542558|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|480|42 Calle, Ciudad de Guatemala #480|14.574802|-90.542414|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|481|Vía Alterna del Sur, Ciudad de Guatemala #481|14.574566|-90.539960|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|482|Vía Alterna del Sur, Ciudad de Guatemala #482|14.573183|-90.537815|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|483|Vía Alterna del Sur, Ciudad de Guatemala #483|14.572201|-90.537340|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|484|Vía Alterna del Sur, Ciudad de Guatemala #484|14.570685|-90.537433|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|485|Calzada Atanasio Tzul, Ciudad de Guatemala #485|14.570951|-90.541584|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|486|Calzada Atanasio Tzul, Ciudad de Guatemala #486|14.573067|-90.542097|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|487|Calzada Atanasio Tzul, Ciudad de Guatemala #487|14.577547|-90.542448|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|488|Calzada Atanasio Tzul, Ciudad de Guatemala #488|14.581987|-90.542819|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|489|Calzada Atanasio Tzul, Ciudad de Guatemala #489|14.585694|-90.542411|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|490|Calzada Atanasio Tzul, Ciudad de Guatemala #490|14.593829|-90.540750|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|491|Calzada Atanasio Tzul, Ciudad de Guatemala #491|14.598356|-90.539814|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|492|Calzada Atanasio Tzul, Ciudad de Guatemala #492|14.601499|-90.539221|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|493|Calzada Atanasio Tzul, Ciudad de Guatemala #493|14.603702|-90.537231|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|494|Calzada Atanasio Tzul, Ciudad de Guatemala #494|14.605454|-90.533998|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|495|Calzada Atanasio Tzul, Ciudad de Guatemala #495|14.606551|-90.530586|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|496|42 Calle, Ciudad de Guatemala #496|14.606220|-90.529293|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|497|Boulevard Liberación, Ciudad de Guatemala #497|14.607125|-90.531145|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|498|Boulevard Liberación, Ciudad de Guatemala #498|14.609518|-90.531978|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|499|Boulevard Liberación, Ciudad de Guatemala #499|14.611007|-90.532896|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|500|Boulevard Liberación, Ciudad de Guatemala #500|14.612837|-90.534763|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|501|Calzada Roosevelt, Ciudad de Guatemala #501|14.614654|-90.535906|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|502|Calzada Roosevelt, Ciudad de Guatemala #502|14.615802|-90.538152|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|503|Calzada Roosevelt, Ciudad de Guatemala #503|14.616865|-90.540183|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|504|Calzada Roosevelt, Ciudad de Guatemala #504|14.617618|-90.541477|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|505|Calzada Roosevelt, Ciudad de Guatemala #505|14.618971|-90.544008|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|506|Calzada Roosevelt, Ciudad de Guatemala #506|14.620605|-90.547013|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|507|Calzada Roosevelt, Ciudad de Guatemala #507|14.621782|-90.549205|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|508|Calzada Roosevelt, Ciudad de Guatemala #508|14.622739|-90.550986|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|509|Calzada Roosevelt, Ciudad de Guatemala #509|14.623824|-90.553004|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|510|Calzada Roosevelt, Ciudad de Guatemala #510|14.624776|-90.554777|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|511|Calzada Roosevelt, Ciudad de Guatemala #511|14.625638|-90.556383|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|512|Calzada Roosevelt, Ciudad de Guatemala #512|14.627877|-90.560552|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|513|Calzada Roosevelt, Ciudad de Guatemala #513|14.628709|-90.562075|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|514|Calzada Roosevelt, Ciudad de Guatemala #514|14.629660|-90.563820|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|515|Calzada Roosevelt, Ciudad de Guatemala #515|14.630398|-90.565197|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|516|Calzada Roosevelt, Ciudad de Guatemala #516|14.631415|-90.567077|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|517|Calzada Roosevelt, Mixco #517|14.633259|-90.570647|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|518|Calzada Roosevelt, Mixco #518|14.633891|-90.573292|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|519|Calzada Roosevelt, Mixco #519|14.633990|-90.575306|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|520|Calzada Roosevelt, Mixco #520|14.634174|-90.579097|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|521|Calzada Roosevelt, Mixco #521|14.634307|-90.581445|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|522|Calzada Roosevelt, Mixco #522|14.634480|-90.584235|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|523|Calzada Roosevelt, Mixco #523|14.634621|-90.587239|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|524|Calzada Doroteo Guamuch Flores, Mixco #524|14.634767|-90.590090|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|525|Calzada Roosevelt, Mixco #525|14.634973|-90.593594|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|526|Carretera Panamericana, Mixco #526|14.635238|-90.598015|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|527|Carretera Panamericana, Mixco #527|14.634719|-90.599011|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|528|Carretera Panamericana, Mixco #528|14.633380|-90.599860|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|529|Carretera Panamericana, Mixco #529|14.633021|-90.601196|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|530|Carretera Panamericana, Mixco #530|14.632221|-90.601634|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|531|Carretera Panamericana, Mixco #531|14.631490|-90.601268|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|532|Carretera Panamericana, Mixco #532|14.630825|-90.599545|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|533|Carretera Panamericana, Mixco #533|14.629470|-90.599118|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|534|Carretera Panamericana, Mixco #534|14.628346|-90.600486|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|535|Carretera Panamericana, Mixco #535|14.627169|-90.604480|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|536|Carretera Panamericana, Mixco #536|14.626040|-90.607131|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|537|Carretera Panamericana, Mixco #537|14.625074|-90.606661|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|538|Carretera Panamericana, Mixco #538|14.623556|-90.604840|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|539|Carretera Panamericana, Mixco #539|14.622142|-90.604646|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|540|Carretera Panamericana, Mixco #540|14.618804|-90.605546|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|541|Carretera Panamericana, Mixco #541|14.616721|-90.607704|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|542|Carretera Panamericana, Mixco #542|14.616417|-90.609317|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|543|Carretera Panamericana, Mixco #543|14.617758|-90.610627|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|544|Carretera Panamericana, Mixco #544|14.621187|-90.612955|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|545|Carretera Panamericana, Mixco #545|14.621490|-90.614416|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|546|Carretera Panamericana, Ciudad de Guatemala #546|14.618897|-90.616789|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|547|Carretera Panamericana, Mixco #547|14.615400|-90.617097|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|548|Carretera Panamericana, Mixco #548|14.615701|-90.619033|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|549|Carretera Panamericana, Mixco #549|14.616068|-90.621090|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|550|Carretera Panamericana, Mixco #550|14.614729|-90.622344|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|551|Carretera Panamericana, Mixco #551|14.612601|-90.621941|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|552|Carretera Panamericana, Mixco #552|14.610578|-90.623239|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|553|Carretera Panamericana, Mixco #553|14.609636|-90.625705|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|554|Carretera Panamericana, Mixco #554|14.608022|-90.623615|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|555|Carretera Panamericana, Mixco #555|14.604344|-90.625369|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|556|Carretera Panamericana, Mixco #556|14.605830|-90.626451|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|557|Carretera Panamericana, Mixco #557|14.607855|-90.628019|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|558|Carretera Panamericana, Mixco #558|14.608230|-90.632485|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|559|Carretera Panamericana, Mixco #559|14.605635|-90.634642|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|560|Carretera Panamericana, Mixco #560|14.603223|-90.634554|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|561|Carretera Panamericana, Mixco #561|14.601256|-90.633750|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|562|Carretera Panamericana, San Lucas Sacatepéquez #562|14.599422|-90.639099|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|563|Carretera Panamericana, San Lucas Sacatepéquez #563|14.601364|-90.643832|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|564|Carretera Panamericana, San Lucas Sacatepéquez #564|14.605702|-90.650090|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|565|Carretera Panamericana, San Lucas Sacatepéquez #565|14.612370|-90.650268|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|566|Carretera Panamericana, San Lucas Sacatepéquez #566|14.611902|-90.651921|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|567|Carretera Panamericana, San Lucas Sacatepéquez #567|14.609279|-90.653579|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|568|Carretera Panamericana, San Lucas Sacatepéquez #568|14.608693|-90.656190|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|569|Carretera Panamericana, San Lucas Sacatepéquez #569|14.608569|-90.660444|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|570|Carretera Panamericana, San Lucas Sacatepéquez #570|14.608439|-90.663413|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|571|Carretera Panamericana, San Lucas Sacatepéquez #571|14.608368|-90.664965|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|572|Carretera Panamericana, San Lucas Sacatepéquez #572|14.608147|-90.668988|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|573|4a Avenida, San Bartolomé Milpas Altas #573|14.607889|-90.670530|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|574|4a Avenida, San Bartolomé Milpas Altas #574|14.605967|-90.673870|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|575|4a Avenida, San Bartolomé Milpas Altas #575|14.603997|-90.677024|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|576|5a Calle, San Bartolomé Milpas Altas #576|14.601841|-90.677480|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|577|RD SAC-10, San Bartolomé Milpas Altas #577|14.599811|-90.679204|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|578|RD SAC-10, San Bartolomé Milpas Altas #578|14.598698|-90.680673|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|579|RD SAC-10, San Bartolomé Milpas Altas #579|14.598062|-90.682438|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|580|RD SAC-10, San Bartolomé Milpas Altas #580|14.597437|-90.683427|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|581|RD SAC-10, San Bartolomé Milpas Altas #581|14.596515|-90.684627|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|582|RD SAC-10, San Bartolomé Milpas Altas #582|14.596008|-90.686106|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|583|RD SAC-10, Antigua Guatemala #583|14.595926|-90.687814|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|584|RD SAC-10, Antigua Guatemala #584|14.595889|-90.689441|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|585|RD SAC-10, Antigua Guatemala #585|14.594464|-90.692046|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|586|RD SAC-10, Antigua Guatemala #586|14.595492|-90.693201|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|587|RD SAC-10, Antigua Guatemala #587|14.596497|-90.693737|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|588|RD SAC-10, Antigua Guatemala #588|14.598363|-90.695312|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|589|RD SAC-10, Antigua Guatemala #589|14.600597|-90.697748|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|590|RD SAC-10, Antigua Guatemala #590|14.600017|-90.698928|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|591|RD SAC-10, Antigua Guatemala #591|14.597188|-90.698147|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|592|RD SAC-10, Antigua Guatemala #592|14.598092|-90.700273|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|593|RD SAC-10, Antigua Guatemala #593|14.598070|-90.702755|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|594|RD SAC-10, Antigua Guatemala #594|14.596662|-90.704203|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|595|RD SAC-10, Antigua Guatemala #595|14.594037|-90.703974|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|596|RD SAC-10, Antigua Guatemala #596|14.592339|-90.704454|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|597|RD SAC-10, Antigua Guatemala #597|14.591826|-90.706349|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|598|RD SAC-10, Antigua Guatemala #598|14.589519|-90.708224|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|599|RD SAC-10, Antigua Guatemala #599|14.586957|-90.710307|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|600|RD SAC-10, Antigua Guatemala #600|14.583703|-90.710769|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|601|RD SAC-10, Antigua Guatemala #601|14.583279|-90.711411|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|602|5a Calle, Antigua Guatemala #602|14.582158|-90.712114|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|603|5a Calle, Antigua Guatemala #603|14.581426|-90.713048|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|604|5a Calle, Antigua Guatemala #604|14.581345|-90.714958|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|605|RD SAC-10, Antigua Guatemala #605|14.580136|-90.716296|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|606|RD SAC-10, Antigua Guatemala #606|14.578587|-90.716954|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|607|RD SAC-10, Antigua Guatemala #607|14.577307|-90.717543|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|608|RD SAC-10, Antigua Guatemala #608|14.576204|-90.718325|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|609|RD SAC-10, Antigua Guatemala #609|14.574127|-90.719510|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|610|RD SAC-10, Antigua Guatemala #610|14.572363|-90.719376|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|611|RD SAC-10, Antigua Guatemala #611|14.570616|-90.719266|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|612|RD SAC-10, Antigua Guatemala #612|14.569471|-90.720231|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|613|RD SAC-10, Antigua Guatemala #613|14.569597|-90.720334|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|614|RD SAC-10, Antigua Guatemala #614|14.570955|-90.719512|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|615|RD SAC-10, Antigua Guatemala #615|14.572324|-90.720524|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|616|RD SAC-10, Antigua Guatemala #616|14.573530|-90.720958|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|617|RD SAC-10, Antigua Guatemala #617|14.573174|-90.722468|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|618|RD SAC-10, Antigua Guatemala #618|14.573960|-90.723822|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|619|RD SAC-10, Antigua Guatemala #619|14.573456|-90.725576|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|620|RD SAC-10, Antigua Guatemala #620|14.571713|-90.727023|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|621|RD SAC-10, Antigua Guatemala #621|14.569946|-90.728209|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|622|RD SAC-10, Antigua Guatemala #622|14.568622|-90.728279|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|623|RD SAC-10, Antigua Guatemala #623|14.567532|-90.728585|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|624|RD SAC-10, Antigua Guatemala #624|14.566995|-90.729788|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|625|RD SAC-10, Antigua Guatemala #625|14.566800|-90.729640|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|626|RD SAC-10, Antigua Guatemala #626|14.566970|-90.728278|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|627|RD SAC-10, Antigua Guatemala #627|14.567836|-90.727421|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|628|RD SAC-10, Antigua Guatemala #628|14.567252|-90.727260|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|629|RD SAC-10, Antigua Guatemala #629|14.565719|-90.728481|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|630|RD SAC-10, Antigua Guatemala #630|14.565146|-90.729431|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|631|1a Avenida Norte, Antigua Guatemala #631|14.563412|-90.729517|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|632|Calle Cuesta del Chucho, Antigua Guatemala #632|14.562701|-90.732474|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|633|Calle del Desengaño, Antigua Guatemala #633|14.563697|-90.735047|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|634|Calle del Manchén, Antigua Guatemala #634|14.565513|-90.735384|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|635|Calle del Manchén, Antigua Guatemala #635|14.566441|-90.736794|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|636|El Manchén, Antigua Guatemala #636|14.567193|-90.737418|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|637|Calle del Manchén, Antigua Guatemala #637|14.567865|-90.736237|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|638|Calle del Manchén, Antigua Guatemala #638|14.569459|-90.735640|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|639|Calle del Manchén, Antigua Guatemala #639|14.571187|-90.735747|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|640|Calle del Manchén, Antigua Guatemala #640|14.572041|-90.735121|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|641|Calle del Manchén, Antigua Guatemala #641|14.574734|-90.735755|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|642|UMG Antigua Jocotenango|14.574895|-90.736116|1550.0|destino|0.0,0.8,0.3,1.0,0.2
 
-RUTA|427|428|0.2261|0.3392|40|1.0,2.5,1.4,2.3,1.1
-RUTA|428|429|0.3247|0.4871|40|1.0,2.5,1.4,2.3,1.1
-RUTA|429|430|0.1830|0.2745|40|1.0,2.5,1.4,2.3,1.1
-RUTA|430|431|0.2501|0.3752|40|1.0,2.5,1.4,2.3,1.1
-RUTA|431|432|0.1777|0.2666|40|1.0,2.5,1.4,2.3,1.1
-RUTA|432|433|0.1572|0.2358|40|1.0,2.5,1.4,2.3,1.1
-RUTA|433|434|0.1976|0.2965|40|1.0,2.5,1.4,2.3,1.1
-RUTA|434|435|0.1725|0.2588|40|1.0,2.5,1.4,2.3,1.1
-RUTA|435|436|0.3558|0.5337|40|1.0,2.5,1.4,2.3,1.1
-RUTA|436|437|0.1197|0.1795|40|1.0,2.5,1.4,2.3,1.1
-RUTA|437|438|0.0993|0.1489|40|1.0,2.5,1.4,2.3,1.1
-RUTA|438|439|0.0743|0.1114|40|1.0,2.5,1.4,2.3,1.1
-RUTA|439|440|0.0761|0.1142|40|1.0,2.5,1.4,2.3,1.1
-RUTA|440|441|0.1213|0.1820|40|1.0,2.5,1.4,2.3,1.1
-RUTA|441|442|0.0833|0.1249|40|1.0,2.5,1.4,2.3,1.1
-RUTA|442|443|0.1152|0.1727|40|1.0,2.5,1.4,2.3,1.1
-RUTA|443|444|0.0935|0.1403|40|1.0,2.5,1.4,2.3,1.1
-RUTA|444|445|0.1677|0.2515|40|1.0,2.5,1.4,2.3,1.1
-RUTA|445|446|0.1089|0.1633|40|1.0,2.5,1.4,2.3,1.1
-RUTA|446|447|0.1591|0.2386|40|1.0,2.5,1.4,2.3,1.1
-RUTA|447|448|0.1200|0.1800|40|1.0,2.5,1.4,2.3,1.1
-RUTA|448|449|0.3137|0.4705|40|1.0,2.5,1.4,2.3,1.1
-RUTA|449|450|0.2101|0.3152|40|1.0,2.5,1.4,2.3,1.1
-RUTA|450|451|0.2031|0.3046|40|1.0,2.5,1.4,2.3,1.1
-RUTA|451|452|0.4921|0.7382|40|1.0,2.5,1.4,2.3,1.1
-RUTA|452|453|0.4331|0.6496|40|1.0,2.5,1.4,2.3,1.1
-RUTA|453|454|0.3270|0.4905|40|1.0,2.5,1.4,2.3,1.1
-RUTA|454|455|0.4854|0.7280|40|1.0,2.5,1.4,2.3,1.1
-RUTA|455|456|0.4699|0.7049|40|1.0,2.5,1.4,2.3,1.1
-RUTA|456|457|0.4988|0.7482|40|1.0,2.5,1.4,2.3,1.1
-RUTA|457|458|0.3377|0.5066|40|1.0,2.5,1.4,2.3,1.1
-RUTA|458|459|0.3437|0.5155|40|1.0,2.5,1.4,2.3,1.1
-RUTA|459|460|0.0994|0.1491|40|1.0,2.5,1.4,2.3,1.1
-RUTA|460|461|0.2765|0.4148|40|1.0,2.5,1.4,2.3,1.1
-RUTA|461|462|0.3853|0.5779|40|1.0,2.5,1.4,2.3,1.1
-RUTA|462|463|0.2446|0.3669|40|1.0,2.5,1.4,2.3,1.1
-RUTA|463|464|0.1016|0.1524|40|1.0,2.5,1.4,2.3,1.1
-RUTA|464|465|0.2934|0.4402|40|1.0,2.5,1.4,2.3,1.1
-RUTA|465|466|0.1148|0.1722|40|1.0,2.5,1.4,2.3,1.1
-RUTA|466|467|0.3474|0.5211|40|1.0,2.5,1.4,2.3,1.1
-RUTA|467|468|0.3548|0.5322|40|1.0,2.5,1.4,2.3,1.1
-RUTA|468|469|0.2149|0.3223|40|1.0,2.5,1.4,2.3,1.1
-RUTA|469|470|0.1668|0.2502|40|1.0,2.5,1.4,2.3,1.1
-RUTA|470|471|0.2354|0.3531|40|1.0,2.5,1.4,2.3,1.1
-RUTA|471|472|0.1184|0.1776|40|1.0,2.5,1.4,2.3,1.1
-RUTA|472|473|0.3579|0.5368|40|1.0,2.5,1.4,2.3,1.1
-RUTA|473|474|0.3598|0.5397|40|1.0,2.5,1.4,2.3,1.1
-RUTA|474|475|0.6479|0.9718|40|1.0,2.5,1.4,2.3,1.1
-RUTA|475|476|0.6582|0.9872|40|1.0,2.5,1.4,2.3,1.1
-RUTA|476|477|0.2536|0.3805|40|1.0,2.5,1.4,2.3,1.1
-RUTA|477|478|0.5154|0.7731|40|1.0,2.5,1.4,2.3,1.1
-RUTA|478|479|0.1324|0.1987|40|1.0,2.5,1.4,2.3,1.1
-RUTA|479|480|0.1065|0.1598|40|1.0,2.5,1.4,2.3,1.1
-RUTA|480|481|0.2654|0.3981|40|1.0,2.5,1.4,2.3,1.1
-RUTA|481|482|0.2774|0.4161|40|1.0,2.5,1.4,2.3,1.1
-RUTA|482|483|0.1206|0.1808|40|1.0,2.5,1.4,2.3,1.1
-RUTA|483|484|0.1689|0.2533|40|1.0,2.5,1.4,2.3,1.1
-RUTA|484|485|0.4477|0.6716|40|1.0,2.5,1.4,2.3,1.1
-RUTA|485|486|0.2417|0.3625|40|1.0,2.5,1.4,2.3,1.1
-RUTA|486|487|0.4996|0.7494|40|1.0,2.5,1.4,2.3,1.1
-RUTA|487|488|0.4953|0.7430|40|1.0,2.5,1.4,2.3,1.1
-RUTA|488|489|0.4145|0.6218|40|1.0,2.5,1.4,2.3,1.1
-RUTA|489|490|0.9221|1.3831|40|1.0,2.5,1.4,2.3,1.1
-RUTA|490|491|0.5134|0.7700|40|1.0,2.5,1.4,2.3,1.1
-RUTA|491|492|0.3553|0.5329|40|1.0,2.5,1.4,2.3,1.1
-RUTA|492|493|0.3254|0.4880|40|1.0,2.5,1.4,2.3,1.1
-RUTA|493|494|0.3987|0.5981|40|1.0,2.5,1.4,2.3,1.1
-RUTA|494|495|0.3869|0.5803|40|1.0,2.5,1.4,2.3,1.1
-RUTA|495|496|0.1439|0.2159|40|1.0,2.5,1.4,2.3,1.1
-RUTA|496|497|0.2232|0.3349|40|1.0,2.5,1.4,2.3,1.1
-RUTA|497|498|0.2808|0.4212|40|1.0,2.5,1.4,2.3,1.1
-RUTA|498|499|0.1928|0.2892|40|1.0,2.5,1.4,2.3,1.1
-RUTA|499|500|0.2859|0.4289|40|1.0,2.5,1.4,2.3,1.1
-RUTA|500|501|0.2365|0.3548|40|1.0,2.5,1.4,2.3,1.1
-RUTA|501|502|0.2733|0.4100|40|1.0,2.5,1.4,2.3,1.1
-RUTA|502|503|0.2484|0.3727|40|1.0,2.5,1.4,2.3,1.1
-RUTA|503|504|0.1625|0.2437|40|1.0,2.5,1.4,2.3,1.1
-RUTA|504|505|0.3111|0.4667|40|1.0,2.5,1.4,2.3,1.1
-RUTA|505|506|0.3709|0.5563|40|1.0,2.5,1.4,2.3,1.1
-RUTA|506|507|0.2697|0.4046|40|1.0,2.5,1.4,2.3,1.1
-RUTA|507|508|0.2192|0.3288|40|1.0,2.5,1.4,2.3,1.1
-RUTA|508|509|0.2484|0.3726|40|1.0,2.5,1.4,2.3,1.1
-RUTA|509|510|0.2182|0.3272|40|1.0,2.5,1.4,2.3,1.1
-RUTA|510|511|0.1976|0.2964|40|1.0,2.5,1.4,2.3,1.1
-RUTA|511|512|0.5130|0.7695|40|1.0,2.5,1.4,2.3,1.1
-RUTA|512|513|0.1882|0.1411|80|1.0,1.5,1.1,1.4,1.0
-RUTA|513|514|0.2155|0.1616|80|1.0,1.5,1.1,1.4,1.0
-RUTA|514|515|0.1694|0.1270|80|1.0,1.5,1.1,1.4,1.0
-RUTA|515|516|0.2317|0.1738|80|1.0,1.5,1.1,1.4,1.0
-RUTA|516|517|0.4354|0.3265|80|1.0,1.5,1.1,1.4,1.0
-RUTA|517|518|0.2931|0.2198|80|1.0,1.5,1.1,1.4,1.0
-RUTA|518|519|0.2170|0.1627|80|1.0,1.5,1.1,1.4,1.0
-RUTA|519|520|0.4084|0.3063|80|1.0,1.5,1.1,1.4,1.0
-RUTA|520|521|0.2530|0.1898|80|1.0,1.5,1.1,1.4,1.0
-RUTA|521|522|0.3008|0.2256|80|1.0,1.5,1.1,1.4,1.0
-RUTA|522|523|0.3236|0.2427|80|1.0,1.5,1.1,1.4,1.0
-RUTA|523|524|0.3072|0.2304|80|1.0,1.5,1.1,1.4,1.0
-RUTA|524|525|0.3777|0.2833|80|1.0,1.5,1.1,1.4,1.0
-RUTA|525|526|0.4766|0.3574|80|1.0,1.5,1.1,1.4,1.0
-RUTA|526|527|0.1217|0.0913|80|1.0,1.5,1.1,1.4,1.0
-RUTA|527|528|0.1747|0.1310|80|1.0,1.5,1.1,1.4,1.0
-RUTA|528|529|0.1492|0.1119|80|1.0,1.5,1.1,1.4,1.0
-RUTA|529|530|0.1007|0.0755|80|1.0,1.5,1.1,1.4,1.0
-RUTA|530|531|0.0903|0.0677|80|1.0,1.5,1.1,1.4,1.0
-RUTA|531|532|0.1996|0.1497|80|1.0,1.5,1.1,1.4,1.0
-RUTA|532|533|0.1575|0.1181|80|1.0,1.5,1.1,1.4,1.0
-RUTA|533|534|0.1931|0.1448|80|1.0,1.5,1.1,1.4,1.0
-RUTA|534|535|0.4492|0.3369|80|1.0,1.5,1.1,1.4,1.0
-RUTA|535|536|0.3116|0.2337|80|1.0,1.5,1.1,1.4,1.0
-RUTA|536|537|0.1187|0.0890|80|1.0,1.5,1.1,1.4,1.0
-RUTA|537|538|0.2586|0.1940|80|1.0,1.5,1.1,1.4,1.0
-RUTA|538|539|0.1586|0.1190|80|1.0,1.5,1.1,1.4,1.0
-RUTA|539|540|0.3836|0.2877|80|1.0,1.5,1.1,1.4,1.0
-RUTA|540|541|0.3280|0.2460|80|1.0,1.5,1.1,1.4,1.0
-RUTA|541|542|0.1768|0.1326|80|1.0,1.5,1.1,1.4,1.0
-RUTA|542|543|0.2052|0.1539|80|1.0,1.5,1.1,1.4,1.0
-RUTA|543|544|0.4562|0.3422|80|1.0,1.5,1.1,1.4,1.0
-RUTA|544|545|0.1608|0.1206|80|1.0,1.5,1.1,1.4,1.0
-RUTA|545|546|0.3851|0.2888|80|1.0,1.5,1.1,1.4,1.0
-RUTA|546|547|0.3903|0.2927|80|1.0,1.5,1.1,1.4,1.0
-RUTA|547|548|0.2110|0.1582|80|1.0,1.5,1.1,1.4,1.0
-RUTA|548|549|0.2251|0.1688|80|1.0,1.5,1.1,1.4,1.0
-RUTA|549|550|0.2009|0.1507|80|1.0,1.5,1.1,1.4,1.0
-RUTA|550|551|0.2406|0.1804|80|1.0,1.5,1.1,1.4,1.0
-RUTA|551|552|0.2648|0.1986|80|1.0,1.5,1.1,1.4,1.0
-RUTA|552|553|0.2853|0.2139|80|1.0,1.5,1.1,1.4,1.0
-RUTA|553|554|0.2877|0.2158|80|1.0,1.5,1.1,1.4,1.0
-RUTA|554|555|0.4504|0.3378|80|1.0,1.5,1.1,1.4,1.0
-RUTA|555|556|0.2021|0.1516|80|1.0,1.5,1.1,1.4,1.0
-RUTA|556|557|0.2814|0.2110|80|1.0,1.5,1.1,1.4,1.0
-RUTA|557|558|0.4823|0.3618|80|1.0,1.5,1.1,1.4,1.0
-RUTA|558|559|0.3703|0.2777|80|1.0,1.5,1.1,1.4,1.0
-RUTA|559|560|0.2684|0.2013|80|1.0,1.5,1.1,1.4,1.0
-RUTA|560|561|0.2352|0.1764|80|1.0,1.5,1.1,1.4,1.0
-RUTA|561|562|0.6106|0.4580|80|1.0,1.5,1.1,1.4,1.0
-RUTA|562|563|0.5532|0.4149|80|1.0,1.5,1.1,1.4,1.0
-RUTA|563|564|0.8283|0.6212|80|1.0,1.5,1.1,1.4,1.0
-RUTA|564|565|0.7417|0.5563|80|1.0,1.5,1.1,1.4,1.0
-RUTA|565|566|0.1853|0.1390|80|1.0,1.5,1.1,1.4,1.0
-RUTA|566|567|0.3419|0.2564|80|1.0,1.5,1.1,1.4,1.0
-RUTA|567|568|0.2884|0.2163|80|1.0,1.5,1.1,1.4,1.0
-RUTA|568|569|0.4579|0.3435|80|1.0,1.5,1.1,1.4,1.0
-RUTA|569|570|0.3198|0.2398|80|1.0,1.5,1.1,1.4,1.0
-RUTA|570|571|0.1672|0.1254|80|1.0,1.5,1.1,1.4,1.0
-RUTA|571|572|0.4336|0.3252|80|1.0,1.5,1.1,1.4,1.0
-RUTA|572|573|0.1684|0.1263|80|1.0,1.5,1.1,1.4,1.0
-RUTA|573|574|0.4181|0.3136|80|1.0,1.5,1.1,1.4,1.0
-RUTA|574|575|0.4039|0.3029|80|1.0,1.5,1.1,1.4,1.0
-RUTA|575|576|0.2447|0.1835|80|1.0,1.5,1.1,1.4,1.0
-RUTA|576|577|0.2922|0.2191|80|1.0,1.5,1.1,1.4,1.0
-RUTA|577|578|0.2008|0.1506|80|1.0,1.5,1.1,1.4,1.0
-RUTA|578|579|0.2027|0.1520|80|1.0,1.5,1.1,1.4,1.0
-RUTA|579|580|0.1271|0.0953|80|1.0,1.5,1.1,1.4,1.0
-RUTA|580|581|0.1649|0.1237|80|1.0,1.5,1.1,1.4,1.0
-RUTA|581|582|0.1688|0.1266|80|1.0,1.5,1.1,1.4,1.0
-RUTA|582|583|0.1840|0.1380|80|1.0,1.5,1.1,1.4,1.0
-RUTA|583|584|0.1751|0.1313|80|1.0,1.5,1.1,1.4,1.0
-RUTA|584|585|0.3220|0.2415|80|1.0,1.5,1.1,1.4,1.0
-RUTA|585|586|0.1689|0.1266|80|1.0,1.5,1.1,1.4,1.0
-RUTA|586|587|0.1258|0.0943|80|1.0,1.5,1.1,1.4,1.0
-RUTA|587|588|0.2679|0.2009|80|1.0,1.5,1.1,1.4,1.0
-RUTA|588|589|0.3611|0.2708|80|1.0,1.5,1.1,1.4,1.0
-RUTA|589|590|0.1424|0.1068|80|1.0,1.5,1.1,1.4,1.0
-RUTA|590|591|0.3256|0.2442|80|1.0,1.5,1.1,1.4,1.0
-RUTA|591|592|0.2499|0.1874|80|1.0,1.5,1.1,1.4,1.0
-RUTA|592|593|0.2671|0.2003|80|1.0,1.5,1.1,1.4,1.0
-RUTA|593|594|0.2209|0.1657|80|1.0,1.5,1.1,1.4,1.0
-RUTA|594|595|0.2929|0.2197|80|1.0,1.5,1.1,1.4,1.0
-RUTA|595|596|0.1957|0.1468|80|1.0,1.5,1.1,1.4,1.0
-RUTA|596|597|0.2117|0.1588|80|1.0,1.5,1.1,1.4,1.0
-RUTA|597|598|0.3264|0.2448|80|1.0,1.5,1.1,1.4,1.0
-RUTA|598|599|0.3625|0.2719|80|1.0,1.5,1.1,1.4,1.0
-RUTA|599|600|0.3652|0.2739|80|1.0,1.5,1.1,1.4,1.0
-RUTA|600|601|0.0836|0.0627|80|1.0,1.5,1.1,1.4,1.0
-RUTA|601|602|0.1458|0.1094|80|1.0,1.5,1.1,1.4,1.0
-RUTA|602|603|0.1293|0.0970|80|1.0,1.5,1.1,1.4,1.0
-RUTA|603|604|0.2057|0.1543|80|1.0,1.5,1.1,1.4,1.0
-RUTA|604|605|0.1970|0.1477|80|1.0,1.5,1.1,1.4,1.0
-RUTA|605|606|0.1862|0.1397|80|1.0,1.5,1.1,1.4,1.0
-RUTA|606|607|0.1558|0.1169|80|1.0,1.5,1.1,1.4,1.0
-RUTA|607|608|0.1487|0.1116|80|1.0,1.5,1.1,1.4,1.0
-RUTA|608|609|0.2638|0.1979|80|1.0,1.5,1.1,1.4,1.0
-RUTA|609|610|0.1967|0.1475|80|1.0,1.5,1.1,1.4,1.0
-RUTA|610|611|0.1946|0.1460|80|1.0,1.5,1.1,1.4,1.0
-RUTA|611|612|0.1643|0.1232|80|1.0,1.5,1.1,1.4,1.0
-RUTA|612|613|0.0179|0.0268|40|1.0,2.5,1.4,2.3,1.1
-RUTA|613|614|0.1750|0.2625|40|1.0,2.5,1.4,2.3,1.1
-RUTA|614|615|0.1872|0.1404|80|1.0,1.5,1.1,1.4,1.0
-RUTA|615|616|0.1420|0.2130|40|1.0,2.5,1.4,2.3,1.1
-RUTA|616|617|0.1673|0.2509|40|1.0,2.5,1.4,2.3,1.1
-RUTA|617|618|0.1699|0.2549|40|1.0,2.5,1.4,2.3,1.1
-RUTA|618|619|0.1969|0.2954|40|1.0,2.5,1.4,2.3,1.1
-RUTA|619|620|0.2486|0.3729|40|1.0,2.5,1.4,2.3,1.1
-RUTA|620|621|0.2343|0.3514|40|1.0,2.5,1.4,2.3,1.1
-RUTA|621|622|0.1474|0.2211|40|1.0,2.5,1.4,2.3,1.1
-RUTA|622|623|0.1256|0.1884|40|1.0,2.5,1.4,2.3,1.1
-RUTA|623|624|0.1426|0.2139|40|1.0,2.5,1.4,2.3,1.1
-RUTA|624|625|0.0269|0.0404|40|1.0,2.5,1.4,2.3,1.1
-RUTA|625|626|0.1478|0.2217|40|1.0,2.5,1.4,2.3,1.1
-RUTA|626|627|0.1333|0.2000|40|1.0,2.5,1.4,2.3,1.1
-RUTA|627|628|0.0672|0.1008|40|1.0,2.5,1.4,2.3,1.1
-RUTA|628|629|0.2152|0.3228|40|1.0,2.5,1.4,2.3,1.1
-RUTA|629|630|0.1205|0.1807|40|1.0,2.5,1.4,2.3,1.1
-RUTA|630|631|0.1930|0.2896|40|1.0,2.5,1.4,2.3,1.1
-RUTA|631|632|0.3279|0.4919|40|1.0,2.5,1.4,2.3,1.1
-RUTA|632|633|0.2982|0.4474|40|1.0,2.5,1.4,2.3,1.1
-RUTA|633|634|0.2052|0.3077|40|1.0,2.5,1.4,2.3,1.1
-RUTA|634|635|0.1835|0.2753|40|1.0,2.5,1.4,2.3,1.1
-RUTA|635|636|0.1072|0.1609|40|1.0,2.5,1.4,2.3,1.1
-RUTA|636|637|0.1474|0.2212|40|1.0,2.5,1.4,2.3,1.1
-RUTA|637|638|0.1885|0.2828|40|1.0,2.5,1.4,2.3,1.1
-RUTA|638|639|0.1925|0.2887|40|1.0,2.5,1.4,2.3,1.1
-RUTA|639|640|0.1164|0.1746|40|1.0,2.5,1.4,2.3,1.1
-RUTA|640|641|0.3071|0.4607|40|1.0,2.5,1.4,2.3,1.1
-RUTA|641|642|0.0428|0.0642|40|1.0,2.5,1.4,2.3,1.1
+RUTA|427|428|0.2261|0.6783|40|1.0,1.8,1.4,1.9,1.2
+RUTA|428|429|0.3247|0.9741|40|1.0,1.8,1.4,1.9,1.2
+RUTA|429|430|0.1830|0.5490|40|1.0,1.8,1.4,1.9,1.2
+RUTA|430|431|0.2501|0.7503|40|1.0,1.8,1.4,1.9,1.2
+RUTA|431|432|0.1777|0.5331|40|1.0,1.8,1.4,1.9,1.2
+RUTA|432|433|0.1572|0.4716|40|1.0,1.8,1.4,1.9,1.2
+RUTA|433|434|0.1976|0.5928|40|1.0,1.8,1.4,1.9,1.2
+RUTA|434|435|0.1725|0.5175|40|1.0,1.8,1.4,1.9,1.2
+RUTA|435|436|0.3558|1.0674|40|1.0,1.8,1.4,1.9,1.2
+RUTA|436|437|0.1197|0.3591|40|1.0,1.8,1.4,1.9,1.2
+RUTA|437|438|0.0993|0.2979|40|1.0,1.8,1.4,1.9,1.2
+RUTA|438|439|0.0743|0.2229|40|1.0,1.8,1.4,1.9,1.2
+RUTA|439|440|0.0761|0.2283|40|1.0,1.8,1.4,1.9,1.2
+RUTA|440|441|0.1213|0.3639|40|1.0,1.8,1.4,1.9,1.2
+RUTA|441|442|0.0833|0.2499|40|1.0,1.8,1.4,1.9,1.2
+RUTA|442|443|0.1152|0.3456|40|1.0,1.8,1.4,1.9,1.2
+RUTA|443|444|0.0935|0.2805|40|1.0,1.8,1.4,1.9,1.2
+RUTA|444|445|0.1677|0.5031|40|1.0,1.8,1.4,1.9,1.2
+RUTA|445|446|0.1089|0.3267|40|1.0,1.8,1.4,1.9,1.2
+RUTA|446|447|0.1591|0.4773|40|1.0,1.8,1.4,1.9,1.2
+RUTA|447|448|0.1200|0.3600|40|1.0,1.8,1.4,1.9,1.2
+RUTA|448|449|0.3137|0.9411|40|1.0,1.8,1.4,1.9,1.2
+RUTA|449|450|0.2101|0.6303|40|1.0,1.8,1.4,1.9,1.2
+RUTA|450|451|0.2031|0.6093|40|1.0,1.8,1.4,1.9,1.2
+RUTA|451|452|0.4921|1.4763|40|1.0,1.8,1.4,1.9,1.2
+RUTA|452|453|0.4331|1.2993|40|1.0,1.8,1.4,1.9,1.2
+RUTA|453|454|0.3270|0.9810|40|1.0,1.8,1.4,1.9,1.2
+RUTA|454|455|0.4854|1.4562|40|1.0,1.8,1.4,1.9,1.2
+RUTA|455|456|0.4699|1.4097|40|1.0,1.8,1.4,1.9,1.2
+RUTA|456|457|0.4988|1.4964|40|1.0,1.8,1.4,1.9,1.2
+RUTA|457|458|0.3377|1.0131|40|1.0,1.8,1.4,1.9,1.2
+RUTA|458|459|0.3437|1.0311|40|1.0,1.8,1.4,1.9,1.2
+RUTA|459|460|0.0994|0.2982|40|1.0,1.8,1.4,1.9,1.2
+RUTA|460|461|0.2765|0.8295|40|1.0,1.8,1.4,1.9,1.2
+RUTA|461|462|0.3853|1.1559|40|1.0,1.8,1.4,1.9,1.2
+RUTA|462|463|0.2446|0.7338|40|1.0,1.8,1.4,1.9,1.2
+RUTA|463|464|0.1016|0.3048|40|1.0,1.8,1.4,1.9,1.2
+RUTA|464|465|0.2934|0.8802|40|1.0,1.8,1.4,1.9,1.2
+RUTA|465|466|0.1148|0.3444|40|1.0,1.8,1.4,1.9,1.2
+RUTA|466|467|0.3474|1.0422|40|1.0,1.8,1.4,1.9,1.2
+RUTA|467|468|0.3548|1.0644|40|1.0,1.8,1.4,1.9,1.2
+RUTA|468|469|0.2149|0.6447|40|1.0,1.8,1.4,1.9,1.2
+RUTA|469|470|0.1668|0.5004|40|1.0,1.8,1.4,1.9,1.2
+RUTA|470|471|0.2354|0.7062|40|1.0,1.8,1.4,1.9,1.2
+RUTA|471|472|0.1184|0.3552|40|1.0,1.8,1.4,1.9,1.2
+RUTA|472|473|0.3579|1.0737|40|1.0,1.8,1.4,1.9,1.2
+RUTA|473|474|0.3598|1.0794|40|1.0,1.8,1.4,1.9,1.2
+RUTA|474|475|0.6479|1.9437|40|1.0,1.8,1.4,1.9,1.2
+RUTA|475|476|0.6582|1.9746|40|1.0,1.8,1.4,1.9,1.2
+RUTA|476|477|0.2536|0.7608|40|1.0,1.8,1.4,1.9,1.2
+RUTA|477|478|0.5154|1.5462|40|1.0,1.8,1.4,1.9,1.2
+RUTA|478|479|0.1324|0.3972|40|1.0,1.8,1.4,1.9,1.2
+RUTA|479|480|0.1065|0.3195|40|1.0,1.8,1.4,1.9,1.2
+RUTA|480|481|0.2654|0.7962|40|1.0,1.8,1.4,1.9,1.2
+RUTA|481|482|0.2774|0.8322|40|1.0,1.8,1.4,1.9,1.2
+RUTA|482|483|0.1206|0.3618|40|1.0,1.8,1.4,1.9,1.2
+RUTA|483|484|0.1689|0.5067|40|1.0,1.8,1.4,1.9,1.2
+RUTA|484|485|0.4477|1.3431|40|1.0,1.8,1.4,1.9,1.2
+RUTA|485|486|0.2417|0.7251|40|1.0,1.8,1.4,1.9,1.2
+RUTA|486|487|0.4996|1.4988|40|1.0,1.8,1.4,1.9,1.2
+RUTA|487|488|0.4953|1.4859|40|1.0,1.8,1.4,1.9,1.2
+RUTA|488|489|0.4145|1.2435|40|1.0,1.8,1.4,1.9,1.2
+RUTA|489|490|0.9221|2.7663|40|1.0,1.8,1.4,1.9,1.2
+RUTA|490|491|0.5134|1.5402|40|1.0,1.8,1.4,1.9,1.2
+RUTA|491|492|0.3553|1.0659|40|1.0,1.8,1.4,1.9,1.2
+RUTA|492|493|0.3254|0.9762|40|1.0,1.8,1.4,1.9,1.2
+RUTA|493|494|0.3987|1.1961|40|1.0,1.8,1.4,1.9,1.2
+RUTA|494|495|0.3869|1.1607|40|1.0,1.8,1.4,1.9,1.2
+RUTA|495|496|0.1439|0.4317|40|1.0,1.8,1.4,1.9,1.2
+RUTA|496|497|0.2232|0.6696|40|1.0,1.8,1.4,1.9,1.2
+RUTA|497|498|0.2808|0.8424|40|1.0,1.8,1.4,1.9,1.2
+RUTA|498|499|0.1928|0.5784|40|1.0,1.8,1.4,1.9,1.2
+RUTA|499|500|0.2859|0.8577|40|1.0,1.8,1.4,1.9,1.2
+RUTA|500|501|0.2365|0.7095|40|1.0,1.8,1.4,1.9,1.2
+RUTA|501|502|0.2733|0.8199|40|1.0,1.8,1.4,1.9,1.2
+RUTA|502|503|0.2484|0.7452|40|1.0,1.8,1.4,1.9,1.2
+RUTA|503|504|0.1625|0.4875|40|1.0,1.8,1.4,1.9,1.2
+RUTA|504|505|0.3111|0.9333|40|1.0,1.8,1.4,1.9,1.2
+RUTA|505|506|0.3709|1.1127|40|1.0,1.8,1.4,1.9,1.2
+RUTA|506|507|0.2697|0.8091|40|1.0,1.8,1.4,1.9,1.2
+RUTA|507|508|0.2192|0.6576|40|1.0,1.8,1.4,1.9,1.2
+RUTA|508|509|0.2484|0.7452|40|1.0,1.8,1.4,1.9,1.2
+RUTA|509|510|0.2182|0.6546|40|1.0,1.8,1.4,1.9,1.2
+RUTA|510|511|0.1976|0.5928|40|1.0,1.8,1.4,1.9,1.2
+RUTA|511|512|0.5130|1.5390|40|1.0,1.8,1.4,1.9,1.2
+RUTA|512|513|0.1882|0.2509|80|1.0,1.5,1.3,1.6,1.2
+RUTA|513|514|0.2155|0.2873|80|1.0,1.5,1.3,1.6,1.2
+RUTA|514|515|0.1694|0.2259|80|1.0,1.5,1.3,1.6,1.2
+RUTA|515|516|0.2317|0.3089|80|1.0,1.5,1.3,1.6,1.2
+RUTA|516|517|0.4354|0.5805|80|1.0,1.5,1.3,1.6,1.2
+RUTA|517|518|0.2931|0.3908|80|1.0,1.5,1.3,1.6,1.2
+RUTA|518|519|0.2170|0.2893|80|1.0,1.5,1.3,1.6,1.2
+RUTA|519|520|0.4084|0.5445|80|1.0,1.5,1.3,1.6,1.2
+RUTA|520|521|0.2530|0.3373|80|1.0,1.5,1.3,1.6,1.2
+RUTA|521|522|0.3008|0.4011|80|1.0,1.5,1.3,1.6,1.2
+RUTA|522|523|0.3236|0.4315|80|1.0,1.5,1.3,1.6,1.2
+RUTA|523|524|0.3072|0.4096|80|1.0,1.5,1.3,1.6,1.2
+RUTA|524|525|0.3777|0.5036|80|1.0,1.5,1.3,1.6,1.2
+RUTA|525|526|0.4766|0.6355|80|1.0,1.5,1.3,1.6,1.2
+RUTA|526|527|0.1217|0.1623|80|1.0,1.5,1.3,1.6,1.2
+RUTA|527|528|0.1747|0.2329|80|1.0,1.5,1.3,1.6,1.2
+RUTA|528|529|0.1492|0.1989|80|1.0,1.5,1.3,1.6,1.2
+RUTA|529|530|0.1007|0.1343|80|1.0,1.5,1.3,1.6,1.2
+RUTA|530|531|0.0903|0.1204|80|1.0,1.5,1.3,1.6,1.2
+RUTA|531|532|0.1996|0.2661|80|1.0,1.5,1.3,1.6,1.2
+RUTA|532|533|0.1575|0.2100|80|1.0,1.5,1.3,1.6,1.2
+RUTA|533|534|0.1931|0.2575|80|1.0,1.5,1.3,1.6,1.2
+RUTA|534|535|0.4492|0.5989|80|1.0,1.5,1.3,1.6,1.2
+RUTA|535|536|0.3116|0.4155|80|1.0,1.5,1.3,1.6,1.2
+RUTA|536|537|0.1187|0.1583|80|1.0,1.5,1.3,1.6,1.2
+RUTA|537|538|0.2586|0.3448|80|1.0,1.5,1.3,1.6,1.2
+RUTA|538|539|0.1586|0.2115|80|1.0,1.5,1.3,1.6,1.2
+RUTA|539|540|0.3836|0.5115|80|1.0,1.5,1.3,1.6,1.2
+RUTA|540|541|0.3280|0.4373|80|1.0,1.5,1.3,1.6,1.2
+RUTA|541|542|0.1768|0.2357|80|1.0,1.5,1.3,1.6,1.2
+RUTA|542|543|0.2052|0.2736|80|1.0,1.5,1.3,1.6,1.2
+RUTA|543|544|0.4562|0.6083|80|1.0,1.5,1.3,1.6,1.2
+RUTA|544|545|0.1608|0.2144|80|1.0,1.5,1.3,1.6,1.2
+RUTA|545|546|0.3851|0.5135|80|1.0,1.5,1.3,1.6,1.2
+RUTA|546|547|0.3903|0.5204|80|1.0,1.5,1.3,1.6,1.2
+RUTA|547|548|0.2110|0.2813|80|1.0,1.5,1.3,1.6,1.2
+RUTA|548|549|0.2251|0.3001|80|1.0,1.5,1.3,1.6,1.2
+RUTA|549|550|0.2009|0.2679|80|1.0,1.5,1.3,1.6,1.2
+RUTA|550|551|0.2406|0.3208|80|1.0,1.5,1.3,1.6,1.2
+RUTA|551|552|0.2648|0.3531|80|1.0,1.5,1.3,1.6,1.2
+RUTA|552|553|0.2853|0.3804|80|1.0,1.5,1.3,1.6,1.2
+RUTA|553|554|0.2877|0.3836|80|1.0,1.5,1.3,1.6,1.2
+RUTA|554|555|0.4504|0.6005|80|1.0,1.5,1.3,1.6,1.2
+RUTA|555|556|0.2021|0.2695|80|1.0,1.5,1.3,1.6,1.2
+RUTA|556|557|0.2814|0.3752|80|1.0,1.5,1.3,1.6,1.2
+RUTA|557|558|0.4823|0.6431|80|1.0,1.5,1.3,1.6,1.2
+RUTA|558|559|0.3703|0.4937|80|1.0,1.5,1.3,1.6,1.2
+RUTA|559|560|0.2684|0.3579|80|1.0,1.5,1.3,1.6,1.2
+RUTA|560|561|0.2352|0.3136|80|1.0,1.5,1.3,1.6,1.2
+RUTA|561|562|0.6106|0.8141|80|1.0,1.5,1.3,1.6,1.2
+RUTA|562|563|0.5532|0.7376|80|1.0,1.5,1.3,1.6,1.2
+RUTA|563|564|0.8283|1.1044|80|1.0,1.5,1.3,1.6,1.2
+RUTA|564|565|0.7417|0.9889|80|1.0,1.5,1.3,1.6,1.2
+RUTA|565|566|0.1853|0.2471|80|1.0,1.5,1.3,1.6,1.2
+RUTA|566|567|0.3419|0.4559|80|1.0,1.5,1.3,1.6,1.2
+RUTA|567|568|0.2884|0.3845|80|1.0,1.5,1.3,1.6,1.2
+RUTA|568|569|0.4579|0.6105|80|1.0,1.5,1.3,1.6,1.2
+RUTA|569|570|0.3198|0.4264|80|1.0,1.5,1.3,1.6,1.2
+RUTA|570|571|0.1672|0.2229|80|1.0,1.5,1.3,1.6,1.2
+RUTA|571|572|0.4336|0.5781|80|1.0,1.5,1.3,1.6,1.2
+RUTA|572|573|0.1684|0.2245|80|1.0,1.5,1.3,1.6,1.2
+RUTA|573|574|0.4181|0.5575|80|1.0,1.5,1.3,1.6,1.2
+RUTA|574|575|0.4039|0.5385|80|1.0,1.5,1.3,1.6,1.2
+RUTA|575|576|0.2447|0.3263|80|1.0,1.5,1.3,1.6,1.2
+RUTA|576|577|0.2922|0.3896|80|1.0,1.5,1.3,1.6,1.2
+RUTA|577|578|0.2008|0.2677|80|1.0,1.5,1.3,1.6,1.2
+RUTA|578|579|0.2027|0.2703|80|1.0,1.5,1.3,1.6,1.2
+RUTA|579|580|0.1271|0.1695|80|1.0,1.5,1.3,1.6,1.2
+RUTA|580|581|0.1649|0.2199|80|1.0,1.5,1.3,1.6,1.2
+RUTA|581|582|0.1688|0.2251|80|1.0,1.5,1.3,1.6,1.2
+RUTA|582|583|0.1840|0.2453|80|1.0,1.5,1.3,1.6,1.2
+RUTA|583|584|0.1751|0.2335|80|1.0,1.5,1.3,1.6,1.2
+RUTA|584|585|0.3220|0.4293|80|1.0,1.5,1.3,1.6,1.2
+RUTA|585|586|0.1689|0.2252|80|1.0,1.5,1.3,1.6,1.2
+RUTA|586|587|0.1258|0.1677|80|1.0,1.5,1.3,1.6,1.2
+RUTA|587|588|0.2679|0.3572|80|1.0,1.5,1.3,1.6,1.2
+RUTA|588|589|0.3611|0.4815|80|1.0,1.5,1.3,1.6,1.2
+RUTA|589|590|0.1424|0.1899|80|1.0,1.5,1.3,1.6,1.2
+RUTA|590|591|0.3256|0.4341|80|1.0,1.5,1.3,1.6,1.2
+RUTA|591|592|0.2499|0.3332|80|1.0,1.5,1.3,1.6,1.2
+RUTA|592|593|0.2671|0.3561|80|1.0,1.5,1.3,1.6,1.2
+RUTA|593|594|0.2209|0.2945|80|1.0,1.5,1.3,1.6,1.2
+RUTA|594|595|0.2929|0.3905|80|1.0,1.5,1.3,1.6,1.2
+RUTA|595|596|0.1957|0.2609|80|1.0,1.5,1.3,1.6,1.2
+RUTA|596|597|0.2117|0.2823|80|1.0,1.5,1.3,1.6,1.2
+RUTA|597|598|0.3264|0.4352|80|1.0,1.5,1.3,1.6,1.2
+RUTA|598|599|0.3625|0.4833|80|1.0,1.5,1.3,1.6,1.2
+RUTA|599|600|0.3652|0.4869|80|1.0,1.5,1.3,1.6,1.2
+RUTA|600|601|0.0836|0.1115|80|1.0,1.5,1.3,1.6,1.2
+RUTA|601|602|0.1458|0.1944|80|1.0,1.5,1.3,1.6,1.2
+RUTA|602|603|0.1293|0.1724|80|1.0,1.5,1.3,1.6,1.2
+RUTA|603|604|0.2057|0.2743|80|1.0,1.5,1.3,1.6,1.2
+RUTA|604|605|0.1970|0.2627|80|1.0,1.5,1.3,1.6,1.2
+RUTA|605|606|0.1862|0.2483|80|1.0,1.5,1.3,1.6,1.2
+RUTA|606|607|0.1558|0.2077|80|1.0,1.5,1.3,1.6,1.2
+RUTA|607|608|0.1487|0.1983|80|1.0,1.5,1.3,1.6,1.2
+RUTA|608|609|0.2638|0.3517|80|1.0,1.5,1.3,1.6,1.2
+RUTA|609|610|0.1967|0.2623|80|1.0,1.5,1.3,1.6,1.2
+RUTA|610|611|0.1946|0.2595|80|1.0,1.5,1.3,1.6,1.2
+RUTA|611|612|0.1643|0.2191|80|1.0,1.5,1.3,1.6,1.2
+RUTA|612|613|0.0179|0.0537|40|1.0,1.8,1.4,1.9,1.2
+RUTA|613|614|0.1750|0.5250|40|1.0,1.8,1.4,1.9,1.2
+RUTA|614|615|0.1872|0.2496|80|1.0,1.5,1.3,1.6,1.2
+RUTA|615|616|0.1420|0.4260|40|1.0,1.8,1.4,1.9,1.2
+RUTA|616|617|0.1673|0.5019|40|1.0,1.8,1.4,1.9,1.2
+RUTA|617|618|0.1699|0.5097|40|1.0,1.8,1.4,1.9,1.2
+RUTA|618|619|0.1969|0.5907|40|1.0,1.8,1.4,1.9,1.2
+RUTA|619|620|0.2486|0.7458|40|1.0,1.8,1.4,1.9,1.2
+RUTA|620|621|0.2343|0.7029|40|1.0,1.8,1.4,1.9,1.2
+RUTA|621|622|0.1474|0.4422|40|1.0,1.8,1.4,1.9,1.2
+RUTA|622|623|0.1256|0.3768|40|1.0,1.8,1.4,1.9,1.2
+RUTA|623|624|0.1426|0.4278|40|1.0,1.8,1.4,1.9,1.2
+RUTA|624|625|0.0269|0.0807|40|1.0,1.8,1.4,1.9,1.2
+RUTA|625|626|0.1478|0.4434|40|1.0,1.8,1.4,1.9,1.2
+RUTA|626|627|0.1333|0.3999|40|1.0,1.8,1.4,1.9,1.2
+RUTA|627|628|0.0672|0.2016|40|1.0,1.8,1.4,1.9,1.2
+RUTA|628|629|0.2152|0.6456|40|1.0,1.8,1.4,1.9,1.2
+RUTA|629|630|0.1205|0.3615|40|1.0,1.8,1.4,1.9,1.2
+RUTA|630|631|0.1930|0.5790|40|1.0,1.8,1.4,1.9,1.2
+RUTA|631|632|0.3279|0.9837|40|1.0,1.8,1.4,1.9,1.2
+RUTA|632|633|0.2982|0.8946|40|1.0,1.8,1.4,1.9,1.2
+RUTA|633|634|0.2052|0.6156|40|1.0,1.8,1.4,1.9,1.2
+RUTA|634|635|0.1835|0.5505|40|1.0,1.8,1.4,1.9,1.2
+RUTA|635|636|0.1072|0.3216|40|1.0,1.8,1.4,1.9,1.2
+RUTA|636|637|0.1474|0.4422|40|1.0,1.8,1.4,1.9,1.2
+RUTA|637|638|0.1885|0.5655|40|1.0,1.8,1.4,1.9,1.2
+RUTA|638|639|0.1925|0.5775|40|1.0,1.8,1.4,1.9,1.2
+RUTA|639|640|0.1164|0.3492|40|1.0,1.8,1.4,1.9,1.2
+RUTA|640|641|0.3071|0.9213|40|1.0,1.8,1.4,1.9,1.2
+RUTA|641|642|0.0428|0.1284|40|1.0,1.8,1.4,1.9,1.2

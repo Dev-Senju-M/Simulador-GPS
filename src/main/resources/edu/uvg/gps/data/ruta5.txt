@@ -2,411 +2,411 @@
 # CIUDAD|id|nombre|lat|lon|alt|tipo|d0,d1,d2,d3,d4
 # RUTA|idOrigen|idDestino|distancia|tiempoBase|velocidadMaxima|m0,m1,m2,m3,m4
 
-CIUDAD|857|Plaza Tigo Torre 3|14.573448|-90.481757|1500.0|inicio|0.0,3.0,1.5,3.5,1.0
-CIUDAD|858|Carretera a El Salvador, Santa Catarina Pinula #858|14.575182|-90.480676|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|859|Carretera a El Salvador, Santa Catarina Pinula #859|14.572447|-90.482361|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|860|Carretera a El Salvador, Santa Catarina Pinula #860|14.571080|-90.483316|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|861|Carretera a El Salvador, Santa Catarina Pinula #861|14.572001|-90.486264|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|862|Carretera a El Salvador, Santa Catarina Pinula #862|14.573201|-90.486150|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|863|Carretera a El Salvador, Santa Catarina Pinula #863|14.573735|-90.484164|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|864|Carretera a El Salvador, Santa Catarina Pinula #864|14.575238|-90.483126|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|865|Carretera a El Salvador, Santa Catarina Pinula #865|14.578403|-90.482376|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|866|Carretera a El Salvador, Santa Catarina Pinula #866|14.579727|-90.482337|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|867|Carretera a El Salvador, Ciudad de Guatemala #867|14.580265|-90.483163|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|868|Boulevard Los Próceres, Ciudad de Guatemala #868|14.580018|-90.483887|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|869|Boulevard Los Próceres, Ciudad de Guatemala #869|14.579067|-90.484193|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|870|Boulevard Los Próceres, Ciudad de Guatemala #870|14.578173|-90.484473|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|871|Boulevard Los Próceres, Ciudad de Guatemala #871|14.577719|-90.485279|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|872|Boulevard Los Próceres, Ciudad de Guatemala #872|14.578169|-90.486396|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|873|Boulevard Los Próceres, Ciudad de Guatemala #873|14.579270|-90.487466|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|874|Boulevard Los Próceres, Ciudad de Guatemala #874|14.579020|-90.488520|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|875|Boulevard Los Próceres, Ciudad de Guatemala #875|14.577559|-90.489075|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|876|Boulevard Los Próceres, Ciudad de Guatemala #876|14.576996|-90.490159|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|877|Boulevard Los Próceres, Ciudad de Guatemala #877|14.578915|-90.492728|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|878|Boulevard Los Próceres, Ciudad de Guatemala #878|14.580375|-90.494528|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|879|Boulevard Los Próceres, Ciudad de Guatemala #879|14.582615|-90.496570|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|880|Boulevard Los Próceres, Ciudad de Guatemala #880|14.586468|-90.499690|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|881|Boulevard Los Próceres, Ciudad de Guatemala #881|14.588709|-90.502378|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|882|Boulevard Los Próceres, Ciudad de Guatemala #882|14.590451|-90.506525|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|883|Boulevard Los Próceres, Ciudad de Guatemala #883|14.592345|-90.511120|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|884|Boulevard Los Próceres, Ciudad de Guatemala #884|14.594139|-90.515704|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|885|Boulevard Liberación, Ciudad de Guatemala #885|14.594957|-90.518880|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|886|Boulevard Liberación, Ciudad de Guatemala #886|14.596324|-90.521688|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|887|Boulevard Liberación, Ciudad de Guatemala #887|14.597091|-90.522728|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|888|Boulevard Liberación, Ciudad de Guatemala #888|14.599694|-90.524915|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|889|Boulevard Liberación, Ciudad de Guatemala #889|14.602736|-90.527436|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|890|Boulevard Liberación, Ciudad de Guatemala #890|14.606747|-90.530826|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|891|Boulevard Liberación, Ciudad de Guatemala #891|14.609254|-90.531873|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|892|Boulevard Liberación, Ciudad de Guatemala #892|14.611007|-90.532896|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|893|Boulevard Liberación, Ciudad de Guatemala #893|14.613045|-90.534927|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|894|Calzada Roosevelt, Ciudad de Guatemala #894|14.614978|-90.536220|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|895|Calzada Roosevelt, Ciudad de Guatemala #895|14.616088|-90.538829|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|896|Calzada Roosevelt, Ciudad de Guatemala #896|14.617333|-90.540778|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|897|Calzada Roosevelt, Ciudad de Guatemala #897|14.618477|-90.543106|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|898|10a Avenida, Ciudad de Guatemala #898|14.620115|-90.546124|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|899|Calzada Roosevelt, Ciudad de Guatemala #899|14.621585|-90.548837|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|900|Calzada Roosevelt, Ciudad de Guatemala #900|14.622650|-90.550821|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|901|Calzada Roosevelt, Ciudad de Guatemala #901|14.623824|-90.553004|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|902|Calzada Roosevelt, Ciudad de Guatemala #902|14.624903|-90.555014|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|903|Calzada Roosevelt, Ciudad de Guatemala #903|14.625739|-90.556570|1500.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|904|Calzada Roosevelt, Ciudad de Guatemala #904|14.628225|-90.561198|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|905|Calzada Roosevelt, Ciudad de Guatemala #905|14.629068|-90.562725|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|906|Calzada Roosevelt, Ciudad de Guatemala #906|14.630062|-90.564575|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|907|Calzada Roosevelt, Ciudad de Guatemala #907|14.631088|-90.566472|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|908|Calzada Roosevelt, Ciudad de Guatemala #908|14.633048|-90.570166|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|909|Calzada Roosevelt, Mixco #909|14.633852|-90.572925|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|910|Calzada Roosevelt, Mixco #910|14.633990|-90.575306|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|911|Calzada Roosevelt, Mixco #911|14.634177|-90.579258|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|912|Calzada Roosevelt, Mixco #912|14.634326|-90.581898|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|913|Calzada Roosevelt, Mixco #913|14.634507|-90.584829|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|914|Calzada Roosevelt, Mixco #914|14.634706|-90.588869|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|915|Calzada Roosevelt, Mixco #915|14.634869|-90.591988|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|916|Calzada Roosevelt, Mixco #916|14.635097|-90.595746|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|917|Carretera Panamericana, Mixco #917|14.634956|-90.598819|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|918|Carretera Panamericana, Mixco #918|14.633408|-90.599783|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|919|Carretera Panamericana, Mixco #919|14.633021|-90.601196|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|920|Carretera Panamericana, Mixco #920|14.632096|-90.601620|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|921|Carretera Panamericana, Mixco #921|14.631404|-90.601124|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|922|Carretera Panamericana, Mixco #922|14.630429|-90.599225|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|923|Carretera Panamericana, Mixco #923|14.628835|-90.599481|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|924|Carretera Panamericana, Mixco #924|14.627661|-90.602868|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|925|Carretera Panamericana, Mixco #925|14.626559|-90.606615|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|926|Carretera Panamericana, Mixco #926|14.625200|-90.606862|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|927|Carretera Panamericana, Mixco #927|14.623722|-90.604928|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|928|Carretera Panamericana, Mixco #928|14.622142|-90.604646|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|929|Carretera Panamericana, Mixco #929|14.618724|-90.605657|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|930|Carretera Panamericana, Mixco #930|14.616440|-90.608181|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|931|Carretera Panamericana, Mixco #931|14.616718|-90.609864|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|932|9a Avenida B, Mixco #932|14.619753|-90.611849|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|933|Lotificación Tierra Blanca, Mixco #933|14.621476|-90.613677|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|934|Carretera Panamericana, Mixco #934|14.620886|-90.615570|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|935|Carretera Panamericana, Mixco #935|14.615742|-90.616958|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|936|Carretera Panamericana, Mixco #936|14.615637|-90.618927|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|937|Carretera Panamericana, Mixco #937|14.616068|-90.621090|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|938|Carretera Panamericana, Mixco #938|14.614512|-90.622389|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|939|Carretera Panamericana, Mixco #939|14.612308|-90.621958|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|940|Carretera Panamericana, Mixco #940|14.610393|-90.623874|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|941|Carretera Panamericana, Mixco #941|14.609039|-90.625402|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|942|Carretera Panamericana, Mixco #942|14.606922|-90.623848|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|943|Carretera Panamericana, Mixco #943|14.604565|-90.626368|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|944|Carretera Panamericana, Mixco #944|14.607812|-90.627501|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|945|Carretera Panamericana, Mixco #945|14.608199|-90.632261|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|946|Carretera Panamericana, Mixco #946|14.605635|-90.634642|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|947|Carretera Panamericana, Mixco #947|14.602455|-90.633841|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|948|Carretera Panamericana, Mixco #948|14.601020|-90.633982|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|949|Carretera Panamericana, San Lucas Sacatepéquez #949|14.599550|-90.640124|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|950|Carretera Panamericana, San Lucas Sacatepéquez #950|14.604566|-90.649522|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|951|Carretera Panamericana, San Lucas Sacatepéquez #951|14.611685|-90.649983|1700.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|952|Carretera Panamericana, San Lucas Sacatepéquez #952|14.612490|-90.651425|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|953|Carretera Panamericana, San Lucas Sacatepéquez #953|14.609642|-90.653141|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|954|Carretera Panamericana, San Lucas Sacatepéquez #954|14.608702|-90.655915|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|955|Carretera Panamericana, San Lucas Sacatepéquez #955|14.608569|-90.660444|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|956|Carretera Panamericana, San Lucas Sacatepéquez #956|14.608436|-90.663482|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|957|Carretera Panamericana, San Lucas Sacatepéquez #957|14.608350|-90.665382|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|958|6a Calle, San Bartolomé Milpas Altas #958|14.608129|-90.669935|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|959|San Bartolomé Milpas Altas #959|14.607910|-90.674546|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|960|Carretera Panamericana, San Bartolomé Milpas Altas #960|14.608385|-90.678796|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|961|Carretera Panamericana, San Bartolomé Milpas Altas #961|14.610923|-90.680818|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|962|Carretera Panamericana, San Bartolomé Milpas Altas #962|14.616512|-90.682396|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|963|Carretera Panamericana, San Bartolomé Milpas Altas #963|14.618167|-90.683415|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|964|Carretera Panamericana, Santiago Sacatepéquez #964|14.619558|-90.684857|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|965|Carretera Panamericana, Santiago Sacatepéquez #965|14.621878|-90.683454|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|966|Carretera Panamericana, Santiago Sacatepéquez #966|14.624326|-90.683391|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|967|Carretera Panamericana, Santiago Sacatepéquez #967|14.631960|-90.689285|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|968|Carretera Panamericana, Santiago Sacatepéquez #968|14.632662|-90.690981|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|969|Carretera Panamericana, Santiago Sacatepéquez #969|14.632138|-90.694024|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|970|Carretera Panamericana, Santiago Sacatepéquez #970|14.633988|-90.694592|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|971|Carretera Panamericana, Santiago Sacatepéquez #971|14.636713|-90.694058|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|972|Santa María Cauqué, Santiago Sacatepéquez #972|14.640229|-90.696496|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|973|Carretera Panamericana, Santiago Sacatepéquez #973|14.640126|-90.697488|2000.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|974|Carretera Panamericana, Santiago Sacatepéquez #974|14.638375|-90.700659|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|975|Carretera Panamericana, Santiago Sacatepéquez #975|14.648824|-90.704101|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|976|Carretera Panamericana, Santiago Sacatepéquez #976|14.656197|-90.705030|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|977|Carretera Panamericana, Santiago Sacatepéquez #977|14.658436|-90.707472|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|978|Carretera Panamericana, Santiago Sacatepéquez #978|14.657106|-90.714147|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|979|Carretera Panamericana, Santiago Sacatepéquez #979|14.656763|-90.721382|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|980|Carretera Panamericana, Santo Domingo Xenacoj #980|14.658964|-90.722910|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|981|Santo Domingo Xenacoj #981|14.658657|-90.725013|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|982|Carretera Panamericana, Sumpango #982|14.654555|-90.725665|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|983|Carretera Panamericana, Sumpango #983|14.655083|-90.728138|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|984|Carretera Panamericana, Sumpango #984|14.651156|-90.731049|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|985|Carretera Panamericana, Sumpango #985|14.651630|-90.732864|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|986|Carretera Panamericana, Sumpango #986|14.654112|-90.735651|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|987|Carretera Panamericana, Sumpango #987|14.655116|-90.741998|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|988|Carretera Panamericana, Sumpango #988|14.648958|-90.743200|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|989|Carretera Panamericana, Sumpango #989|14.644313|-90.742028|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|990|Carretera Panamericana, Sumpango #990|14.637718|-90.743619|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|991|Carretera Panamericana, Sumpango #991|14.635496|-90.747804|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|992|Carretera Panamericana, Sumpango #992|14.635855|-90.753609|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|993|Carretera Panamericana, Sumpango #993|14.637878|-90.762195|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|994|Carretera Panamericana, Sumpango #994|14.638788|-90.764982|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|995|Carretera Panamericana, Sumpango #995|14.640501|-90.772265|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|996|Carretera Panamericana, Chimaltenango #996|14.641992|-90.778039|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|997|Carretera Panamericana, Chimaltenango #997|14.643041|-90.782250|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|998|Carretera Panamericana, Chimaltenango #998|14.643651|-90.784571|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|999|Carretera Panamericana, Chimaltenango #999|14.644382|-90.787416|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1000|Carretera Panamericana, Chimaltenango #1000|14.645780|-90.792634|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1001|Carretera Panamericana, Chimaltenango #1001|14.647475|-90.795807|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1002|Carretera Panamericana, Chimaltenango #1002|14.649008|-90.798224|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1003|Carretera Panamericana, Chimaltenango #1003|14.650548|-90.800630|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1004|Carretera Panamericana, Chimaltenango #1004|14.651315|-90.801886|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1005|3a Calle, Chimaltenango #1005|14.652773|-90.804202|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1006|3a Calle, Chimaltenango #1006|14.656547|-90.810091|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1007|3a Calle, Chimaltenango #1007|14.657836|-90.812533|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1008|6a Avenida, Chimaltenango #1008|14.660457|-90.814251|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1009|2a Calle, Chimaltenango #1009|14.661474|-90.819037|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1010|1a Calle, Chimaltenango #1010|14.660815|-90.818740|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1011|5a Avenida, Chimaltenango #1011|14.658605|-90.815535|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1012|3a Calle, Chimaltenango #1012|14.657816|-90.812485|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1013|3a Calle, Chimaltenango #1013|14.656492|-90.809996|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1014|Carretera Panamericana, Chimaltenango #1014|14.652735|-90.804143|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1015|Carretera Panamericana, Chimaltenango #1015|14.651219|-90.801728|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1016|Carretera Panamericana, Chimaltenango #1016|14.650363|-90.800326|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1017|Carretera Panamericana, Chimaltenango #1017|14.648983|-90.798185|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1018|Carretera Panamericana, Chimaltenango #1018|14.647357|-90.795620|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1019|Colonia Santo Domingo, Chimaltenango #1019|14.645687|-90.792372|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1020|Carretera Panamericana, Chimaltenango #1020|14.644290|-90.787071|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1021|Carretera Panamericana, Chimaltenango #1021|14.643553|-90.784184|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1022|Carretera Panamericana, Chimaltenango #1022|14.642949|-90.781884|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1023|Libramiento Chimaltenango #1023|14.641750|-90.780591|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1024|Libramiento Chimaltenango #1024|14.639054|-90.781344|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1025|Libramiento Chimaltenango #1025|14.637292|-90.783200|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1026|Libramiento Chimaltenango #1026|14.639280|-90.781076|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1027|Libramiento Chimaltenango #1027|14.641860|-90.780071|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1028|Carretera Panamericana, Chimaltenango #1028|14.642121|-90.778911|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1029|Carretera Panamericana, Sumpango #1029|14.641120|-90.774966|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1030|Carretera San Miguel Morazán - San Luis Las Carret #1030|14.638959|-90.774011|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1031|Carretera San Miguel Morazán - San Luis Las Carret #1031|14.636303|-90.773090|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1032|Carretera San Miguel Morazán - San Luis Las Carret #1032|14.633145|-90.772245|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1033|Carretera San Miguel Morazán - San Luis Las Carret #1033|14.630806|-90.771698|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1034|Carretera San Miguel Morazán - San Luis Las Carret #1034|14.626560|-90.772005|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1035|Carretera San Miguel Morazán - San Luis Las Carret #1035|14.623960|-90.771872|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1036|Carretera San Miguel Morazán - San Luis Las Carret #1036|14.620458|-90.770517|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1037|Carretera San Miguel Morazán - San Luis Las Carret #1037|14.616167|-90.769203|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1038|Carretera San Miguel Morazán - San Luis Las Carret #1038|14.611399|-90.768004|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1039|San Lorenzo El Tejar #1039|14.610339|-90.766827|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1040|Carretera San Miguel Morazán - San Luis Las Carret #1040|14.608925|-90.766091|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1041|Libramiento Ruta Nacional 14, San Luis Las Carreta #1041|14.607118|-90.764149|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1042|Libramiento Ruta Nacional 14, San Luis Las Carreta #1042|14.605171|-90.762761|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1043|Libramiento Ruta Nacional 14, San Luis Las Carreta #1043|14.603919|-90.762057|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1044|Libramiento Ruta Nacional 14, San Luis Las Carreta #1044|14.602869|-90.760462|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1045|Libramiento Ruta Nacional 14, San Luis Las Carreta #1045|14.601457|-90.757674|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1046|Libramiento Ruta Nacional 14, San Luis Las Carreta #1046|14.601193|-90.755085|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1047|Libramiento Ruta Nacional 14, San Luis Las Carreta #1047|14.597674|-90.753634|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1048|Libramiento Ruta Nacional 14, San Luis Las Carreta #1048|14.593738|-90.748839|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1049|Calle Real de Jocotenango #1049|14.591033|-90.750069|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1050|Calle Real de Jocotenango #1050|14.589440|-90.749261|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1051|Calle Real de Jocotenango #1051|14.586897|-90.747757|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1052|Calle Real de Jocotenango #1052|14.584413|-90.745306|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1053|Jocotenango #1053|14.582096|-90.744317|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1054|Calle Real de Jocotenango #1054|14.580023|-90.743561|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1055|Calle Real de Jocotenango #1055|14.578423|-90.742879|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1056|Calle Real de Jocotenango #1056|14.575922|-90.742231|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1057|1a Calle, Jocotenango #1057|14.574723|-90.741919|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1058|Calle Ricardo Arjona, Jocotenango #1058|14.574356|-90.739717|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1059|Calle Ricardo Arjona, Jocotenango #1059|14.574778|-90.736510|1550.0|intermedio|0.0,0.0,0.0,0.0,0.0
-CIUDAD|1060|UMG Antigua Jocotenango|14.574895|-90.736116|1550.0|destino|0.0,3.0,1.5,3.5,1.0
+CIUDAD|857|Plaza Tigo Torre 3|14.573448|-90.481757|1500.0|inicio|0.0,0.8,0.3,1.0,0.2
+CIUDAD|858|Carretera a El Salvador, Santa Catarina Pinula #858|14.575182|-90.480676|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|859|Carretera a El Salvador, Santa Catarina Pinula #859|14.572447|-90.482361|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|860|Carretera a El Salvador, Santa Catarina Pinula #860|14.571080|-90.483316|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|861|Carretera a El Salvador, Santa Catarina Pinula #861|14.572001|-90.486264|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|862|Carretera a El Salvador, Santa Catarina Pinula #862|14.573201|-90.486150|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|863|Carretera a El Salvador, Santa Catarina Pinula #863|14.573735|-90.484164|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|864|Carretera a El Salvador, Santa Catarina Pinula #864|14.575238|-90.483126|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|865|Carretera a El Salvador, Santa Catarina Pinula #865|14.578403|-90.482376|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|866|Carretera a El Salvador, Santa Catarina Pinula #866|14.579727|-90.482337|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|867|Carretera a El Salvador, Ciudad de Guatemala #867|14.580265|-90.483163|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|868|Boulevard Los Próceres, Ciudad de Guatemala #868|14.580018|-90.483887|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|869|Boulevard Los Próceres, Ciudad de Guatemala #869|14.579067|-90.484193|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|870|Boulevard Los Próceres, Ciudad de Guatemala #870|14.578173|-90.484473|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|871|Boulevard Los Próceres, Ciudad de Guatemala #871|14.577719|-90.485279|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|872|Boulevard Los Próceres, Ciudad de Guatemala #872|14.578169|-90.486396|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|873|Boulevard Los Próceres, Ciudad de Guatemala #873|14.579270|-90.487466|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|874|Boulevard Los Próceres, Ciudad de Guatemala #874|14.579020|-90.488520|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|875|Boulevard Los Próceres, Ciudad de Guatemala #875|14.577559|-90.489075|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|876|Boulevard Los Próceres, Ciudad de Guatemala #876|14.576996|-90.490159|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|877|Boulevard Los Próceres, Ciudad de Guatemala #877|14.578915|-90.492728|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|878|Boulevard Los Próceres, Ciudad de Guatemala #878|14.580375|-90.494528|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|879|Boulevard Los Próceres, Ciudad de Guatemala #879|14.582615|-90.496570|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|880|Boulevard Los Próceres, Ciudad de Guatemala #880|14.586468|-90.499690|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|881|Boulevard Los Próceres, Ciudad de Guatemala #881|14.588709|-90.502378|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|882|Boulevard Los Próceres, Ciudad de Guatemala #882|14.590451|-90.506525|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|883|Boulevard Los Próceres, Ciudad de Guatemala #883|14.592345|-90.511120|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|884|Boulevard Los Próceres, Ciudad de Guatemala #884|14.594139|-90.515704|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|885|Boulevard Liberación, Ciudad de Guatemala #885|14.594957|-90.518880|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|886|Boulevard Liberación, Ciudad de Guatemala #886|14.596324|-90.521688|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|887|Boulevard Liberación, Ciudad de Guatemala #887|14.597091|-90.522728|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|888|Boulevard Liberación, Ciudad de Guatemala #888|14.599694|-90.524915|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|889|Boulevard Liberación, Ciudad de Guatemala #889|14.602736|-90.527436|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|890|Boulevard Liberación, Ciudad de Guatemala #890|14.606747|-90.530826|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|891|Boulevard Liberación, Ciudad de Guatemala #891|14.609254|-90.531873|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|892|Boulevard Liberación, Ciudad de Guatemala #892|14.611007|-90.532896|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|893|Boulevard Liberación, Ciudad de Guatemala #893|14.613045|-90.534927|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|894|Calzada Roosevelt, Ciudad de Guatemala #894|14.614978|-90.536220|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|895|Calzada Roosevelt, Ciudad de Guatemala #895|14.616088|-90.538829|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|896|Calzada Roosevelt, Ciudad de Guatemala #896|14.617333|-90.540778|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|897|Calzada Roosevelt, Ciudad de Guatemala #897|14.618477|-90.543106|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|898|10a Avenida, Ciudad de Guatemala #898|14.620115|-90.546124|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|899|Calzada Roosevelt, Ciudad de Guatemala #899|14.621585|-90.548837|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|900|Calzada Roosevelt, Ciudad de Guatemala #900|14.622650|-90.550821|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|901|Calzada Roosevelt, Ciudad de Guatemala #901|14.623824|-90.553004|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|902|Calzada Roosevelt, Ciudad de Guatemala #902|14.624903|-90.555014|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|903|Calzada Roosevelt, Ciudad de Guatemala #903|14.625739|-90.556570|1500.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|904|Calzada Roosevelt, Ciudad de Guatemala #904|14.628225|-90.561198|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|905|Calzada Roosevelt, Ciudad de Guatemala #905|14.629068|-90.562725|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|906|Calzada Roosevelt, Ciudad de Guatemala #906|14.630062|-90.564575|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|907|Calzada Roosevelt, Ciudad de Guatemala #907|14.631088|-90.566472|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|908|Calzada Roosevelt, Ciudad de Guatemala #908|14.633048|-90.570166|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|909|Calzada Roosevelt, Mixco #909|14.633852|-90.572925|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|910|Calzada Roosevelt, Mixco #910|14.633990|-90.575306|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|911|Calzada Roosevelt, Mixco #911|14.634177|-90.579258|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|912|Calzada Roosevelt, Mixco #912|14.634326|-90.581898|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|913|Calzada Roosevelt, Mixco #913|14.634507|-90.584829|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|914|Calzada Roosevelt, Mixco #914|14.634706|-90.588869|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|915|Calzada Roosevelt, Mixco #915|14.634869|-90.591988|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|916|Calzada Roosevelt, Mixco #916|14.635097|-90.595746|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|917|Carretera Panamericana, Mixco #917|14.634956|-90.598819|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|918|Carretera Panamericana, Mixco #918|14.633408|-90.599783|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|919|Carretera Panamericana, Mixco #919|14.633021|-90.601196|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|920|Carretera Panamericana, Mixco #920|14.632096|-90.601620|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|921|Carretera Panamericana, Mixco #921|14.631404|-90.601124|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|922|Carretera Panamericana, Mixco #922|14.630429|-90.599225|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|923|Carretera Panamericana, Mixco #923|14.628835|-90.599481|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|924|Carretera Panamericana, Mixco #924|14.627661|-90.602868|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|925|Carretera Panamericana, Mixco #925|14.626559|-90.606615|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|926|Carretera Panamericana, Mixco #926|14.625200|-90.606862|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|927|Carretera Panamericana, Mixco #927|14.623722|-90.604928|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|928|Carretera Panamericana, Mixco #928|14.622142|-90.604646|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|929|Carretera Panamericana, Mixco #929|14.618724|-90.605657|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|930|Carretera Panamericana, Mixco #930|14.616440|-90.608181|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|931|Carretera Panamericana, Mixco #931|14.616718|-90.609864|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|932|9a Avenida B, Mixco #932|14.619753|-90.611849|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|933|Lotificación Tierra Blanca, Mixco #933|14.621476|-90.613677|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|934|Carretera Panamericana, Mixco #934|14.620886|-90.615570|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|935|Carretera Panamericana, Mixco #935|14.615742|-90.616958|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|936|Carretera Panamericana, Mixco #936|14.615637|-90.618927|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|937|Carretera Panamericana, Mixco #937|14.616068|-90.621090|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|938|Carretera Panamericana, Mixco #938|14.614512|-90.622389|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|939|Carretera Panamericana, Mixco #939|14.612308|-90.621958|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|940|Carretera Panamericana, Mixco #940|14.610393|-90.623874|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|941|Carretera Panamericana, Mixco #941|14.609039|-90.625402|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|942|Carretera Panamericana, Mixco #942|14.606922|-90.623848|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|943|Carretera Panamericana, Mixco #943|14.604565|-90.626368|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|944|Carretera Panamericana, Mixco #944|14.607812|-90.627501|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|945|Carretera Panamericana, Mixco #945|14.608199|-90.632261|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|946|Carretera Panamericana, Mixco #946|14.605635|-90.634642|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|947|Carretera Panamericana, Mixco #947|14.602455|-90.633841|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|948|Carretera Panamericana, Mixco #948|14.601020|-90.633982|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|949|Carretera Panamericana, San Lucas Sacatepéquez #949|14.599550|-90.640124|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|950|Carretera Panamericana, San Lucas Sacatepéquez #950|14.604566|-90.649522|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|951|Carretera Panamericana, San Lucas Sacatepéquez #951|14.611685|-90.649983|1700.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|952|Carretera Panamericana, San Lucas Sacatepéquez #952|14.612490|-90.651425|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|953|Carretera Panamericana, San Lucas Sacatepéquez #953|14.609642|-90.653141|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|954|Carretera Panamericana, San Lucas Sacatepéquez #954|14.608702|-90.655915|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|955|Carretera Panamericana, San Lucas Sacatepéquez #955|14.608569|-90.660444|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|956|Carretera Panamericana, San Lucas Sacatepéquez #956|14.608436|-90.663482|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|957|Carretera Panamericana, San Lucas Sacatepéquez #957|14.608350|-90.665382|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|958|6a Calle, San Bartolomé Milpas Altas #958|14.608129|-90.669935|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|959|San Bartolomé Milpas Altas #959|14.607910|-90.674546|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|960|Carretera Panamericana, San Bartolomé Milpas Altas #960|14.608385|-90.678796|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|961|Carretera Panamericana, San Bartolomé Milpas Altas #961|14.610923|-90.680818|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|962|Carretera Panamericana, San Bartolomé Milpas Altas #962|14.616512|-90.682396|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|963|Carretera Panamericana, San Bartolomé Milpas Altas #963|14.618167|-90.683415|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|964|Carretera Panamericana, Santiago Sacatepéquez #964|14.619558|-90.684857|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|965|Carretera Panamericana, Santiago Sacatepéquez #965|14.621878|-90.683454|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|966|Carretera Panamericana, Santiago Sacatepéquez #966|14.624326|-90.683391|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|967|Carretera Panamericana, Santiago Sacatepéquez #967|14.631960|-90.689285|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|968|Carretera Panamericana, Santiago Sacatepéquez #968|14.632662|-90.690981|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|969|Carretera Panamericana, Santiago Sacatepéquez #969|14.632138|-90.694024|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|970|Carretera Panamericana, Santiago Sacatepéquez #970|14.633988|-90.694592|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|971|Carretera Panamericana, Santiago Sacatepéquez #971|14.636713|-90.694058|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|972|Santa María Cauqué, Santiago Sacatepéquez #972|14.640229|-90.696496|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|973|Carretera Panamericana, Santiago Sacatepéquez #973|14.640126|-90.697488|2000.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|974|Carretera Panamericana, Santiago Sacatepéquez #974|14.638375|-90.700659|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|975|Carretera Panamericana, Santiago Sacatepéquez #975|14.648824|-90.704101|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|976|Carretera Panamericana, Santiago Sacatepéquez #976|14.656197|-90.705030|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|977|Carretera Panamericana, Santiago Sacatepéquez #977|14.658436|-90.707472|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|978|Carretera Panamericana, Santiago Sacatepéquez #978|14.657106|-90.714147|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|979|Carretera Panamericana, Santiago Sacatepéquez #979|14.656763|-90.721382|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|980|Carretera Panamericana, Santo Domingo Xenacoj #980|14.658964|-90.722910|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|981|Santo Domingo Xenacoj #981|14.658657|-90.725013|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|982|Carretera Panamericana, Sumpango #982|14.654555|-90.725665|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|983|Carretera Panamericana, Sumpango #983|14.655083|-90.728138|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|984|Carretera Panamericana, Sumpango #984|14.651156|-90.731049|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|985|Carretera Panamericana, Sumpango #985|14.651630|-90.732864|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|986|Carretera Panamericana, Sumpango #986|14.654112|-90.735651|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|987|Carretera Panamericana, Sumpango #987|14.655116|-90.741998|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|988|Carretera Panamericana, Sumpango #988|14.648958|-90.743200|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|989|Carretera Panamericana, Sumpango #989|14.644313|-90.742028|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|990|Carretera Panamericana, Sumpango #990|14.637718|-90.743619|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|991|Carretera Panamericana, Sumpango #991|14.635496|-90.747804|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|992|Carretera Panamericana, Sumpango #992|14.635855|-90.753609|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|993|Carretera Panamericana, Sumpango #993|14.637878|-90.762195|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|994|Carretera Panamericana, Sumpango #994|14.638788|-90.764982|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|995|Carretera Panamericana, Sumpango #995|14.640501|-90.772265|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|996|Carretera Panamericana, Chimaltenango #996|14.641992|-90.778039|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|997|Carretera Panamericana, Chimaltenango #997|14.643041|-90.782250|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|998|Carretera Panamericana, Chimaltenango #998|14.643651|-90.784571|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|999|Carretera Panamericana, Chimaltenango #999|14.644382|-90.787416|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1000|Carretera Panamericana, Chimaltenango #1000|14.645780|-90.792634|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1001|Carretera Panamericana, Chimaltenango #1001|14.647475|-90.795807|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1002|Carretera Panamericana, Chimaltenango #1002|14.649008|-90.798224|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1003|Carretera Panamericana, Chimaltenango #1003|14.650548|-90.800630|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1004|Carretera Panamericana, Chimaltenango #1004|14.651315|-90.801886|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1005|3a Calle, Chimaltenango #1005|14.652773|-90.804202|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1006|3a Calle, Chimaltenango #1006|14.656547|-90.810091|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1007|3a Calle, Chimaltenango #1007|14.657836|-90.812533|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1008|6a Avenida, Chimaltenango #1008|14.660457|-90.814251|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1009|2a Calle, Chimaltenango #1009|14.661474|-90.819037|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1010|1a Calle, Chimaltenango #1010|14.660815|-90.818740|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1011|5a Avenida, Chimaltenango #1011|14.658605|-90.815535|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1012|3a Calle, Chimaltenango #1012|14.657816|-90.812485|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1013|3a Calle, Chimaltenango #1013|14.656492|-90.809996|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1014|Carretera Panamericana, Chimaltenango #1014|14.652735|-90.804143|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1015|Carretera Panamericana, Chimaltenango #1015|14.651219|-90.801728|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1016|Carretera Panamericana, Chimaltenango #1016|14.650363|-90.800326|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1017|Carretera Panamericana, Chimaltenango #1017|14.648983|-90.798185|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1018|Carretera Panamericana, Chimaltenango #1018|14.647357|-90.795620|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1019|Colonia Santo Domingo, Chimaltenango #1019|14.645687|-90.792372|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1020|Carretera Panamericana, Chimaltenango #1020|14.644290|-90.787071|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1021|Carretera Panamericana, Chimaltenango #1021|14.643553|-90.784184|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1022|Carretera Panamericana, Chimaltenango #1022|14.642949|-90.781884|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1023|Libramiento Chimaltenango #1023|14.641750|-90.780591|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1024|Libramiento Chimaltenango #1024|14.639054|-90.781344|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1025|Libramiento Chimaltenango #1025|14.637292|-90.783200|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1026|Libramiento Chimaltenango #1026|14.639280|-90.781076|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1027|Libramiento Chimaltenango #1027|14.641860|-90.780071|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1028|Carretera Panamericana, Chimaltenango #1028|14.642121|-90.778911|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1029|Carretera Panamericana, Sumpango #1029|14.641120|-90.774966|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1030|Carretera San Miguel Morazán - San Luis Las Carret #1030|14.638959|-90.774011|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1031|Carretera San Miguel Morazán - San Luis Las Carret #1031|14.636303|-90.773090|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1032|Carretera San Miguel Morazán - San Luis Las Carret #1032|14.633145|-90.772245|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1033|Carretera San Miguel Morazán - San Luis Las Carret #1033|14.630806|-90.771698|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1034|Carretera San Miguel Morazán - San Luis Las Carret #1034|14.626560|-90.772005|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1035|Carretera San Miguel Morazán - San Luis Las Carret #1035|14.623960|-90.771872|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1036|Carretera San Miguel Morazán - San Luis Las Carret #1036|14.620458|-90.770517|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1037|Carretera San Miguel Morazán - San Luis Las Carret #1037|14.616167|-90.769203|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1038|Carretera San Miguel Morazán - San Luis Las Carret #1038|14.611399|-90.768004|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1039|San Lorenzo El Tejar #1039|14.610339|-90.766827|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1040|Carretera San Miguel Morazán - San Luis Las Carret #1040|14.608925|-90.766091|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1041|Libramiento Ruta Nacional 14, San Luis Las Carreta #1041|14.607118|-90.764149|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1042|Libramiento Ruta Nacional 14, San Luis Las Carreta #1042|14.605171|-90.762761|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1043|Libramiento Ruta Nacional 14, San Luis Las Carreta #1043|14.603919|-90.762057|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1044|Libramiento Ruta Nacional 14, San Luis Las Carreta #1044|14.602869|-90.760462|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1045|Libramiento Ruta Nacional 14, San Luis Las Carreta #1045|14.601457|-90.757674|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1046|Libramiento Ruta Nacional 14, San Luis Las Carreta #1046|14.601193|-90.755085|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1047|Libramiento Ruta Nacional 14, San Luis Las Carreta #1047|14.597674|-90.753634|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1048|Libramiento Ruta Nacional 14, San Luis Las Carreta #1048|14.593738|-90.748839|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1049|Calle Real de Jocotenango #1049|14.591033|-90.750069|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1050|Calle Real de Jocotenango #1050|14.589440|-90.749261|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1051|Calle Real de Jocotenango #1051|14.586897|-90.747757|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1052|Calle Real de Jocotenango #1052|14.584413|-90.745306|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1053|Jocotenango #1053|14.582096|-90.744317|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1054|Calle Real de Jocotenango #1054|14.580023|-90.743561|1550.0|intermedio|0.0,0.2,0.1,0.2,0.1
+CIUDAD|1055|Calle Real de Jocotenango #1055|14.578423|-90.742879|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|1056|Calle Real de Jocotenango #1056|14.575922|-90.742231|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|1057|1a Calle, Jocotenango #1057|14.574723|-90.741919|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|1058|Calle Ricardo Arjona, Jocotenango #1058|14.574356|-90.739717|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|1059|Calle Ricardo Arjona, Jocotenango #1059|14.574778|-90.736510|1550.0|intermedio|0.0,0.5,0.2,0.6,0.1
+CIUDAD|1060|UMG Antigua Jocotenango|14.574895|-90.736116|1550.0|destino|0.0,0.8,0.3,1.0,0.2
 
-RUTA|857|858|0.2252|0.3378|40|1.0,2.5,1.4,2.3,1.1
-RUTA|858|859|0.3541|0.5311|40|1.0,2.5,1.4,2.3,1.1
-RUTA|859|860|0.1835|0.2752|40|1.0,2.5,1.4,2.3,1.1
-RUTA|860|861|0.3334|0.5001|40|1.0,2.5,1.4,2.3,1.1
-RUTA|861|862|0.1340|0.2010|40|1.0,2.5,1.4,2.3,1.1
-RUTA|862|863|0.2218|0.3327|40|1.0,2.5,1.4,2.3,1.1
-RUTA|863|864|0.2010|0.3015|40|1.0,2.5,1.4,2.3,1.1
-RUTA|864|865|0.3611|0.5416|40|1.0,2.5,1.4,2.3,1.1
-RUTA|865|866|0.1473|0.2209|40|1.0,2.5,1.4,2.3,1.1
-RUTA|866|867|0.1071|0.1607|40|1.0,2.5,1.4,2.3,1.1
-RUTA|867|868|0.0826|0.1239|40|1.0,2.5,1.4,2.3,1.1
-RUTA|868|869|0.1108|0.1661|40|1.0,2.5,1.4,2.3,1.1
-RUTA|869|870|0.1039|0.1558|40|1.0,2.5,1.4,2.3,1.1
-RUTA|870|871|0.1004|0.1505|40|1.0,2.5,1.4,2.3,1.1
-RUTA|871|872|0.1302|0.1953|40|1.0,2.5,1.4,2.3,1.1
-RUTA|872|873|0.1681|0.2521|40|1.0,2.5,1.4,2.3,1.1
-RUTA|873|874|0.1168|0.1752|40|1.0,2.5,1.4,2.3,1.1
-RUTA|874|875|0.1731|0.2596|40|1.0,2.5,1.4,2.3,1.1
-RUTA|875|876|0.1324|0.1986|40|1.0,2.5,1.4,2.3,1.1
-RUTA|876|877|0.3492|0.5239|40|1.0,2.5,1.4,2.3,1.1
-RUTA|877|878|0.2527|0.3791|40|1.0,2.5,1.4,2.3,1.1
-RUTA|878|879|0.3322|0.4982|40|1.0,2.5,1.4,2.3,1.1
-RUTA|879|880|0.5443|0.8165|40|1.0,2.5,1.4,2.3,1.1
-RUTA|880|881|0.3818|0.5727|40|1.0,2.5,1.4,2.3,1.1
-RUTA|881|882|0.4865|0.7297|40|1.0,2.5,1.4,2.3,1.1
-RUTA|882|883|0.5374|0.8062|40|1.0,2.5,1.4,2.3,1.1
-RUTA|883|884|0.5321|0.7981|40|1.0,2.5,1.4,2.3,1.1
-RUTA|884|885|0.3537|0.5305|40|1.0,2.5,1.4,2.3,1.1
-RUTA|885|886|0.3382|0.5074|40|1.0,2.5,1.4,2.3,1.1
-RUTA|886|887|0.1407|0.2111|40|1.0,2.5,1.4,2.3,1.1
-RUTA|887|888|0.3730|0.5596|40|1.0,2.5,1.4,2.3,1.1
-RUTA|888|889|0.4336|0.6504|40|1.0,2.5,1.4,2.3,1.1
-RUTA|889|890|0.5762|0.8643|40|1.0,2.5,1.4,2.3,1.1
-RUTA|890|891|0.3007|0.4510|40|1.0,2.5,1.4,2.3,1.1
-RUTA|891|892|0.2239|0.3358|40|1.0,2.5,1.4,2.3,1.1
-RUTA|892|893|0.3148|0.4722|40|1.0,2.5,1.4,2.3,1.1
-RUTA|893|894|0.2560|0.3841|40|1.0,2.5,1.4,2.3,1.1
-RUTA|894|895|0.3067|0.4600|40|1.0,2.5,1.4,2.3,1.1
-RUTA|895|896|0.2513|0.3769|40|1.0,2.5,1.4,2.3,1.1
-RUTA|896|897|0.2809|0.4214|40|1.0,2.5,1.4,2.3,1.1
-RUTA|897|898|0.3723|0.5585|40|1.0,2.5,1.4,2.3,1.1
-RUTA|898|899|0.3346|0.5018|40|1.0,2.5,1.4,2.3,1.1
-RUTA|899|900|0.2441|0.3662|40|1.0,2.5,1.4,2.3,1.1
-RUTA|900|901|0.2687|0.4031|40|1.0,2.5,1.4,2.3,1.1
-RUTA|901|902|0.2473|0.3710|40|1.0,2.5,1.4,2.3,1.1
-RUTA|902|903|0.1915|0.2872|40|1.0,2.5,1.4,2.3,1.1
-RUTA|903|904|0.5695|0.8543|40|1.0,2.5,1.4,2.3,1.1
-RUTA|904|905|0.1892|0.1419|80|1.0,1.5,1.1,1.4,1.0
-RUTA|905|906|0.2277|0.1708|80|1.0,1.5,1.1,1.4,1.0
-RUTA|906|907|0.2338|0.1754|80|1.0,1.5,1.1,1.4,1.0
-RUTA|907|908|0.4533|0.3400|80|1.0,1.5,1.1,1.4,1.0
-RUTA|908|909|0.3100|0.2325|80|1.0,1.5,1.1,1.4,1.0
-RUTA|909|910|0.2566|0.1925|80|1.0,1.5,1.1,1.4,1.0
-RUTA|910|911|0.4257|0.3193|80|1.0,1.5,1.1,1.4,1.0
-RUTA|911|912|0.2845|0.2134|80|1.0,1.5,1.1,1.4,1.0
-RUTA|912|913|0.3160|0.2370|80|1.0,1.5,1.1,1.4,1.0
-RUTA|913|914|0.4352|0.3264|80|1.0,1.5,1.1,1.4,1.0
-RUTA|914|915|0.3361|0.2520|80|1.0,1.5,1.1,1.4,1.0
-RUTA|915|916|0.4051|0.3038|80|1.0,1.5,1.1,1.4,1.0
-RUTA|916|917|0.3310|0.2482|80|1.0,1.5,1.1,1.4,1.0
-RUTA|917|918|0.2010|0.1507|80|1.0,1.5,1.1,1.4,1.0
-RUTA|918|919|0.1580|0.1185|80|1.0,1.5,1.1,1.4,1.0
-RUTA|919|920|0.1125|0.0844|80|1.0,1.5,1.1,1.4,1.0
-RUTA|920|921|0.0936|0.0702|80|1.0,1.5,1.1,1.4,1.0
-RUTA|921|922|0.2313|0.1735|80|1.0,1.5,1.1,1.4,1.0
-RUTA|922|923|0.1794|0.1345|80|1.0,1.5,1.1,1.4,1.0
-RUTA|923|924|0.3871|0.2903|80|1.0,1.5,1.1,1.4,1.0
-RUTA|924|925|0.4214|0.3160|80|1.0,1.5,1.1,1.4,1.0
-RUTA|925|926|0.1534|0.1151|80|1.0,1.5,1.1,1.4,1.0
-RUTA|926|927|0.2652|0.1989|80|1.0,1.5,1.1,1.4,1.0
-RUTA|927|928|0.1783|0.1337|80|1.0,1.5,1.1,1.4,1.0
-RUTA|928|929|0.3953|0.2965|80|1.0,1.5,1.1,1.4,1.0
-RUTA|929|930|0.3718|0.2789|80|1.0,1.5,1.1,1.4,1.0
-RUTA|930|931|0.1837|0.1378|80|1.0,1.5,1.1,1.4,1.0
-RUTA|931|932|0.3994|0.2995|80|1.0,1.5,1.1,1.4,1.0
-RUTA|932|933|0.2746|0.2059|80|1.0,1.5,1.1,1.4,1.0
-RUTA|933|934|0.2140|0.1605|80|1.0,1.5,1.1,1.4,1.0
-RUTA|934|935|0.5912|0.4434|80|1.0,1.5,1.1,1.4,1.0
-RUTA|935|936|0.2122|0.1591|80|1.0,1.5,1.1,1.4,1.0
-RUTA|936|937|0.2376|0.1782|80|1.0,1.5,1.1,1.4,1.0
-RUTA|937|938|0.2224|0.1668|80|1.0,1.5,1.1,1.4,1.0
-RUTA|938|939|0.2494|0.1871|80|1.0,1.5,1.1,1.4,1.0
-RUTA|939|940|0.2964|0.2223|80|1.0,1.5,1.1,1.4,1.0
-RUTA|940|941|0.2229|0.1672|80|1.0,1.5,1.1,1.4,1.0
-RUTA|941|942|0.2887|0.2166|80|1.0,1.5,1.1,1.4,1.0
-RUTA|942|943|0.3771|0.2828|80|1.0,1.5,1.1,1.4,1.0
-RUTA|943|944|0.3811|0.2858|80|1.0,1.5,1.1,1.4,1.0
-RUTA|944|945|0.5140|0.3855|80|1.0,1.5,1.1,1.4,1.0
-RUTA|945|946|0.3833|0.2875|80|1.0,1.5,1.1,1.4,1.0
-RUTA|946|947|0.3640|0.2730|80|1.0,1.5,1.1,1.4,1.0
-RUTA|947|948|0.1603|0.1202|80|1.0,1.5,1.1,1.4,1.0
-RUTA|948|949|0.6808|0.5106|80|1.0,1.5,1.1,1.4,1.0
-RUTA|949|950|1.1549|0.8662|80|1.0,1.5,1.1,1.4,1.0
-RUTA|950|951|0.7931|0.5949|80|1.0,1.5,1.1,1.4,1.0
-RUTA|951|952|0.1791|0.1343|80|1.0,1.5,1.1,1.4,1.0
-RUTA|952|953|0.3666|0.2749|80|1.0,1.5,1.1,1.4,1.0
-RUTA|953|954|0.3163|0.2372|80|1.0,1.5,1.1,1.4,1.0
-RUTA|954|955|0.4875|0.3657|80|1.0,1.5,1.1,1.4,1.0
-RUTA|955|956|0.3272|0.2454|80|1.0,1.5,1.1,1.4,1.0
-RUTA|956|957|0.2047|0.1535|80|1.0,1.5,1.1,1.4,1.0
-RUTA|957|958|0.4905|0.3679|80|1.0,1.5,1.1,1.4,1.0
-RUTA|958|959|0.4967|0.3726|80|1.0,1.5,1.1,1.4,1.0
-RUTA|959|960|0.4603|0.3453|80|1.0,1.5,1.1,1.4,1.0
-RUTA|960|961|0.3563|0.2673|80|1.0,1.5,1.1,1.4,1.0
-RUTA|961|962|0.6442|0.4832|80|1.0,1.5,1.1,1.4,1.0
-RUTA|962|963|0.2142|0.1607|80|1.0,1.5,1.1,1.4,1.0
-RUTA|963|964|0.2191|0.1643|80|1.0,1.5,1.1,1.4,1.0
-RUTA|964|965|0.2989|0.2242|80|1.0,1.5,1.1,1.4,1.0
-RUTA|965|966|0.2723|0.2042|80|1.0,1.5,1.1,1.4,1.0
-RUTA|966|967|1.0596|0.7947|80|1.0,1.5,1.1,1.4,1.0
-RUTA|967|968|0.1985|0.1488|80|1.0,1.5,1.1,1.4,1.0
-RUTA|968|969|0.3325|0.2494|80|1.0,1.5,1.1,1.4,1.0
-RUTA|969|970|0.2146|0.1609|80|1.0,1.5,1.1,1.4,1.0
-RUTA|970|971|0.3084|0.2313|80|1.0,1.5,1.1,1.4,1.0
-RUTA|971|972|0.4708|0.3531|80|1.0,1.5,1.1,1.4,1.0
-RUTA|972|973|0.1073|0.0805|80|1.0,1.5,1.1,1.4,1.0
-RUTA|973|974|0.3928|0.2946|80|1.0,1.5,1.1,1.4,1.0
-RUTA|974|975|1.2195|0.9146|80|1.0,1.5,1.1,1.4,1.0
-RUTA|975|976|0.8259|0.6194|80|1.0,1.5,1.1,1.4,1.0
-RUTA|976|977|0.3619|0.2714|80|1.0,1.5,1.1,1.4,1.0
-RUTA|977|978|0.7331|0.5499|80|1.0,1.5,1.1,1.4,1.0
-RUTA|978|979|0.7792|0.5844|80|1.0,1.5,1.1,1.4,1.0
-RUTA|979|980|0.2948|0.2211|80|1.0,1.5,1.1,1.4,1.0
-RUTA|980|981|0.2288|0.1716|80|1.0,1.5,1.1,1.4,1.0
-RUTA|981|982|0.4615|0.3461|80|1.0,1.5,1.1,1.4,1.0
-RUTA|982|983|0.2724|0.2043|80|1.0,1.5,1.1,1.4,1.0
-RUTA|983|984|0.5373|0.4030|80|1.0,1.5,1.1,1.4,1.0
-RUTA|984|985|0.2022|0.1517|80|1.0,1.5,1.1,1.4,1.0
-RUTA|985|986|0.4075|0.3056|80|1.0,1.5,1.1,1.4,1.0
-RUTA|986|987|0.6919|0.5189|80|1.0,1.5,1.1,1.4,1.0
-RUTA|987|988|0.6968|0.5226|80|1.0,1.5,1.1,1.4,1.0
-RUTA|988|989|0.5317|0.3988|80|1.0,1.5,1.1,1.4,1.0
-RUTA|989|990|0.7530|0.5648|80|1.0,1.5,1.1,1.4,1.0
-RUTA|990|991|0.5136|0.3852|80|1.0,1.5,1.1,1.4,1.0
-RUTA|991|992|0.6258|0.4694|80|1.0,1.5,1.1,1.4,1.0
-RUTA|992|993|0.9507|0.7130|80|1.0,1.5,1.1,1.4,1.0
-RUTA|993|994|0.3165|0.2373|80|1.0,1.5,1.1,1.4,1.0
-RUTA|994|995|0.8064|0.6048|80|1.0,1.5,1.1,1.4,1.0
-RUTA|995|996|0.6429|0.4822|80|1.0,1.5,1.1,1.4,1.0
-RUTA|996|997|0.4678|0.3509|80|1.0,1.5,1.1,1.4,1.0
-RUTA|997|998|0.2587|0.1941|80|1.0,1.5,1.1,1.4,1.0
-RUTA|998|999|0.3167|0.2375|80|1.0,1.5,1.1,1.4,1.0
-RUTA|999|1000|0.5825|0.4369|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1000|1001|0.3899|0.2924|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1001|1002|0.3109|0.2332|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1002|1003|0.3104|0.2328|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1003|1004|0.1598|0.1198|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1004|1005|0.2973|0.2229|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1005|1006|0.7599|0.5699|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1006|1007|0.2993|0.2244|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1007|1008|0.3451|0.2588|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1008|1009|0.5271|0.3953|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1009|1010|0.0799|0.0600|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1010|1011|0.4234|0.3175|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1011|1012|0.3396|0.2547|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1012|1013|0.3056|0.2292|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1013|1014|0.7556|0.5667|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1014|1015|0.3097|0.2323|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1015|1016|0.1783|0.1338|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1016|1017|0.2768|0.2076|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1017|1018|0.3299|0.2474|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1018|1019|0.3957|0.2968|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1019|1020|0.5911|0.4433|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1020|1021|0.3212|0.2409|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1021|1022|0.2564|0.1923|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1022|1023|0.1927|0.1445|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1023|1024|0.3105|0.2329|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1024|1025|0.2797|0.2098|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1025|1026|0.3179|0.2385|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1026|1027|0.3066|0.2299|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1027|1028|0.1281|0.0961|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1028|1029|0.4388|0.3291|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1029|1030|0.2613|0.1960|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1030|1031|0.3115|0.2336|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1031|1032|0.3627|0.2720|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1032|1033|0.2667|0.2000|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1033|1034|0.4733|0.3550|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1034|1035|0.2895|0.2171|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1035|1036|0.4158|0.3119|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1036|1037|0.4976|0.3732|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1037|1038|0.5456|0.4092|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1038|1039|0.1730|0.1298|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1039|1040|0.1760|0.1320|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1040|1041|0.2899|0.2174|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1041|1042|0.2630|0.1973|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1042|1043|0.1585|0.1189|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1043|1044|0.2076|0.1557|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1044|1045|0.3386|0.2540|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1045|1046|0.2801|0.2101|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1046|1047|0.4213|0.3160|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1047|1048|0.6766|0.5074|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1048|1049|0.3286|0.2465|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1049|1050|0.1973|0.1480|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1050|1051|0.3258|0.2444|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1051|1052|0.3819|0.2864|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1052|1053|0.2788|0.2091|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1053|1054|0.2444|0.1833|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1054|1055|0.1925|0.1443|80|1.0,1.5,1.1,1.4,1.0
-RUTA|1055|1056|0.2867|0.4301|40|1.0,2.5,1.4,2.3,1.1
-RUTA|1056|1057|0.1375|0.2062|40|1.0,2.5,1.4,2.3,1.1
-RUTA|1057|1058|0.2405|0.3607|40|1.0,2.5,1.4,2.3,1.1
-RUTA|1058|1059|0.3483|0.5225|40|1.0,2.5,1.4,2.3,1.1
-RUTA|1059|1060|0.0444|0.0665|40|1.0,2.5,1.4,2.3,1.1
+RUTA|857|858|0.2252|0.6756|40|1.0,1.8,1.4,1.9,1.2
+RUTA|858|859|0.3541|1.0623|40|1.0,1.8,1.4,1.9,1.2
+RUTA|859|860|0.1835|0.5505|40|1.0,1.8,1.4,1.9,1.2
+RUTA|860|861|0.3334|1.0002|40|1.0,1.8,1.4,1.9,1.2
+RUTA|861|862|0.1340|0.4020|40|1.0,1.8,1.4,1.9,1.2
+RUTA|862|863|0.2218|0.6654|40|1.0,1.8,1.4,1.9,1.2
+RUTA|863|864|0.2010|0.6030|40|1.0,1.8,1.4,1.9,1.2
+RUTA|864|865|0.3611|1.0833|40|1.0,1.8,1.4,1.9,1.2
+RUTA|865|866|0.1473|0.4419|40|1.0,1.8,1.4,1.9,1.2
+RUTA|866|867|0.1071|0.3213|40|1.0,1.8,1.4,1.9,1.2
+RUTA|867|868|0.0826|0.2478|40|1.0,1.8,1.4,1.9,1.2
+RUTA|868|869|0.1108|0.3324|40|1.0,1.8,1.4,1.9,1.2
+RUTA|869|870|0.1039|0.3117|40|1.0,1.8,1.4,1.9,1.2
+RUTA|870|871|0.1004|0.3012|40|1.0,1.8,1.4,1.9,1.2
+RUTA|871|872|0.1302|0.3906|40|1.0,1.8,1.4,1.9,1.2
+RUTA|872|873|0.1681|0.5043|40|1.0,1.8,1.4,1.9,1.2
+RUTA|873|874|0.1168|0.3504|40|1.0,1.8,1.4,1.9,1.2
+RUTA|874|875|0.1731|0.5193|40|1.0,1.8,1.4,1.9,1.2
+RUTA|875|876|0.1324|0.3972|40|1.0,1.8,1.4,1.9,1.2
+RUTA|876|877|0.3492|1.0476|40|1.0,1.8,1.4,1.9,1.2
+RUTA|877|878|0.2527|0.7581|40|1.0,1.8,1.4,1.9,1.2
+RUTA|878|879|0.3322|0.9966|40|1.0,1.8,1.4,1.9,1.2
+RUTA|879|880|0.5443|1.6329|40|1.0,1.8,1.4,1.9,1.2
+RUTA|880|881|0.3818|1.1454|40|1.0,1.8,1.4,1.9,1.2
+RUTA|881|882|0.4865|1.4595|40|1.0,1.8,1.4,1.9,1.2
+RUTA|882|883|0.5374|1.6122|40|1.0,1.8,1.4,1.9,1.2
+RUTA|883|884|0.5321|1.5963|40|1.0,1.8,1.4,1.9,1.2
+RUTA|884|885|0.3537|1.0611|40|1.0,1.8,1.4,1.9,1.2
+RUTA|885|886|0.3382|1.0146|40|1.0,1.8,1.4,1.9,1.2
+RUTA|886|887|0.1407|0.4221|40|1.0,1.8,1.4,1.9,1.2
+RUTA|887|888|0.3730|1.1190|40|1.0,1.8,1.4,1.9,1.2
+RUTA|888|889|0.4336|1.3008|40|1.0,1.8,1.4,1.9,1.2
+RUTA|889|890|0.5762|1.7286|40|1.0,1.8,1.4,1.9,1.2
+RUTA|890|891|0.3007|0.9021|40|1.0,1.8,1.4,1.9,1.2
+RUTA|891|892|0.2239|0.6717|40|1.0,1.8,1.4,1.9,1.2
+RUTA|892|893|0.3148|0.9444|40|1.0,1.8,1.4,1.9,1.2
+RUTA|893|894|0.2560|0.7680|40|1.0,1.8,1.4,1.9,1.2
+RUTA|894|895|0.3067|0.9201|40|1.0,1.8,1.4,1.9,1.2
+RUTA|895|896|0.2513|0.7539|40|1.0,1.8,1.4,1.9,1.2
+RUTA|896|897|0.2809|0.8427|40|1.0,1.8,1.4,1.9,1.2
+RUTA|897|898|0.3723|1.1169|40|1.0,1.8,1.4,1.9,1.2
+RUTA|898|899|0.3346|1.0038|40|1.0,1.8,1.4,1.9,1.2
+RUTA|899|900|0.2441|0.7323|40|1.0,1.8,1.4,1.9,1.2
+RUTA|900|901|0.2687|0.8061|40|1.0,1.8,1.4,1.9,1.2
+RUTA|901|902|0.2473|0.7419|40|1.0,1.8,1.4,1.9,1.2
+RUTA|902|903|0.1915|0.5745|40|1.0,1.8,1.4,1.9,1.2
+RUTA|903|904|0.5695|1.7085|40|1.0,1.8,1.4,1.9,1.2
+RUTA|904|905|0.1892|0.2523|80|1.0,1.5,1.3,1.6,1.2
+RUTA|905|906|0.2277|0.3036|80|1.0,1.5,1.3,1.6,1.2
+RUTA|906|907|0.2338|0.3117|80|1.0,1.5,1.3,1.6,1.2
+RUTA|907|908|0.4533|0.6044|80|1.0,1.5,1.3,1.6,1.2
+RUTA|908|909|0.3100|0.4133|80|1.0,1.5,1.3,1.6,1.2
+RUTA|909|910|0.2566|0.3421|80|1.0,1.5,1.3,1.6,1.2
+RUTA|910|911|0.4257|0.5676|80|1.0,1.5,1.3,1.6,1.2
+RUTA|911|912|0.2845|0.3793|80|1.0,1.5,1.3,1.6,1.2
+RUTA|912|913|0.3160|0.4213|80|1.0,1.5,1.3,1.6,1.2
+RUTA|913|914|0.4352|0.5803|80|1.0,1.5,1.3,1.6,1.2
+RUTA|914|915|0.3361|0.4481|80|1.0,1.5,1.3,1.6,1.2
+RUTA|915|916|0.4051|0.5401|80|1.0,1.5,1.3,1.6,1.2
+RUTA|916|917|0.3310|0.4413|80|1.0,1.5,1.3,1.6,1.2
+RUTA|917|918|0.2010|0.2680|80|1.0,1.5,1.3,1.6,1.2
+RUTA|918|919|0.1580|0.2107|80|1.0,1.5,1.3,1.6,1.2
+RUTA|919|920|0.1125|0.1500|80|1.0,1.5,1.3,1.6,1.2
+RUTA|920|921|0.0936|0.1248|80|1.0,1.5,1.3,1.6,1.2
+RUTA|921|922|0.2313|0.3084|80|1.0,1.5,1.3,1.6,1.2
+RUTA|922|923|0.1794|0.2392|80|1.0,1.5,1.3,1.6,1.2
+RUTA|923|924|0.3871|0.5161|80|1.0,1.5,1.3,1.6,1.2
+RUTA|924|925|0.4214|0.5619|80|1.0,1.5,1.3,1.6,1.2
+RUTA|925|926|0.1534|0.2045|80|1.0,1.5,1.3,1.6,1.2
+RUTA|926|927|0.2652|0.3536|80|1.0,1.5,1.3,1.6,1.2
+RUTA|927|928|0.1783|0.2377|80|1.0,1.5,1.3,1.6,1.2
+RUTA|928|929|0.3953|0.5271|80|1.0,1.5,1.3,1.6,1.2
+RUTA|929|930|0.3718|0.4957|80|1.0,1.5,1.3,1.6,1.2
+RUTA|930|931|0.1837|0.2449|80|1.0,1.5,1.3,1.6,1.2
+RUTA|931|932|0.3994|0.5325|80|1.0,1.5,1.3,1.6,1.2
+RUTA|932|933|0.2746|0.3661|80|1.0,1.5,1.3,1.6,1.2
+RUTA|933|934|0.2140|0.2853|80|1.0,1.5,1.3,1.6,1.2
+RUTA|934|935|0.5912|0.7883|80|1.0,1.5,1.3,1.6,1.2
+RUTA|935|936|0.2122|0.2829|80|1.0,1.5,1.3,1.6,1.2
+RUTA|936|937|0.2376|0.3168|80|1.0,1.5,1.3,1.6,1.2
+RUTA|937|938|0.2224|0.2965|80|1.0,1.5,1.3,1.6,1.2
+RUTA|938|939|0.2494|0.3325|80|1.0,1.5,1.3,1.6,1.2
+RUTA|939|940|0.2964|0.3952|80|1.0,1.5,1.3,1.6,1.2
+RUTA|940|941|0.2229|0.2972|80|1.0,1.5,1.3,1.6,1.2
+RUTA|941|942|0.2887|0.3849|80|1.0,1.5,1.3,1.6,1.2
+RUTA|942|943|0.3771|0.5028|80|1.0,1.5,1.3,1.6,1.2
+RUTA|943|944|0.3811|0.5081|80|1.0,1.5,1.3,1.6,1.2
+RUTA|944|945|0.5140|0.6853|80|1.0,1.5,1.3,1.6,1.2
+RUTA|945|946|0.3833|0.5111|80|1.0,1.5,1.3,1.6,1.2
+RUTA|946|947|0.3640|0.4853|80|1.0,1.5,1.3,1.6,1.2
+RUTA|947|948|0.1603|0.2137|80|1.0,1.5,1.3,1.6,1.2
+RUTA|948|949|0.6808|0.9077|80|1.0,1.5,1.3,1.6,1.2
+RUTA|949|950|1.1549|1.5399|80|1.0,1.5,1.3,1.6,1.2
+RUTA|950|951|0.7931|1.0575|80|1.0,1.5,1.3,1.6,1.2
+RUTA|951|952|0.1791|0.2388|80|1.0,1.5,1.3,1.6,1.2
+RUTA|952|953|0.3666|0.4888|80|1.0,1.5,1.3,1.6,1.2
+RUTA|953|954|0.3163|0.4217|80|1.0,1.5,1.3,1.6,1.2
+RUTA|954|955|0.4875|0.6500|80|1.0,1.5,1.3,1.6,1.2
+RUTA|955|956|0.3272|0.4363|80|1.0,1.5,1.3,1.6,1.2
+RUTA|956|957|0.2047|0.2729|80|1.0,1.5,1.3,1.6,1.2
+RUTA|957|958|0.4905|0.6540|80|1.0,1.5,1.3,1.6,1.2
+RUTA|958|959|0.4967|0.6623|80|1.0,1.5,1.3,1.6,1.2
+RUTA|959|960|0.4603|0.6137|80|1.0,1.5,1.3,1.6,1.2
+RUTA|960|961|0.3563|0.4751|80|1.0,1.5,1.3,1.6,1.2
+RUTA|961|962|0.6442|0.8589|80|1.0,1.5,1.3,1.6,1.2
+RUTA|962|963|0.2142|0.2856|80|1.0,1.5,1.3,1.6,1.2
+RUTA|963|964|0.2191|0.2921|80|1.0,1.5,1.3,1.6,1.2
+RUTA|964|965|0.2989|0.3985|80|1.0,1.5,1.3,1.6,1.2
+RUTA|965|966|0.2723|0.3631|80|1.0,1.5,1.3,1.6,1.2
+RUTA|966|967|1.0596|1.4128|80|1.0,1.5,1.3,1.6,1.2
+RUTA|967|968|0.1985|0.2647|80|1.0,1.5,1.3,1.6,1.2
+RUTA|968|969|0.3325|0.4433|80|1.0,1.5,1.3,1.6,1.2
+RUTA|969|970|0.2146|0.2861|80|1.0,1.5,1.3,1.6,1.2
+RUTA|970|971|0.3084|0.4112|80|1.0,1.5,1.3,1.6,1.2
+RUTA|971|972|0.4708|0.6277|80|1.0,1.5,1.3,1.6,1.2
+RUTA|972|973|0.1073|0.1431|80|1.0,1.5,1.3,1.6,1.2
+RUTA|973|974|0.3928|0.5237|80|1.0,1.5,1.3,1.6,1.2
+RUTA|974|975|1.2195|1.6260|80|1.0,1.5,1.3,1.6,1.2
+RUTA|975|976|0.8259|1.1012|80|1.0,1.5,1.3,1.6,1.2
+RUTA|976|977|0.3619|0.4825|80|1.0,1.5,1.3,1.6,1.2
+RUTA|977|978|0.7331|0.9775|80|1.0,1.5,1.3,1.6,1.2
+RUTA|978|979|0.7792|1.0389|80|1.0,1.5,1.3,1.6,1.2
+RUTA|979|980|0.2948|0.3931|80|1.0,1.5,1.3,1.6,1.2
+RUTA|980|981|0.2288|0.3051|80|1.0,1.5,1.3,1.6,1.2
+RUTA|981|982|0.4615|0.6153|80|1.0,1.5,1.3,1.6,1.2
+RUTA|982|983|0.2724|0.3632|80|1.0,1.5,1.3,1.6,1.2
+RUTA|983|984|0.5373|0.7164|80|1.0,1.5,1.3,1.6,1.2
+RUTA|984|985|0.2022|0.2696|80|1.0,1.5,1.3,1.6,1.2
+RUTA|985|986|0.4075|0.5433|80|1.0,1.5,1.3,1.6,1.2
+RUTA|986|987|0.6919|0.9225|80|1.0,1.5,1.3,1.6,1.2
+RUTA|987|988|0.6968|0.9291|80|1.0,1.5,1.3,1.6,1.2
+RUTA|988|989|0.5317|0.7089|80|1.0,1.5,1.3,1.6,1.2
+RUTA|989|990|0.7530|1.0040|80|1.0,1.5,1.3,1.6,1.2
+RUTA|990|991|0.5136|0.6848|80|1.0,1.5,1.3,1.6,1.2
+RUTA|991|992|0.6258|0.8344|80|1.0,1.5,1.3,1.6,1.2
+RUTA|992|993|0.9507|1.2676|80|1.0,1.5,1.3,1.6,1.2
+RUTA|993|994|0.3165|0.4220|80|1.0,1.5,1.3,1.6,1.2
+RUTA|994|995|0.8064|1.0752|80|1.0,1.5,1.3,1.6,1.2
+RUTA|995|996|0.6429|0.8572|80|1.0,1.5,1.3,1.6,1.2
+RUTA|996|997|0.4678|0.6237|80|1.0,1.5,1.3,1.6,1.2
+RUTA|997|998|0.2587|0.3449|80|1.0,1.5,1.3,1.6,1.2
+RUTA|998|999|0.3167|0.4223|80|1.0,1.5,1.3,1.6,1.2
+RUTA|999|1000|0.5825|0.7767|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1000|1001|0.3899|0.5199|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1001|1002|0.3109|0.4145|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1002|1003|0.3104|0.4139|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1003|1004|0.1598|0.2131|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1004|1005|0.2973|0.3964|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1005|1006|0.7599|1.0132|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1006|1007|0.2993|0.3991|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1007|1008|0.3451|0.4601|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1008|1009|0.5271|0.7028|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1009|1010|0.0799|0.1065|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1010|1011|0.4234|0.5645|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1011|1012|0.3396|0.4528|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1012|1013|0.3056|0.4075|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1013|1014|0.7556|1.0075|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1014|1015|0.3097|0.4129|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1015|1016|0.1783|0.2377|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1016|1017|0.2768|0.3691|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1017|1018|0.3299|0.4399|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1018|1019|0.3957|0.5276|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1019|1020|0.5911|0.7881|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1020|1021|0.3212|0.4283|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1021|1022|0.2564|0.3419|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1022|1023|0.1927|0.2569|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1023|1024|0.3105|0.4140|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1024|1025|0.2797|0.3729|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1025|1026|0.3179|0.4239|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1026|1027|0.3066|0.4088|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1027|1028|0.1281|0.1708|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1028|1029|0.4388|0.5851|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1029|1030|0.2613|0.3484|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1030|1031|0.3115|0.4153|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1031|1032|0.3627|0.4836|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1032|1033|0.2667|0.3556|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1033|1034|0.4733|0.6311|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1034|1035|0.2895|0.3860|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1035|1036|0.4158|0.5544|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1036|1037|0.4976|0.6635|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1037|1038|0.5456|0.7275|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1038|1039|0.1730|0.2307|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1039|1040|0.1760|0.2347|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1040|1041|0.2899|0.3865|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1041|1042|0.2630|0.3507|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1042|1043|0.1585|0.2113|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1043|1044|0.2076|0.2768|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1044|1045|0.3386|0.4515|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1045|1046|0.2801|0.3735|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1046|1047|0.4213|0.5617|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1047|1048|0.6766|0.9021|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1048|1049|0.3286|0.4381|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1049|1050|0.1973|0.2631|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1050|1051|0.3258|0.4344|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1051|1052|0.3819|0.5092|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1052|1053|0.2788|0.3717|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1053|1054|0.2444|0.3259|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1054|1055|0.1925|0.2567|80|1.0,1.5,1.3,1.6,1.2
+RUTA|1055|1056|0.2867|0.8601|40|1.0,1.8,1.4,1.9,1.2
+RUTA|1056|1057|0.1375|0.4125|40|1.0,1.8,1.4,1.9,1.2
+RUTA|1057|1058|0.2405|0.7215|40|1.0,1.8,1.4,1.9,1.2
+RUTA|1058|1059|0.3483|1.0449|40|1.0,1.8,1.4,1.9,1.2
+RUTA|1059|1060|0.0444|0.1332|40|1.0,1.8,1.4,1.9,1.2

@@ -1,7 +1,6 @@
 package edu.uvg.gps.ui;
 
 import edu.uvg.gps.algoritmos.Dijkstra;
-import edu.uvg.gps.algoritmos.FloydWarshall;
 import edu.uvg.gps.algoritmos.ResultadoDijkstra;
 import edu.uvg.gps.grafo.Grafo;
 import edu.uvg.gps.model.NodoGrafo;
@@ -16,13 +15,15 @@ import javafx.scene.control.*;
 import javafx.scene.web.WebView;
 import javafx.util.Duration;
 
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 import java.time.LocalTime;
-import java.time.format.DateTimeParseException;
 
 public class MainController {
 
-    private static final String ORIGEN_FIJO = "Plaza Tigo Torre 3";
+    private static final String ORIGEN_FIJO  = "Plaza Tigo Torre 3";
     private static final String DESTINO_FIJO = "UMG Antigua Jocotenango";
+
     private static final String[] NOMBRES_RUTAS = {
             "Ruta 1 — Carretera Panamericana",
             "Ruta 2 — RD-GUA-16 / RN-10 (Bárcenas)",
@@ -30,6 +31,7 @@ public class MainController {
             "Ruta 4 — Calzada Aguilar Batres",
             "Ruta 5 — Calzada Roosevelt / Chimaltenango"
     };
+
     private static final String[] RUTAS_ARCHIVOS = {
             "/edu/uvg/gps/data/ruta1.txt",
             "/edu/uvg/gps/data/ruta2.txt",
@@ -38,22 +40,27 @@ public class MainController {
             "/edu/uvg/gps/data/ruta5.txt"
     };
 
-    @FXML private TextField txtHora;
+    @FXML private ComboBox<String> cbDia;
+    @FXML private ComboBox<String> cbHora;
     @FXML private ComboBox<String> cbAlgoritmo;
     @FXML private ComboBox<String> cbVerRuta;
-    @FXML private Label lblResultado;
-    @FXML private WebView webView;
+    @FXML private ComboBox<String> cbVerNodos;
+    @FXML private Label            lblResultado;
+    @FXML private WebView          webView;
     @FXML private ListView<String> listPasos;
-    @FXML private Label lblSimResultado;
+    @FXML private Label            lblSimResultado;
+    @FXML private TextField        txtBuscarOrigen;
+    @FXML private TextField        txtBuscarDestino;
+    @FXML private Label            lblCamino;
 
-    @FXML private TableView<ComparacionFila> tablaComparacion;
+    @FXML private TableView<ComparacionFila>           tablaComparacion;
     @FXML private TableColumn<ComparacionFila, String> colCompRuta;
     @FXML private TableColumn<ComparacionFila, String> colCompKm;
     @FXML private TableColumn<ComparacionFila, String> colCompTiempoBase;
     @FXML private TableColumn<ComparacionFila, String> colCompTiempoAct;
     @FXML private TableColumn<ComparacionFila, String> colCompEstado;
 
-    @FXML private TableView<CiudadFila> tablaCiudades;
+    @FXML private TableView<CiudadFila>           tablaCiudades;
     @FXML private TableColumn<CiudadFila, String> colCiudadId;
     @FXML private TableColumn<CiudadFila, String> colCiudadNombre;
     @FXML private TableColumn<CiudadFila, String> colCiudadLat;
@@ -61,23 +68,28 @@ public class MainController {
     @FXML private TableColumn<CiudadFila, String> colCiudadAlt;
     @FXML private TableColumn<CiudadFila, String> colCiudadTipo;
 
-    private GrafoService grafoService;
-    private MapaController mapaController;
+    private GrafoService      grafoService;
+    private MapaController    mapaController;
     private ResultadoDijkstra ultimoResultado;
 
     @FXML
     public void initialize() {
-        grafoService = new GrafoService();
+        grafoService   = new GrafoService();
         mapaController = new MapaController(webView);
 
         mapaController.setGrafoService(grafoService);
-        mapaController.setOnProblemaReportado(this::vistaInicial);
-        mapaController.setOnMapaCargado(this::vistaInicial);
+        mapaController.setOnProblemaReportado(this::recalcularRutaOptima);
+        mapaController.setOnMapaCargado(() -> {
+            recalcularRutaOptima();
+            mapaController.mostrarSoloCorredor(-1);
+        });
         mapaController.inicializarMapa("/edu/uvg/gps/leaflet.html");
-
         grafoService.cargarMultiplesDatasets(RUTAS_ARCHIVOS);
 
-        txtHora.setText(LocalTime.now().withSecond(0).withNano(0).toString());
+        for (int h = 0; h < 24; h++)
+            cbHora.getItems().add(String.format("%02d:00", h));
+        cbHora.setValue(String.format("%02d:00", LocalTime.now().getHour()));
+
         cbAlgoritmo.getItems().addAll("Dijkstra", "Floyd-Warshall");
         cbAlgoritmo.setValue("Dijkstra");
 
@@ -85,152 +97,183 @@ public class MainController {
         cbVerRuta.getItems().addAll(NOMBRES_RUTAS);
         cbVerRuta.setValue("Todas las rutas");
 
+        cbVerNodos.getItems().addAll("Sin nodos", "Con nodos");
+        cbVerNodos.setValue("Sin nodos");
+
+        String[] dias = {"Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo"};
+        cbDia.getItems().addAll(dias);
+        cbDia.setValue(dias[LocalDate.now().getDayOfWeek().getValue() - 1]);
+
         configurarTablas();
         mapaController.mostrarNodos(grafoService.getGrafo());
         llenarTablaCiudades();
     }
 
-    // Vista por defecto: dibuja todos los corredores coloreados (sin ruta optima verde).
-    // El combobox "VER CORREDOR" controla cual se muestra.
-    private void vistaInicial() {
-        LocalTime hora = parsearHora(txtHora.getText());
-        if (hora == null) hora = LocalTime.now();
-        actualizarTablaComparacion(hora);
-        // Respetar la seleccion actual del combobox (por defecto "Todas las rutas" = -1)
-        int indice = cbVerRuta.getSelectionModel().getSelectedIndex() - 1;
-        mapaController.mostrarSoloCorredor(indice);
+    private DayOfWeek obtenerDia() {
+        switch (cbDia.getValue()) {
+            case "Sábado":  return DayOfWeek.SATURDAY;
+            case "Domingo": return DayOfWeek.SUNDAY;
+            default:        return DayOfWeek.MONDAY;
+        }
+    }
+
+    private LocalTime obtenerHora() {
+        try { return LocalTime.parse(cbHora.getValue()); }
+        catch (Exception e) { return LocalTime.now(); }
+    }
+
+    private String obtenerInfoDia(DayOfWeek dia) {
+        switch (dia) {
+            case SATURDAY: return "Sábado — tráfico 15% menor";
+            case SUNDAY:   return "Domingo — tráfico 25% menor";
+            default:       return "Entre semana";
+        }
     }
 
     private void recalcularRutaOptima() {
-        LocalTime hora = parsearHora(txtHora.getText());
-        if (hora == null) hora = LocalTime.now();
+        LocalTime hora = obtenerHora();
+        DayOfWeek dia  = obtenerDia();
+        Grafo[] grafos = grafoService.getGrafosPorRuta();
+        if (grafos == null) return;
 
-        String algoritmo = cbAlgoritmo.getValue();
-        ResultadoDijkstra resultado = null;
+        int indiceMejor = -1;
+        double menorTiempo = Double.MAX_VALUE;
+        ResultadoDijkstra[] resultados = new ResultadoDijkstra[grafos.length];
+        double[] tiemposAct  = new double[grafos.length];
+        double[] tiemposBase = new double[grafos.length];
+        double[] distancias  = new double[grafos.length];
 
-        if ("Floyd-Warshall".equals(algoritmo)) {
-            FloydWarshall fw = new FloydWarshall(grafoService.getGrafo());
-            fw.calcularConTiempo(hora);
-            resultado = fw.obtenerResultado(ORIGEN_FIJO, DESTINO_FIJO);
+        for (int i = 0; i < grafos.length; i++) {
+            if (grafos[i] == null) { tiemposAct[i] = -1; continue; }
+            Dijkstra d = new Dijkstra(grafos[i]);
+            ResultadoDijkstra r    = d.calcularConTiempo(ORIGEN_FIJO, DESTINO_FIJO, hora, dia);
+            ResultadoDijkstra rBase = d.calcularConTiempo(ORIGEN_FIJO, DESTINO_FIJO, LocalTime.of(4,0), DayOfWeek.MONDAY);
+            resultados[i]   = r;
+            tiemposBase[i]  = rBase != null ? rBase.getCostoTotal() : -1;
+            if (r != null) {
+                tiemposAct[i] = r.getCostoTotal();
+                distancias[i] = calcularDistanciaTotal(grafos[i], r.getCamino(), r.getTotalPasos());
+                if (tiemposAct[i] < menorTiempo) { menorTiempo = tiemposAct[i]; indiceMejor = i; }
+            } else {
+                tiemposAct[i] = -1;
+            }
+        }
+
+        actualizarTabla(grafos, tiemposAct, tiemposBase, distancias, resultados, indiceMejor);
+
+        if (indiceMejor >= 0 && resultados[indiceMejor] != null) {
+            ResultadoDijkstra mejor = resultados[indiceMejor];
+            ultimoResultado = mejor;
+            mapaController.dibujarRutaOptima(mejor.getCamino(), mejor.getTotalPasos(), grafos[indiceMejor]);
+            String periodo = mejor.getPeriodo() != null ? mejor.getPeriodo().etiqueta() : "";
+            lblResultado.setText(String.format(
+                    "Ruta óptima \nAlgoritmo: %s\n%s\nPasos: %d\nTiempo: %.1f min\n%s\n\n%s",
+                    cbAlgoritmo.getValue(), obtenerInfoDia(dia),
+                    mejor.getTotalPasos(), mejor.getCostoTotal(), periodo,
+                    construirCaminoTexto(mejor)));
         } else {
-            resultado = grafoService.calcularRuta(ORIGEN_FIJO, DESTINO_FIJO, hora);
-        }
-
-        if (resultado == null) {
             lblResultado.setText("Sin ruta disponible.");
-            return;
         }
-
-        ultimoResultado = resultado;
-        mapaController.dibujarRutaOptima(resultado.getCamino(), resultado.getTotalPasos(), grafoService.getGrafo());
-
-        String periodo = resultado.getPeriodo() != null ? resultado.getPeriodo().etiqueta() : "";
-        lblResultado.setText(String.format(
-                "Ruta óptima ✅\nAlgoritmo: %s\nPasos: %d\nTiempo: %.1f min\n%s\n\n%s",
-                algoritmo, resultado.getTotalPasos(), resultado.getCostoTotal(), periodo,
-                construirCaminoTexto(resultado)));
-
-        actualizarTablaComparacion(hora);
     }
 
-    private void actualizarTablaComparacion(LocalTime hora) {
-        Grafo[] grafosPorRuta = grafoService.getGrafosPorRuta();
-        if (grafosPorRuta == null) return;
-
-        double menorTiempo = Double.MAX_VALUE;
-        double[] tiemposActuales = new double[grafosPorRuta.length];
-        double[] distancias = new double[grafosPorRuta.length];
-        double[] tiemposBase = new double[grafosPorRuta.length];
-
-        ResultadoDijkstra[] resultados = new ResultadoDijkstra[grafosPorRuta.length];
-
-        for (int i = 0; i < grafosPorRuta.length; i++) {
-            if (grafosPorRuta[i] == null) { tiemposActuales[i] = -1; continue; }
-            Dijkstra d = new Dijkstra(grafosPorRuta[i]);
-            ResultadoDijkstra r    = d.calcularConTiempo(ORIGEN_FIJO, DESTINO_FIJO, hora);
-            ResultadoDijkstra rBase = d.calcularConTiempo(ORIGEN_FIJO, DESTINO_FIJO, LocalTime.of(4, 0));
-            resultados[i] = r;
-            if (r != null) {
-                tiemposActuales[i] = r.getCostoTotal();
-                distancias[i] = calcularDistanciaTotal(grafosPorRuta[i], r.getCamino(), r.getTotalPasos());
-                if (tiemposActuales[i] < menorTiempo) menorTiempo = tiemposActuales[i];
-            } else {
-                tiemposActuales[i] = -1;
-            }
-            tiemposBase[i] = rBase != null ? rBase.getCostoTotal() : -1;
-        }
-
-        // Dibujar corredores con color segun saturacion
-        for (int i = 0; i < grafosPorRuta.length; i++) {
+    private void actualizarTabla(Grafo[] grafos, double[] tiemposAct, double[] tiemposBase,
+                                 double[] distancias, ResultadoDijkstra[] resultados, int indiceMejor) {
+        for (int i = 0; i < grafos.length; i++) {
             if (resultados[i] == null) continue;
-            String coords = obtenerCoordsRuta(grafosPorRuta[i],
-                    resultados[i].getCamino(), resultados[i].getTotalPasos());
-            String color = calcularColorSaturacion(tiemposActuales[i], tiemposBase[i]);
-            mapaController.dibujarCorredor(i, coords, color);
+            String coords = obtenerCoordsRuta(grafos[i], resultados[i].getCamino(), resultados[i].getTotalPasos());
+            mapaController.dibujarCorredor(i, coords, calcularColorSaturacion(tiemposAct[i], tiemposBase[i]));
         }
 
         ObservableList<ComparacionFila> filas = FXCollections.observableArrayList();
-        for (int i = 0; i < grafosPorRuta.length; i++) {
-            String tiempoActStr = tiemposActuales[i] < 0 ? "Sin ruta" : String.format("%.1f min", tiemposActuales[i]);
-            String tiempoBaseStr = tiemposBase[i] < 0 ? "Sin ruta" : String.format("%.1f min", tiemposBase[i]);
-            String distStr = distancias[i] <= 0 ? "-" : String.format("%.1f km", distancias[i]);
-            boolean esMejor = tiemposActuales[i] > 0 && tiemposActuales[i] == menorTiempo;
-            String estado = esMejor ? "✅ MEJOR RUTA" : (tiemposActuales[i] < 0 ? "Sin conexión" : "");
-            filas.add(new ComparacionFila(NOMBRES_RUTAS[i], distStr, tiempoBaseStr, tiempoActStr, estado));
+        for (int i = 0; i < grafos.length; i++) {
+            String tAct  = tiemposAct[i]  < 0 ? "Sin ruta" : String.format("%.1f min", tiemposAct[i]);
+            String tBase = tiemposBase[i] < 0 ? "Sin ruta" : String.format("%.1f min", tiemposBase[i]);
+            String dist  = distancias[i]  <= 0 ? "-"       : String.format("%.1f km",  distancias[i]);
+            String estado = (i == indiceMejor) ? "✅ MEJOR RUTA" : (tiemposAct[i] < 0 ? "Sin conexión" : "");
+            filas.add(new ComparacionFila(NOMBRES_RUTAS[i], dist, tBase, tAct, estado));
         }
         tablaComparacion.setItems(filas);
-
         tablaComparacion.setRowFactory(tv -> new TableRow<ComparacionFila>() {
             @Override
             protected void updateItem(ComparacionFila item, boolean empty) {
                 super.updateItem(item, empty);
-                if (item != null && item.estadoProperty().get().contains("MEJOR")) {
+                if (item != null && item.estadoProperty().get().contains("MEJOR"))
                     setStyle("-fx-background-color: #1b5e20;");
-                } else if (item != null && !empty) {
+                else if (item != null && !empty)
                     setStyle("-fx-background-color: #0d2137;");
-                } else {
+                else
                     setStyle("");
-                }
             }
         });
     }
 
-    private double calcularDistanciaTotal(Grafo grafo, String[] camino, int pasos) {
-        double total = 0;
-        for (int i = 0; i < pasos - 1; i++) {
-            edu.uvg.gps.model.NodoAdyacencia ady = grafo.obtenerAdyacencias(camino[i]);
-            while (ady != null) {
-                if (ady.getCiudadDestino().equalsIgnoreCase(camino[i + 1])) {
-                    total += ady.getDistancia();
-                    break;
-                }
-                ady = ady.getSiguiente();
-            }
-        }
-        return total;
-    }
-
-    private String construirCaminoTexto(ResultadoDijkstra resultado) {
-        StringBuilder sb = new StringBuilder("Recorrido:\n");
-        for (int i = 0; i < resultado.getTotalPasos(); i++) {
-            sb.append(i + 1).append(". ").append(resultado.getCamino()[i]).append("\n");
-        }
-        return sb.toString();
-    }
-
-    @FXML public void onBuscarRuta() { recalcularRutaOptima(); }
+    @FXML public void onBuscarRuta()        { recalcularRutaOptima(); }
+    @FXML public void onCambiarFiltro()     { recalcularRutaOptima(); }
+    @FXML public void onActualizarTiempos() { recalcularRutaOptima(); }
 
     @FXML
     public void onVerRuta() {
-        int indice = cbVerRuta.getSelectionModel().getSelectedIndex() - 1; // -1 = todas
+        int indice = cbVerRuta.getSelectionModel().getSelectedIndex() - 1;
         mapaController.mostrarSoloCorredor(indice);
     }
 
     @FXML
-    public void onActualizarTiempos() {
-        LocalTime hora = parsearHora(txtHora.getText());
-        if (hora == null) hora = LocalTime.now();
-        actualizarTablaComparacion(hora);
+    public void onVerNodos() {
+        if ("Con nodos".equals(cbVerNodos.getValue()))
+            mapaController.mostrarTodosLosNodos(grafoService.getGrafo());
+        else
+            mapaController.ocultarNodos();
+    }
+
+    @FXML
+    public void onVerificarCamino() {
+        String textoOrigen  = txtBuscarOrigen.getText().trim();
+        String textoDestino = txtBuscarDestino.getText().trim();
+
+        if (textoOrigen.isEmpty() || textoDestino.isEmpty()) {
+            setLblCamino("⚠ Escribe origen y destino.", "#ff9800");
+            return;
+        }
+
+        String nOrigen  = buscarNombreParcial(textoOrigen);
+        String nDestino = buscarNombreParcial(textoDestino);
+
+        if (nOrigen == null) {
+            setLblCamino("No encontrado:\n\"" + textoOrigen + "\"", "#ef5350");
+            return;
+        }
+        if (nDestino == null) {
+            setLblCamino("No encontrado:\n\"" + textoDestino + "\"", "#ef5350");
+            return;
+        }
+
+        boolean existe = grafoService.getGrafo().existeCamino(nOrigen, nDestino);
+        if (existe) {
+            setLblCamino("Existe camino\nDe: " + nOrigen + "\nA: " + nDestino, "#a5d6a7");
+            ResultadoDijkstra r = grafoService.calcularRuta(nOrigen, nDestino, obtenerHora(), obtenerDia());
+            if (r != null)
+                mapaController.dibujarCaminoBusqueda(r.getCamino(), r.getTotalPasos(), grafoService.getGrafo());
+        } else {
+            setLblCamino("No existe camino\nDe: " + nOrigen + "\nA: " + nDestino, "#ef5350");
+            mapaController.limpiarCaminoBusqueda();
+        }
+    }
+
+    private void setLblCamino(String texto, String color) {
+        lblCamino.setText(texto);
+        lblCamino.setStyle("-fx-font-size:11;-fx-padding:6;-fx-background-color:#0d1b2e;" +
+                "-fx-text-fill:" + color + ";-fx-background-radius:6;");
+    }
+
+    private String buscarNombreParcial(String texto) {
+        String lower = texto.toLowerCase();
+        NodoGrafo nodo = grafoService.getGrafo().getHead();
+        while (nodo != null) {
+            if (nodo.getCiudad().getNombre().toLowerCase().contains(lower))
+                return nodo.getCiudad().getNombre();
+            nodo = nodo.getSiguiente();
+        }
+        return null;
     }
 
     @FXML
@@ -251,19 +294,29 @@ public class MainController {
 
     @FXML
     public void onSimular() {
-        LocalTime hora = parsearHora(txtHora.getText());
-        if (hora == null) return;
+        Grafo[] grafos = grafoService.getGrafosPorRuta();
+        int indiceMejor = 0;
+        double menor = Double.MAX_VALUE;
 
-        ResultadoDijkstra resultado = grafoService.calcularRuta(ORIGEN_FIJO, DESTINO_FIJO, hora);
-        if (resultado == null) {
-            mostrarAlerta("No existe ruta disponible.");
-            return;
+        for (int i = 0; i < grafos.length; i++) {
+            if (grafos[i] == null) continue;
+            ResultadoDijkstra r = new Dijkstra(grafos[i])
+                    .calcularConTiempo(ORIGEN_FIJO, DESTINO_FIJO, obtenerHora(), obtenerDia());
+            if (r != null && r.getCostoTotal() < menor) {
+                menor = r.getCostoTotal();
+                indiceMejor = i;
+            }
         }
+
+        final Grafo grafoMejor = grafos[indiceMejor];
+        final ResultadoDijkstra resultado = new Dijkstra(grafoMejor)
+                .calcularConTiempo(ORIGEN_FIJO, DESTINO_FIJO, obtenerHora(), obtenerDia());
+
+        if (resultado == null) { mostrarAlerta("No existe ruta disponible."); return; }
 
         listPasos.getItems().clear();
-        for (int i = 0; i < resultado.getTotalPasos(); i++) {
-            listPasos.getItems().add("Paso " + (i + 1) + ": " + resultado.getCamino()[i]);
-        }
+        for (int i = 0; i < resultado.getTotalPasos(); i++)
+            listPasos.getItems().add("Paso " + (i+1) + ": " + resultado.getCamino()[i]);
 
         String periodo = resultado.getPeriodo() != null ? resultado.getPeriodo().etiqueta() : "";
         lblSimResultado.setText(String.format("%.1f min  |  %d pasos  |  %s",
@@ -271,7 +324,7 @@ public class MainController {
 
         mapaController.limpiarRuta();
         String[] camino = resultado.getCamino();
-        int totalPasos = resultado.getTotalPasos();
+        int totalPasos  = resultado.getTotalPasos();
 
         Timeline timeline = new Timeline();
         for (int i = 0; i < totalPasos; i++) {
@@ -279,9 +332,9 @@ public class MainController {
             KeyFrame kf = new KeyFrame(Duration.seconds(i * 1.5), e -> {
                 listPasos.getSelectionModel().select(paso);
                 listPasos.scrollTo(paso);
-                String[] subCamino = new String[paso + 1];
-                System.arraycopy(camino, 0, subCamino, 0, paso + 1);
-                mapaController.dibujarRuta(subCamino, paso + 1, grafoService.getGrafo());
+                String[] sub = new String[paso + 1];
+                System.arraycopy(camino, 0, sub, 0, paso + 1);
+                mapaController.dibujarRuta(sub, paso + 1, grafoMejor);
             });
             timeline.getKeyFrames().add(kf);
         }
@@ -319,6 +372,28 @@ public class MainController {
         tablaCiudades.setItems(ciudades);
     }
 
+    private double calcularDistanciaTotal(Grafo grafo, String[] camino, int pasos) {
+        double total = 0;
+        for (int i = 0; i < pasos - 1; i++) {
+            edu.uvg.gps.model.NodoAdyacencia ady = grafo.obtenerAdyacencias(camino[i]);
+            while (ady != null) {
+                if (ady.getCiudadDestino().equalsIgnoreCase(camino[i + 1])) {
+                    total += ady.getDistancia();
+                    break;
+                }
+                ady = ady.getSiguiente();
+            }
+        }
+        return total;
+    }
+
+    private String construirCaminoTexto(ResultadoDijkstra resultado) {
+        StringBuilder sb = new StringBuilder("Recorrido:\n");
+        for (int i = 0; i < resultado.getTotalPasos(); i++)
+            sb.append(i + 1).append(". ").append(resultado.getCamino()[i]).append("\n");
+        return sb.toString();
+    }
+
     private String obtenerCoordsRuta(Grafo grafo, String[] camino, int pasos) {
         StringBuilder sb = new StringBuilder("[");
         boolean primero = true;
@@ -330,49 +405,26 @@ public class MainController {
                 primero = false;
             }
         }
-        sb.append("]");
-        return sb.toString();
+        return sb.append("]").toString();
     }
 
     private String calcularColorSaturacion(double actual, double base) {
         if (base <= 0) return "#4fc3f7";
         double ratio = actual / base;
-        if (ratio <= 1.05) return "#00e676"; // verde — sin congestion
-        if (ratio <= 1.2)  return "#c6ff00"; // verde-amarillo — leve
-        if (ratio <= 1.4)  return "#ffeb3b"; // amarillo — moderado
-        if (ratio <= 1.7)  return "#ff9800"; // naranja — pesado
-        return "#f44336";                     // rojo — severo
+        if (ratio <= 1.05) return "#00e676";
+        if (ratio <= 1.2)  return "#c6ff00";
+        if (ratio <= 1.4)  return "#ffeb3b";
+        if (ratio <= 1.7)  return "#ff9800";
+        return "#f44336";
     }
 
-    private LocalTime parsearHora(String texto) {
-        try {
-            return LocalTime.parse(texto.trim());
-        } catch (DateTimeParseException e) {
-            mostrarAlerta("Formato invalido. Usa HH:mm");
-            return null;
-        }
+    private void mostrarAlerta(String msg) {
+        Alert a = new Alert(Alert.AlertType.WARNING);
+        a.setTitle("GPS Navigator"); a.setHeaderText(null); a.setContentText(msg); a.showAndWait();
     }
 
-    private TipoProblema buscarTipoProblema(String etiqueta) {
-        for (TipoProblema tp : TipoProblema.values()) {
-            if (tp.getEtiqueta().equals(etiqueta)) return tp;
-        }
-        return TipoProblema.NINGUNO;
-    }
-
-    private void mostrarAlerta(String mensaje) {
-        Alert alert = new Alert(Alert.AlertType.WARNING);
-        alert.setTitle("GPS Navigator");
-        alert.setHeaderText(null);
-        alert.setContentText(mensaje);
-        alert.showAndWait();
-    }
-
-    private void mostrarInfo(String mensaje) {
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("GPS Navigator");
-        alert.setHeaderText(null);
-        alert.setContentText(mensaje);
-        alert.showAndWait();
+    private void mostrarInfo(String msg) {
+        Alert a = new Alert(Alert.AlertType.INFORMATION);
+        a.setTitle("GPS Navigator"); a.setHeaderText(null); a.setContentText(msg); a.showAndWait();
     }
 }

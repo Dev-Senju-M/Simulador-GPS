@@ -1,13 +1,14 @@
 package edu.uvg.gps.algoritmos;
 
+import java.time.DayOfWeek;
 import java.time.LocalTime;
 
 public enum PeriodoHorario {
-    MADRUGADA,   // 0-6h
-    PICO_MANANA, // 6-9h
-    DIA,         // 9-16h
-    PICO_TARDE,  // 16-20h
-    NOCHE;       // 20-24h
+    MADRUGADA,
+    PICO_MANANA,
+    DIA,
+    PICO_TARDE,
+    NOCHE;
 
     public static PeriodoHorario desdeHora(LocalTime hora) {
         int h = hora.getHour();
@@ -16,6 +17,14 @@ public enum PeriodoHorario {
         if (h >= 9  && h < 16) return DIA;
         if (h >= 16 && h < 20) return PICO_TARDE;
         return NOCHE;
+    }
+
+    public static double factorPorDia(DayOfWeek dia) {
+        switch (dia) {
+            case SATURDAY: return 0.80;  // 20% menos trafico
+            case SUNDAY:   return 0.65;  // 35% menos trafico
+            default:       return 1.0;
+        }
     }
 
     public String etiqueta() {

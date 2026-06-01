@@ -19,7 +19,6 @@ public class NodoAdyacencia {
         this.siguiente = null;
     }
 
-    // Constructor con multiplicadores
     public NodoAdyacencia(String ciudadDestino, double distancia, double tiempoBase, double[] multiplicadores) {
         this.ciudadDestino = ciudadDestino;
         this.distancia = distancia;
@@ -30,7 +29,6 @@ public class NodoAdyacencia {
         this.siguiente = null;
     }
 
-    // Constructor completo con velocidad
     public NodoAdyacencia(String ciudadDestino, double distancia, double tiempoBase,
                           int velocidadMaxima, double[] multiplicadores) {
         this.ciudadDestino = ciudadDestino;
@@ -42,52 +40,41 @@ public class NodoAdyacencia {
         this.siguiente = null;
     }
 
-    // Tiempo efectivo segun periodo + problema activo
     public double getTiempoEfectivo(int indicePeriodo) {
-        double tiempoConPeriodo = tiempoBase * multiplicadores[indicePeriodo];
-        return tiempoConPeriodo * problemaActual.getMultiplicadorExtra();
+        return tiempoBase * multiplicadores[indicePeriodo] * problemaActual.getMultiplicadorExtra();
     }
 
-    // Reportar problema temporal
+    public double getTiempoEfectivo(int indicePeriodo, double factorDia) {
+        return tiempoBase * multiplicadores[indicePeriodo] * factorDia * problemaActual.getMultiplicadorExtra();
+    }
+
     public void reportarProblema(TipoProblema problema) {
         this.problemaActual = problema;
-        System.out.println("Problema reportado en tramo hacia " + ciudadDestino +
-                ": " + problema.getEtiqueta());
+        System.out.println("Problema en tramo hacia " + ciudadDestino + ": " + problema.getEtiqueta());
     }
 
-    // Limpiar problema
-    public void limpiarProblema() {
-        this.problemaActual = TipoProblema.NINGUNO;
-    }
+    public void limpiarProblema() { this.problemaActual = TipoProblema.NINGUNO; }
 
     public String getCiudadDestino() { return ciudadDestino; }
     public void setCiudadDestino(String ciudadDestino) { this.ciudadDestino = ciudadDestino; }
-
     public double getDistancia() { return distancia; }
     public void setDistancia(double distancia) { this.distancia = distancia; }
-
     public double getTiempo() { return tiempoBase; }
     public void setTiempo(double tiempo) { this.tiempoBase = tiempo; }
-
     public double getTiempoBase() { return tiempoBase; }
     public double[] getMultiplicadores() { return multiplicadores; }
-
     public int getVelocidadMaxima() { return velocidadMaxima; }
     public void setVelocidadMaxima(int velocidadMaxima) { this.velocidadMaxima = velocidadMaxima; }
-
     public TipoProblema getProblemaActual() { return problemaActual; }
-
     public NodoAdyacencia getSiguiente() { return siguiente; }
     public void setSiguiente(NodoAdyacencia siguiente) { this.siguiente = siguiente; }
 
     @Override
     public String toString() {
-        String problema = problemaActual != TipoProblema.NINGUNO ?
-                " ⚠ " + problemaActual.getEtiqueta() : "";
+        String problema = problemaActual != TipoProblema.NINGUNO ? " ⚠ " + problemaActual.getEtiqueta() : "";
         return "-> " + ciudadDestino +
                 " (" + String.format("%.2f", distancia) + " km" +
                 " | " + String.format("%.1f", tiempoBase) + " min base" +
-                " | max " + velocidadMaxima + " km/h" +
-                problema + ")";
+                " | max " + velocidadMaxima + " km/h" + problema + ")";
     }
 }
