@@ -217,7 +217,6 @@
         var coords = JSON.parse(coordsJson);
         var poly = L.polyline(coords, {color:color, weight:5, opacity:0.85});
         corredorLayers[indice] = poly;
-        // También registrar puntos para proximidad
         for (var i = 0; i < coords.length-1; i++)
             polylineCoords.push([coords[i], coords[i+1]]);
         if (!rutaOptima) poly.addTo(map);
