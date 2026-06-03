@@ -1,4 +1,0 @@
-package edu.uvg.gps.grafo;
-
-public class ListaAdyacencia {
-}

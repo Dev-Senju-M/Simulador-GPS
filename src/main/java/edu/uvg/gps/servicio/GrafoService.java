@@ -69,7 +69,6 @@ public class GrafoService {
        AristaCercana mejor = encontrarAristaMasCercana(lat, lon);
         if (mejor == null) return null;
 
-        // 2. Crear nodo temporal
         int idTemp = ID_TEMPORAL_BASE + contadorTemporal++;
         String nombreTemp = "⚠ Accidente #" + idTemp;
         Ciudad ciudadTemp = new Ciudad(idTemp, nombreTemp, lat, lon, 0,
@@ -98,7 +97,6 @@ public class GrafoService {
         aplicarProblemaTramoEnGrafo(grafo,
                 mejor.ciudadA.getNombre(), mejor.ciudadB.getNombre(), problema);
 
-        // Aplicar en grafos separados también
         if (grafosPorRuta != null) {
             for (Grafo g : grafosPorRuta) {
                 if (g != null) {
@@ -123,7 +121,6 @@ public class GrafoService {
         return nombreTemp;
     }
 
-    // ── Encontrar arista más cercana ──────────────────────
     private static class AristaCercana {
         Ciudad ciudadA, ciudadB;
         double distancia;
@@ -182,7 +179,6 @@ public class GrafoService {
         return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
     }
 
-    // ── Limpiar nodos temporales ──────────────────────────
     public void limpiarNodosTemporales() {
         for (int id : nodosTemporales) {
             grafo.eliminarCiudad(id);
@@ -198,7 +194,6 @@ public class GrafoService {
         System.out.println("Nodos temporales eliminados.");
     }
 
-    // ── Problemas en tramos y nodos ───────────────────────
     public boolean reportarProblemaTramo(String ciudadOrigen, String ciudadDestino, TipoProblema problema) {
         boolean encontrado = aplicarProblemaTramoEnGrafo(grafo, ciudadOrigen, ciudadDestino, problema);
         if (grafosPorRuta != null) {

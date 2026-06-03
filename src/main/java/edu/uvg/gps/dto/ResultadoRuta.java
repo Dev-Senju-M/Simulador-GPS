@@ -1,4 +1,0 @@
-package edu.uvg.gps.dto;
-
-public class ResultadoRuta {
-}

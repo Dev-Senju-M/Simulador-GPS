@@ -14,8 +14,8 @@ public enum PeriodoHorario {
         int h = hora.getHour();
         if (h >= 0  && h < 6)  return MADRUGADA;
         if (h >= 6  && h < 9)  return PICO_MANANA;
-        if (h >= 9  && h < 16) return DIA;
-        if (h >= 16 && h < 20) return PICO_TARDE;
+        if (h >= 9  && h < 15) return DIA;
+        if (h >= 15 && h < 19) return PICO_TARDE;
         return NOCHE;
     }
 

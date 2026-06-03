@@ -33,7 +33,6 @@
                                     prefWidth="278" hbarPolicy="NEVER">
                             <VBox spacing="10" style="-fx-padding: 14; -fx-background-color: #0d2137; -fx-min-width: 252;">
 
-                                <!-- Origen / Destino -->
                                 <VBox spacing="3" style="-fx-padding: 10; -fx-background-color: #0a1929; -fx-background-radius: 8;">
                                     <Label text="ORIGEN" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
                                     <Label text="Plaza Tigo Torre 3" style="-fx-font-size: 13; -fx-text-fill: #ef5350; -fx-font-weight: bold;"/>
@@ -41,37 +40,31 @@
                                     <Label text="UMG Antigua Jocotenango" style="-fx-font-size: 13; -fx-text-fill: #66bb6a; -fx-font-weight: bold;"/>
                                 </VBox>
 
-                                <!-- Dia -->
                                 <VBox spacing="4">
                                     <Label text="DÍA DE LA SEMANA" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
                                     <ComboBox fx:id="cbDia" prefWidth="252" onAction="#onCambiarFiltro"/>
                                 </VBox>
 
-                                <!-- Hora -->
                                 <VBox spacing="4">
                                     <Label text="HORA DE SALIDA" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
                                     <ComboBox fx:id="cbHora" prefWidth="252" onAction="#onCambiarFiltro"/>
                                 </VBox>
 
-                                <!-- Algoritmo -->
                                 <VBox spacing="4">
                                     <Label text="ALGORITMO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
                                     <ComboBox fx:id="cbAlgoritmo" prefWidth="252"/>
                                 </VBox>
 
-                                <!-- Ver corredor -->
                                 <VBox spacing="4">
                                     <Label text="VER CORREDOR" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
                                     <ComboBox fx:id="cbVerRuta" prefWidth="252" onAction="#onVerRuta"/>
                                 </VBox>
 
-                                <!-- Ver nodos -->
                                 <VBox spacing="4">
                                     <Label text="VER NODOS" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
                                     <ComboBox fx:id="cbVerNodos" prefWidth="252" onAction="#onVerNodos"/>
                                 </VBox>
 
-                                <!-- Botones -->
                                 <Button text="🔍  Buscar Ruta Óptima" onAction="#onBuscarRuta" prefWidth="252"
                                         style="-fx-background-color: #1565c0; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10; -fx-background-radius: 8; -fx-font-size: 13; -fx-cursor: hand;"/>
 
@@ -80,7 +73,6 @@
 
                                 <Separator/>
 
-                                <!-- Resultado -->
                                 <VBox spacing="4">
                                     <Label text="RESULTADO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
                                     <Label fx:id="lblResultado" wrapText="true" prefWidth="252" minHeight="120"
@@ -89,7 +81,6 @@
 
                                 <Separator/>
 
-                                <!-- Buscar camino -->
                                 <VBox spacing="6" style="-fx-padding: 10; -fx-background-color: #0a1929; -fx-background-radius: 8;">
                                     <Label text="VERIFICAR CAMINO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
                                     <TextField fx:id="txtBuscarOrigen" prefWidth="232" promptText="Ciudad origen..."
@@ -104,7 +95,6 @@
 
                                 <Separator/>
 
-                                <!-- Simulacion -->
                                 <VBox spacing="6">
                                     <Label text="SIMULACIÓN PASO A PASO" style="-fx-font-size: 10; -fx-text-fill: #546e7a; -fx-font-weight: bold;"/>
                                     <Button text="▶  Simular" onAction="#onSimular" prefWidth="252"

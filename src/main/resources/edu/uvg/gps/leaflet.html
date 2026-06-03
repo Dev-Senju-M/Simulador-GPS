@@ -31,7 +31,6 @@
 <script>
     var map = L.map('map', { center: [14.58, -90.62], zoom: 11 });
 
-    // OpenStreetMap oscuro — CartoDB dark_matter como respaldo
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter/{z}/{x}/{y}{r}.png', {
         maxZoom: 19,
         attribution: '© OpenStreetMap © CARTO'
@@ -42,10 +41,10 @@
     var rutasLineas    = [];
     var rutaOptima     = null;
     var corredorLayers = {};
-    var polylineCoords = []; // todas las coordenadas de aristas para verificar proximidad
+    var polylineCoords = [];
     var popupClick     = null;
 
-    var DISTANCIA_MAX_CLICK = 0.003; // ~300m en grados — solo reportar cerca de una ruta
+    var DISTANCIA_MAX_CLICK = 0.003;
 
     function crearIcono(color, size, texto) {
         size = size || 12; texto = texto || '';
@@ -67,7 +66,6 @@
         temporal: crearIcono('#f44336', 18, '⚠')
     };
 
-    // ── Marcadores fijos ────────────────────────────────
     function agregarMarcador(lat, lon, nombre, tipo) {
         var icono = iconos[tipo] || iconos.normal;
         var safeId = nombre.replace(/[^a-zA-Z0-9]/g,'_');
@@ -90,13 +88,10 @@
         marcadores[nombre] = {marker:marker, tipo:tipo, tieneProblema:false};
     }
 
-    // ── Marcador temporal con tooltip del tipo ──────────
     function agregarMarcadorTemporal(lat, lon, nombre) {
         var marker = L.marker([lat,lon], {icon: iconos.temporal}).addTo(map);
-        // Mostrar nombre del problema al hacer hover
         marker.bindTooltip(nombre, {permanent: false, direction: 'top',
             className: 'leaflet-tooltip'});
-        // Al hacer click mostrar info
         marker.bindPopup(
             '<div class="popup-accidente">' +
             '<h4>' + nombre + '</h4>' +
@@ -116,7 +111,6 @@
         marcadoresTemp = {};
     }
 
-    // ── Verificar si un punto está cerca de alguna ruta ─
     function cercaDeRuta(lat, lon) {
         for (var i = 0; i < polylineCoords.length; i++) {
             var seg = polylineCoords[i];
@@ -136,13 +130,11 @@
         return Math.sqrt((px-nx)*(px-nx)+(py-ny)*(py-ny));
     }
 
-    // ── Click libre en el mapa ───────────────────────────
     map.on('click', function(e) {
         var lat = e.latlng.lat, lon = e.latlng.lng;
         if (popupClick) { map.closePopup(popupClick); popupClick = null; }
 
         if (!cercaDeRuta(lat, lon)) {
-            // Fuera de ruta — popup de aviso
             popupClick = L.popup({maxWidth:220, closeButton:true})
                 .setLatLng(e.latlng)
                 .setContent('<div class="popup-fuera">⚠ Haz click sobre una ruta para reportar un problema.</div>')
@@ -180,7 +172,6 @@
         }
     }
 
-    // ── Reportar/limpiar desde popup de marcador fijo ───
     function reportarDesdePopup(safeId, nombreCiudad) {
         var sel = document.getElementById('sel_'+safeId);
         var tipo = sel ? sel.value : 'Accidente';
@@ -211,13 +202,11 @@
         limpiarMarcadoresTemporales();
     }
 
-    // ── Dibujar rutas ────────────────────────────────────
     function dibujarRutaAzul(coordsJson) {
         var coords = JSON.parse(coordsJson);
         var linea = L.polyline(coords,
             {color:'#4fc3f7', weight:2, opacity:0.5, dashArray:'4 4'}).addTo(map);
         rutasLineas.push(linea);
-        // Guardar segmento para verificación de proximidad
         if (coords.length >= 2)
             polylineCoords.push([coords[0], coords[coords.length-1]]);
     }
@@ -282,7 +271,6 @@
         if (puntos.length > 0) map.fitBounds(L.latLngBounds(puntos), {padding:[40,40]});
     }
 
-    // ── Nodos intermedios ────────────────────────────────
     var capaNodos = L.layerGroup().addTo(map);
 
     function agregarNodoIntermedio(lat, lon, nombre) {
@@ -299,7 +287,6 @@
         capaNodos.clearLayers();
     }
 
-    // ── Buscar camino ────────────────────────────────────
     var lineaCamino = null;
 
     function dibujarCaminoBusqueda(coordsJson) {

@@ -19,10 +19,8 @@ public class EscritorArchivo {
     public boolean guardarArchivo(String rutaArchivo) {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(rutaArchivo))) {
 
-            // ── Seccion CIUDADES ──
             NodoGrafo recorrer = grafo.getHead();
             while (recorrer != null) {
-                // CIUDAD|id|nombre|lat|lon|alt|tipo|d0,d1,d2,d3,d4
                 double[] demoras = recorrer.getCiudad().getDemorasCongestión();
                 bw.write("CIUDAD|" +
                         recorrer.getCiudad().getId()       + "|" +
@@ -38,7 +36,6 @@ public class EscritorArchivo {
                 recorrer = recorrer.getSiguiente();
             }
 
-            // ── Seccion RUTAS ──
             int[][] escritos = new int[grafo.getTotalNodos() * grafo.getTotalNodos()][2];
             int totalEscritos = 0;
 
@@ -50,7 +47,6 @@ public class EscritorArchivo {
                 while (ady != null) {
                     int idDestino = grafo.obtenerCiudad(ady.getCiudadDestino()).getId();
 
-                    // Verificar si ya escribimos este par
                     boolean yaEscrito = false;
                     for (int i = 0; i < totalEscritos; i++) {
                         if ((escritos[i][0] == idOrigen  && escritos[i][1] == idDestino) ||
@@ -61,7 +57,6 @@ public class EscritorArchivo {
                     }
 
                     if (!yaEscrito) {
-                        // RUTA|idOrigen|idDestino|distancia|tiempoBase|m0,m1,m2,m3,m4
                         double[] mult = ady.getMultiplicadores();
                         bw.write("RUTA|" +
                                 idOrigen + "|" +
